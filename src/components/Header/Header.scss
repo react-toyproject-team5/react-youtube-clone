@@ -1,8 +1,28 @@
 header {
+  display: flex;
+
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
   height: 56px;
   padding: 0 16px;
-  background-color: #000;
-}
+  background-color: #0f0f0f;
 
-.logo {
+  .header-icon {
+    width: 40px;
+    padding: 8px;
+    color: #fff;
+  }
+
+  .menu {
+  }
+
+  .logo {
+  }
+
+  .user {
+    padding: 1px 6px;
+  }
 }
