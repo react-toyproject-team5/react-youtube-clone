@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Tooltip } from 'react-tooltip';
 import 'react-tooltip/dist/react-tooltip.css';
 import './Header.scss';
@@ -11,6 +12,12 @@ import { FaUserAlt } from 'react-icons/fa';
 import { IoSearchOutline } from 'react-icons/io5';
 
 export default function Header() {
+  const navigate = useNavigate();
+  const getSearchValue = (e) => {
+    e.preventDefault();
+    const inputValue = e.target[0].value;
+    // navigate('/watch/:videoId');
+  };
   return (
     <header>
       <div className="header-left-logomenu">
@@ -21,7 +28,7 @@ export default function Header() {
         </a>
       </div>
       <div className="header-search">
-        <form>
+        <form onSubmit={getSearchValue}>
           <input type="text" placeholder="검색" />
           <button className="keyboard">
             <img src="https://www.gstatic.com/inputtools/images/tia.png" alt="키보드" />
