@@ -7,8 +7,8 @@ import { BsCollectionPlay } from 'react-icons/bs';
 import { MdOutlineRestore } from 'react-icons/md';
 import { MdOutlineQueryBuilder } from 'react-icons/md';
 import { MdOutlineVideoLibrary } from 'react-icons/md';
-// import { BsCollectionPlay } from 'react-icons/bs';
-// import { BsCollectionPlay } from 'react-icons/bs';
+import { AiOutlinePlaySquare } from 'react-icons/ai';
+import { SlArrowDown } from 'react-icons/sl';
 
 export default function Sidebar() {
   return (
@@ -17,7 +17,6 @@ export default function Sidebar() {
         <button>
           <RiHome5Fill></RiHome5Fill>홈
         </button>
-        <button>Shorts</button>
         <button>
           <BsCollectionPlay></BsCollectionPlay>구독
         </button>
@@ -27,9 +26,14 @@ export default function Sidebar() {
         <button>
           <MdOutlineRestore></MdOutlineRestore>시청기록
         </button>
-        <button>내 동영상</button>
+        <button>
+          <AiOutlinePlaySquare></AiOutlinePlaySquare>내 동영상
+        </button>
         <button>
           <MdOutlineQueryBuilder></MdOutlineQueryBuilder>나중에 볼 동영상
+        </button>
+        <button>
+          <SlArrowDown></SlArrowDown>더보기
         </button>
       </ul>
     </nav>
