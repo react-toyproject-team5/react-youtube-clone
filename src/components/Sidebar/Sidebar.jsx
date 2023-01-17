@@ -4,9 +4,7 @@ import './Sidebar.scss';
 // icons
 import { RiHome5Fill } from 'react-icons/ri';
 import { BsCollectionPlay } from 'react-icons/bs';
-import { MdOutlineRestore } from 'react-icons/md';
-import { MdOutlineQueryBuilder } from 'react-icons/md';
-import { MdOutlineVideoLibrary } from 'react-icons/md';
+import { MdOutlineRestore, MdOutlineQueryBuilder, MdOutlineVideoLibrary } from 'react-icons/md';
 import { AiOutlinePlaySquare } from 'react-icons/ai';
 import { SlArrowDown } from 'react-icons/sl';
 
@@ -15,16 +13,16 @@ export default function Sidebar() {
     <nav>
       <ul>
         <button>
-          <RiHome5Fill></RiHome5Fill>홈
+          <RiHome5Fill className="sidebar-icon" size="24"></RiHome5Fill>홈
         </button>
         <button>
-          <BsCollectionPlay></BsCollectionPlay>구독
+          <BsCollectionPlay className="sidebar-icon" size="24"></BsCollectionPlay>구독
         </button>
         <button>
-          <MdOutlineVideoLibrary></MdOutlineVideoLibrary>보관함
+          <MdOutlineVideoLibrary className="sidebar-icon" size="24"></MdOutlineVideoLibrary>보관함
         </button>
         <button>
-          <MdOutlineRestore></MdOutlineRestore>시청기록
+          <MdOutlineRestore className="sidebar-icon" size="24"></MdOutlineRestore>시청기록
         </button>
         {/* <button>
           <AiOutlinePlaySquare></AiOutlinePlaySquare>내 동영상
