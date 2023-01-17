@@ -26,7 +26,7 @@ export default function Sidebar() {
         <button>
           <MdOutlineRestore></MdOutlineRestore>시청기록
         </button>
-        <button>
+        {/* <button>
           <AiOutlinePlaySquare></AiOutlinePlaySquare>내 동영상
         </button>
         <button>
@@ -34,7 +34,7 @@ export default function Sidebar() {
         </button>
         <button>
           <SlArrowDown></SlArrowDown>더보기
-        </button>
+        </button> */}
       </ul>
     </nav>
   );
