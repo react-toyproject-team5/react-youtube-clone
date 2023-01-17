@@ -1,7 +1,5 @@
 import axios from 'axios';
 
-export default class FakeYoutubeApi {
-  async video() {
-    return axios.get('/data/SerachVideo.json');
-  }
+export async function search(keyword) {
+  return axios.get(`/data/search.json`).then((res) => res.data.items);
 }

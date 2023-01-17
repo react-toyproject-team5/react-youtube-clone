@@ -10,8 +10,8 @@ import VideoSearch from './pages/VideoSearch';
 //	/ 👉 <Videos>
 //	/watch 👉 <Videos>
 //	/watch/id 👉 <VideoDetail></VideoDetail> : 비디오 상세페이지
-//  /results 👉 <Videos>
-//	/results/query 👉 <Videos> : 검색페이지
+//  /results 👉 <VideoSearch>
+//	/results/query 👉 <VideoSearch> : 검색페이지
 
 const router = createBrowserRouter([
   {

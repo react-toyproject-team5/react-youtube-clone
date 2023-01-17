@@ -1,8 +1,8 @@
 import React from 'react';
 import { useQuery } from '@tanstack/react-query';
-// import axios from 'axios';
 import VideoCard from '../components/VideoCard';
 import { useParams } from 'react-router-dom';
+import { search } from '../api/FakeYoutubeApi';
 
 export default function VideoSearch() {
   const { keyword } = useParams();
@@ -10,11 +10,11 @@ export default function VideoSearch() {
     isLoading,
     error,
     data: videos,
-  } = useQuery(['videos', keyword], async () => {
-    return fetch(`/videos/${keyword ? 'search' : 'hotTrend'}`)
-      .then((res) => res.json())
-      .then((data) => data.items);
-  });
+  } = useQuery(
+    ['videos', keyword],
+    () => search(keyword),
+    { enabled: !keyword }, // keyword가 존재할 경우 이 쿼리가 실행
+  );
 
   return (
     <div>
@@ -24,7 +24,7 @@ export default function VideoSearch() {
       {videos && (
         <ul>
           {videos.map((video) => (
-            <VideoCard key={video.id} video={video} />
+            <VideoCard key={video.id.videoId} video={video} />
           ))}
         </ul>
       )}
