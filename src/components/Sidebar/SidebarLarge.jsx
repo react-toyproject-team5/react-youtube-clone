@@ -25,14 +25,14 @@ export default function SidebarLarge() {
           <MdOutlineRestore className={styles.sidebarIcon} size="24"></MdOutlineRestore>시청기록
         </button>
         {/* <button>
-    <AiOutlinePlaySquare></AiOutlinePlaySquare>내 동영상
-  </button>
-  <button>
-    <MdOutlineQueryBuilder></MdOutlineQueryBuilder>나중에 볼 동영상
-  </button>
-  <button>
-    <SlArrowDown></SlArrowDown>더보기
-  </button> */}
+          <AiOutlinePlaySquare></AiOutlinePlaySquare>내 동영상
+        </button>
+        <button>
+          <MdOutlineQueryBuilder></MdOutlineQueryBuilder>나중에 볼 동영상
+        </button>
+        <button>
+          <SlArrowDown></SlArrowDown>더보기
+        </button> */}
       </ul>
     </nav>
   );
