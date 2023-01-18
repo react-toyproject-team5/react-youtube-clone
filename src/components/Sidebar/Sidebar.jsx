@@ -1,57 +1,52 @@
 import React from 'react';
-import styles from './Sidebar.module.scss';
+import { useMediaQuery } from 'react-responsive';
 
-// icons
-import { RiHome5Fill } from 'react-icons/ri';
-import { BsCollectionPlay } from 'react-icons/bs';
-import { MdOutlineRestore, MdOutlineQueryBuilder, MdOutlineVideoLibrary } from 'react-icons/md';
-import { AiOutlinePlaySquare } from 'react-icons/ai';
-import { SlArrowDown } from 'react-icons/sl';
+import SidebarLarge from './SidebarLarge';
+import SidebarSmall from './SidebarSmall';
 
-export default function Sidebar() {
+export default function Sidebar({ drop }) {
+  // 리액트 반응형
+  const Desktop = ({ children }) => {
+    const isDesktop = useMediaQuery({ minWidth: 1300 });
+    return isDesktop ? children : null;
+  };
+  const Tablet = ({ children }) => {
+    const isTablet = useMediaQuery({ minWidth: 792 });
+    return isTablet ? children : null;
+  };
+  const Mobile = ({ children }) => {
+    const isMobile = useMediaQuery({ maxWidth: 791 });
+    return isMobile ? children : null;
+  };
+
+  console.log(drop);
   return (
     <>
-      <nav className={styles.smallNav}>
-        <ul>
-          <button>
-            <RiHome5Fill className={styles.sidebarIcon} size="24"></RiHome5Fill>홈
-          </button>
-          <button>
-            <BsCollectionPlay className={styles.sidebarIcon} size="24"></BsCollectionPlay>구독
-          </button>
-          <button>
-            <MdOutlineVideoLibrary className={styles.sidebarIcon} size="24"></MdOutlineVideoLibrary>보관함
-          </button>
-          <button>
-            <MdOutlineRestore className={styles.sidebarIcon} size="24"></MdOutlineRestore>시청기록
-          </button>
-        </ul>
-      </nav>
-      <nav className={styles.largeNav}>
-        <ul>
-          <button>
-            <RiHome5Fill className={styles.sidebarIcon} size="24"></RiHome5Fill>홈
-          </button>
-          <button>
-            <BsCollectionPlay className={styles.sidebarIcon} size="24"></BsCollectionPlay>구독
-          </button>
-          <button>
-            <MdOutlineVideoLibrary className={styles.sidebarIcon} size="24"></MdOutlineVideoLibrary>보관함
-          </button>
-          <button>
-            <MdOutlineRestore className={styles.sidebarIcon} size="24"></MdOutlineRestore>시청기록
-          </button>
-          {/* <button>
-          <AiOutlinePlaySquare></AiOutlinePlaySquare>내 동영상
-        </button>
-        <button>
-          <MdOutlineQueryBuilder></MdOutlineQueryBuilder>나중에 볼 동영상
-        </button>
-        <button>
-          <SlArrowDown></SlArrowDown>더보기
-        </button> */}
-        </ul>
-      </nav>
+      {drop ? (
+        //메뉴 클릭시 true
+        <>
+          <Desktop>
+            <SidebarSmall />
+          </Desktop>
+          <Tablet>
+            <SidebarLarge />
+          </Tablet>
+          <Mobile>
+            <SidebarLarge />
+          </Mobile>
+        </>
+      ) : (
+        //메뉴 클릭 전 또는 클릭 취소 false
+        <>
+          <Desktop>
+            <SidebarLarge />
+          </Desktop>
+          <Tablet>
+            <SidebarSmall />
+          </Tablet>
+          <Mobile></Mobile>
+        </>
+      )}
     </>
   );
 }
