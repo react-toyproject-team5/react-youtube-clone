@@ -1,16 +1,18 @@
-/////////////////// Global ///////////////////
+@import './Sidebar_utils.scss';
+
 button,
 input {
   border: none;
   background-color: transparent;
 }
 
-nav {
+.small-nav {
+  display: none;
   width: 72px;
   height: 100vh;
   padding: 0 4px;
   background-color: #0f0f0f;
-  z-index: 9999;
+  z-index: 1000;
 
   ul {
     margin: 0 auto;
@@ -38,5 +40,62 @@ nav {
         background-color: #272727;
       }
     }
+  }
+}
+.large-nav {
+  display: none;
+  width: 240px;
+  height: 100vh;
+  padding: 0 4px;
+  background-color: #0f0f0f;
+  z-index: 2000;
+
+  ul {
+    margin: 0 auto;
+
+    button {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      margin: 0 auto;
+      padding: 16px 0 14px;
+      width: 64px;
+      height: 72px;
+      border-radius: 10px;
+
+      font-size: 10px;
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+      .sidebar-icon {
+        margin-bottom: 6px;
+      }
+
+      &:hover {
+        background-color: #272727;
+      }
+    }
+  }
+}
+
+@include desktop {
+  /*브라우저 사이즈 1300px 이상일때*/
+  .large-nav {
+    display: block;
+  }
+}
+
+@include tablet {
+  /*브라우저 사이즈 792px이상, 1300px 이하일때*/
+  .large-nav {
+    display: block;
+  }
+}
+
+@include mobile {
+  /*브라우저 사이즈 792px 이하일때*/
+  .large-nav {
+    display: block;
   }
 }
