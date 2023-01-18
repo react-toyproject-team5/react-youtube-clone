@@ -1,4 +1,5 @@
 import './App.css';
+import React, { useState } from 'react';
 import { Outlet } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Sidebar from './components/Sidebar/Sidebar';
@@ -10,12 +11,13 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 const queryClient = new QueryClient();
 
 function App() {
+  const [menuDrop, setMenuDrop] = useState(false);
   return (
     <>
       <QueryClientProvider client={queryClient}>
-        <Header />
+        <Header menuDrop={menuDrop} setMenuDrop={setMenuDrop} />
         <div style={{ display: 'flex' }}>
-          <Sidebar />
+          <Sidebar menuDrop={menuDrop} />
           <Outlet />
         </div>
       </QueryClientProvider>

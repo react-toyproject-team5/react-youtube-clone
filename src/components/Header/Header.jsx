@@ -13,11 +13,10 @@ import { RiVideoAddLine, RiMicFill } from 'react-icons/ri';
 import { FaUserAlt } from 'react-icons/fa';
 import { IoSearchOutline } from 'react-icons/io5';
 
-export default function Header() {
+export default function Header(drop) {
   const navigate = useNavigate();
   const [inputValue, setInputValue] = useState('');
   const inputRef = useRef('');
-  const [sidebarDrop, setSidebarDrop] = useState(false);
 
   const getSearchValue = (e) => {
     e.preventDefault();
@@ -27,15 +26,15 @@ export default function Header() {
     // setInputValue(inputRef.current.value);
   };
 
-  const sidebarClick = (e) => {
-    setSidebarDrop((e) => !e);
+  const menuBtnClick = (e) => {
+    drop.setMenuDrop((e) => !e);
   };
-
+  console.log(drop.menuDrop);
   return (
     <>
       <header>
         <div className={styles.headerLeftLogomenu}>
-          <BsList className={styles.headerIcon} size="24" onClick={sidebarClick}></BsList>
+          <BsList className={styles.headerIcon} size="24" onClick={menuBtnClick}></BsList>
           <Link to={'/'} className={styles.logo}>
             <img src={logo} alt="youtube logo" />
             <sup>KR</sup>
@@ -71,7 +70,6 @@ export default function Header() {
           </button>
         </div>
       </header>
-      <Sidebar drop={sidebarDrop} />
     </>
   );
 }

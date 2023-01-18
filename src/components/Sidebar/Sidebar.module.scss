@@ -11,7 +11,7 @@ input {
   height: 100vh;
   padding: 0 4px;
   background-color: #0f0f0f;
-  z-index: 1000;
+  // z-index: 1000;
 
   ul {
     margin: 0 auto;
@@ -47,7 +47,7 @@ input {
   height: 100vh;
   padding: 0 4px;
   background-color: #0f0f0f;
-  z-index: 2000;
+  // z-index: 2000;
 
   ul {
     margin: 0 auto;
@@ -77,21 +77,3 @@ input {
     }
   }
 }
-
-// @include desktop {
-//   /*브라우저 사이즈 1300px 이상일때*/
-//   .largeNav {
-//     display: block;
-//   }
-// }
-
-// @include tablet {
-//   /*브라우저 사이즈 792px이상, 1300px 이하일때*/
-//   .smallNav {
-//     display: block;
-//   }
-// }
-
-// @include mobile {
-//   /*브라우저 사이즈 792px 이하일때*/
-// }
