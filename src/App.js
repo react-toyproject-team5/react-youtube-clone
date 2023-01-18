@@ -12,11 +12,12 @@ const queryClient = new QueryClient();
 function App() {
   return (
     <>
-      <Header />
-      <Sidebar />
-      <Outlet />
       <QueryClientProvider client={queryClient}>
-        <Outlet />
+        <Header />
+        <div style={{ display: 'flex' }}>
+          <Sidebar />
+          <Outlet />
+        </div>
       </QueryClientProvider>
     </>
   );
