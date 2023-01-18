@@ -18,7 +18,6 @@ export default function Header() {
 
   const getSearchValue = () => {
     setInputValue(inputRef.current.value);
-    // navigate('/watch/:videoId');
   };
   return (
     <header>
@@ -29,14 +28,14 @@ export default function Header() {
           <sup>KR</sup>
         </a>
       </div>
+      <input type="text" placeholder="검색" ref={useRef('')} />
       <div className="header-search">
-        <form onSubmit={getSearchValue}>
-          <input type="text" placeholder="검색" ref="inputRef" />
+        <form>
           <button className="keyboard">
             <img src="https://www.gstatic.com/inputtools/images/tia.png" alt="키보드" />
           </button>
         </form>
-        <button className="header-search-zoombtn" id="tooltip-search">
+        <button className="header-search-zoombtn" id="tooltip-search" onClick={getSearchValue}>
           <IoSearchOutline className="header-icon search"></IoSearchOutline>
         </button>
         <Tooltip anchorId="tooltip-search" content="검색" className="tooltip" />
