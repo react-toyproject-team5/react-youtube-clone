@@ -11,15 +11,17 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 const queryClient = new QueryClient();
 
 function App() {
+  // 페이지별 사이드바
   let location = useLocation();
-  console.log(location.pathname);
+  // 반응형 사이드바
   const [menuDrop, setMenuDrop] = useState(false);
+  const [menuSlide, setMenuSlide] = useState(false);
   return (
     <>
       <QueryClientProvider client={queryClient}>
-        <Header menuDrop={menuDrop} setMenuDrop={setMenuDrop} />
+        <Header menuDrop={menuDrop} setMenuDrop={setMenuDrop} menuSlide={menuSlide} setMenuSlide={setMenuSlide} />
         <div style={{ display: 'flex' }}>
-          {location.pathname === '/watch/:videoId' ? null : <Sidebar menuDrop={menuDrop} />}
+          {location.pathname === '/watch/:videoId' ? null : <Sidebar menuDrop={menuDrop} menuSlide={menuSlide} />}
           <Outlet />
         </div>
       </QueryClientProvider>
