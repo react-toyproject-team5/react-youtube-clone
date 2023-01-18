@@ -1,5 +1,5 @@
 import React from 'react';
-import './Sidebar.module.scss';
+import styles from './Sidebar.module.scss';
 
 // icons
 import { RiHome5Fill } from 'react-icons/ri';
@@ -11,44 +11,35 @@ import { SlArrowDown } from 'react-icons/sl';
 export default function Sidebar() {
   return (
     <>
-      <nav className="small-nav">
+      <nav className={styles.smallNav}>
         <ul>
           <button>
-            <RiHome5Fill className="sidebar-icon" size="24"></RiHome5Fill>홈
+            <RiHome5Fill className={styles.sidebarIcon} size="24"></RiHome5Fill>홈
           </button>
           <button>
-            <BsCollectionPlay className="sidebar-icon" size="24"></BsCollectionPlay>구독
+            <BsCollectionPlay className={styles.sidebarIcon} size="24"></BsCollectionPlay>구독
           </button>
           <button>
-            <MdOutlineVideoLibrary className="sidebar-icon" size="24"></MdOutlineVideoLibrary>보관함
+            <MdOutlineVideoLibrary className={styles.sidebarIcon} size="24"></MdOutlineVideoLibrary>보관함
           </button>
           <button>
-            <MdOutlineRestore className="sidebar-icon" size="24"></MdOutlineRestore>시청기록
+            <MdOutlineRestore className={styles.sidebarIcon} size="24"></MdOutlineRestore>시청기록
           </button>
-          {/* <button>
-          <AiOutlinePlaySquare></AiOutlinePlaySquare>내 동영상
-        </button>
-        <button>
-          <MdOutlineQueryBuilder></MdOutlineQueryBuilder>나중에 볼 동영상
-        </button>
-        <button>
-          <SlArrowDown></SlArrowDown>더보기
-        </button> */}
         </ul>
       </nav>
-      <nav className="large-nav">
+      <nav className={styles.largeNav}>
         <ul>
           <button>
-            <RiHome5Fill className="sidebar-icon" size="24"></RiHome5Fill>홈
+            <RiHome5Fill className={styles.sidebarIcon} size="24"></RiHome5Fill>홈
           </button>
           <button>
-            <BsCollectionPlay className="sidebar-icon" size="24"></BsCollectionPlay>구독
+            <BsCollectionPlay className={styles.sidebarIcon} size="24"></BsCollectionPlay>구독
           </button>
           <button>
-            <MdOutlineVideoLibrary className="sidebar-icon" size="24"></MdOutlineVideoLibrary>보관함
+            <MdOutlineVideoLibrary className={styles.sidebarIcon} size="24"></MdOutlineVideoLibrary>보관함
           </button>
           <button>
-            <MdOutlineRestore className="sidebar-icon" size="24"></MdOutlineRestore>시청기록
+            <MdOutlineRestore className={styles.sidebarIcon} size="24"></MdOutlineRestore>시청기록
           </button>
           {/* <button>
           <AiOutlinePlaySquare></AiOutlinePlaySquare>내 동영상

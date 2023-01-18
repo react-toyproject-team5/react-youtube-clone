@@ -6,7 +6,7 @@ input {
   background-color: transparent;
 }
 
-.small-nav {
+.smallNav {
   display: none;
   width: 72px;
   height: 100vh;
@@ -32,7 +32,7 @@ input {
       color: #fff;
       text-align: center;
       cursor: pointer;
-      .sidebar-icon {
+      .sidebarIcon {
         margin-bottom: 6px;
       }
 
@@ -42,7 +42,7 @@ input {
     }
   }
 }
-.large-nav {
+.largeNav {
   display: none;
   width: 240px;
   height: 100vh;
@@ -68,7 +68,7 @@ input {
       color: #fff;
       text-align: center;
       cursor: pointer;
-      .sidebar-icon {
+      .sidebarIcon {
         margin-bottom: 6px;
       }
 
@@ -81,21 +81,18 @@ input {
 
 @include desktop {
   /*브라우저 사이즈 1300px 이상일때*/
-  .large-nav {
+  .largeNav {
     display: block;
   }
 }
 
 @include tablet {
   /*브라우저 사이즈 792px이상, 1300px 이하일때*/
-  .large-nav {
+  .smallNav {
     display: block;
   }
 }
 
 @include mobile {
   /*브라우저 사이즈 792px 이하일때*/
-  .large-nav {
-    display: block;
-  }
 }
