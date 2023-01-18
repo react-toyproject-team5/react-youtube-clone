@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { Tooltip } from 'react-tooltip';
 import 'react-tooltip/dist/react-tooltip.css';
 import './Header.scss';
@@ -28,10 +28,11 @@ export default function Header() {
     <header>
       <div className="header-left-logomenu">
         <BsList className="header-icon menu" size="24"></BsList>
-        <a href="#" className="logo">
+        <Link to={'/'} className="logo">
           <img src={logo} alt="youtube logo" />
           <sup>KR</sup>
-        </a>
+        </Link>
+        <a href="#" className="logo"></a>
       </div>
       <div className="header-search">
         <form onSubmit={getSearchValue}>
