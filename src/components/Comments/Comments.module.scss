@@ -1,13 +1,18 @@
 * {
+  position: relative;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 .CommentContainer {
-  width: 100%;
+  margin-top: 100px;
+  margin-left: 50px;
+  position: relative;
+  width: 70%;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 
   .CommentBox {
     li {
@@ -28,11 +33,13 @@
         }
         .CommentTextContainer {
           width: 100%;
+          overflow: hidden;
           font-size: 13.5px;
           .CommentAuthorName {
             display: flex;
             flex-direction: row;
             font-weight: 700;
+            padding: 0 10px 10px 0;
             span {
               padding: 0 0.8rem;
               font-weight: 400;
@@ -60,6 +67,8 @@
           align-items: center;
         }
         .muted {
+          margin-left: 5px;
+          font-size: 13px;
           color: #aaa;
           font-weight: 700;
         }
