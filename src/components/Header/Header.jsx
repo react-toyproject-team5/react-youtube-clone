@@ -16,11 +16,14 @@ export default function Header() {
   const [inputValue, setInputValue] = useState('');
   const inputRef = useRef('');
 
-  const getSearchValue = () => {
-    // e.preventDefault();
+  const getSearchValue = (e) => {
+    e.preventDefault();
+    setInputValue(e.target[0].value);
+    navigate(`/results/${inputValue}`);
+    // console.log(inputRef.current.value)
     // setInputValue(inputRef.current.value);
   };
-  console.log(inputValue);
+
   return (
     <header>
       <div className="header-left-logomenu">
@@ -31,7 +34,7 @@ export default function Header() {
         </a>
       </div>
       <div className="header-search">
-        <form>
+        <form onSubmit={getSearchValue}>
           <input type="text" placeholder="검색" ref={useRef('')} />
           <button className="keyboard">
             <img src="https://www.gstatic.com/inputtools/images/tia.png" alt="키보드" />
