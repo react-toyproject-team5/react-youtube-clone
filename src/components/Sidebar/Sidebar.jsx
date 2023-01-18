@@ -1,5 +1,5 @@
 import React from 'react';
-import './Sidebar.scss';
+import './Sidebar.module.scss';
 
 // icons
 import { RiHome5Fill } from 'react-icons/ri';

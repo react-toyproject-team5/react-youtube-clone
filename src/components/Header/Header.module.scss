@@ -12,7 +12,7 @@ header {
   padding: 0 16px;
   background-color: #0f0f0f;
 
-  .header-icon {
+  .headerIcon {
     display: block;
     width: 40px;
     height: 40px;
@@ -35,7 +35,7 @@ header {
     }
   }
 
-  .header-left-logomenu {
+  .headerLeftLogomenu {
     display: flex;
     align-items: center;
     .logo {
@@ -61,7 +61,7 @@ header {
     }
   }
 
-  .header-search {
+  .headerSearch {
     display: flex;
 
     form {
@@ -95,7 +95,7 @@ header {
       }
     }
 
-    .header-search-zoombtn {
+    .headerSearchZoombtn {
       width: 60px;
       height: 40px;
       margin-right: 10px;
@@ -106,7 +106,7 @@ header {
     }
   }
 
-  .header-right-btns {
+  .headerRightBtns {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -114,7 +114,7 @@ header {
     width: 225px;
     height: 40px;
 
-    .header-icon {
+    .headerIcon {
       padding: 10px;
 
       &.user {
