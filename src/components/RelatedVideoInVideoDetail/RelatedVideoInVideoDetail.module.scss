@@ -6,17 +6,26 @@
     flex-direction: column;
     .videoCard {
       padding: 10px;
+      box-sizing: border-box;
       a {
-        // width: 100%;
-        // height: 100%;
+        width: 100%;
+        height: 100%;
         text-decoration: none;
         color: inherit;
         display: flex;
         flex-direction: row;
         .videoPreviewContainer {
-          max-width: 170px;
-          height: 90px;
+          width: 140px;
+          max-width: 140px;
+          height: 80px;
           position: relative;
+          img {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
           .videoDuration {
             color: #fff;
             padding: 3px 4px;
@@ -39,7 +48,7 @@
           flex-direction: column;
           position: relative;
           h3 {
-            font-size: 16px;
+            font-size: 14px;
             padding: 0 1rem 0 0;
             line-height: 150%;
           }
@@ -47,11 +56,18 @@
             line-height: 150%;
             font-size: 12px;
             color: #aaa;
+            &:hover,
+            &:focus {
+              color: black;
+            }
           }
-          .videoViewPoint {
-            line-height: 150%;
-            font-size: 12px;
+          .videoMetaData {
             color: #aaa;
+
+            .videoViewPoint {
+              line-height: 150%;
+              font-size: 12px;
+            }
           }
         }
       }
