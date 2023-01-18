@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Tooltip } from 'react-tooltip';
 import 'react-tooltip/dist/react-tooltip.css';
@@ -13,9 +13,11 @@ import { IoSearchOutline } from 'react-icons/io5';
 
 export default function Header() {
   const navigate = useNavigate();
-  const getSearchValue = (e) => {
-    e.preventDefault();
-    const inputValue = e.target[0].value;
+  const [inputValue, setInputValue] = useState('');
+  const inputRef = useRef('');
+
+  const getSearchValue = () => {
+    setInputValue(inputRef.current.value);
     // navigate('/watch/:videoId');
   };
   return (
