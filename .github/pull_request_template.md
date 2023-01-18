@@ -1,6 +1,6 @@
 ## ✔️ 체크사항
 
-- [ ] 최근 pull request에서 pull을 받고 진행하는 것이 맞나요? 👉[최근 pr 확인 링크](https://github.com/react-toyproject-team5/react-youtube-clone/pulls?q=is%3Apr+is%3Aclosed)👈
+- [ ] 가장 최근 merge를 pull 받고 진행하는 것이 맞나요? 👉[최근 pr 확인 링크](https://github.com/react-toyproject-team5/react-youtube-clone/pulls?q=is%3Apr+is%3Aclosed)👈
 - [ ] merge 하는 곳이 develop 브랜치가 맞나요?
 - [ ] 노션 진행상황 및 라이브러리 업데이트를 진행했나요? 👉[노션 진행상황](https://www.notion.so/1cfe09da512544fa8a3456d82ae3ead9?v=d4e172e861894c86a7f96c971bf6e5f1) / [노션 라이브러리](https://www.notion.so/e8afec87227a4e5283b0a6397ed62f6c)👈
 
