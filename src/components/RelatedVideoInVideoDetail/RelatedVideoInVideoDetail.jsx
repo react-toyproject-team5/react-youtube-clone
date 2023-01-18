@@ -6,19 +6,19 @@ import { format, register } from 'timeago.js';
 import koLocale from 'timeago.js/lib/lang/ko';
 
 register('ko', koLocale);
+const formatDuration = (duration) => {
+  let arr = (duration || '').split('');
+  let output = '';
+  for (let i = 0; i < arr.length; i++) {
+    if (!isNaN(arr[i])) {
+      output += arr[i];
+    } else if (isNaN(arr[i]) && !isNaN(arr[i + 1]) && !isNaN(arr[i - 1])) {
+      output += ':';
+    }
+  }
+  return output;
+};
 const RelatedVideoInVideoDetail = () => {
-  // const formatDuration = (duration) => {
-  //   let arr = duration.split('');
-  //   let output = '';
-  //   for (let i = 0; i < arr.length; i++) {
-  //     if (!isNaN(arr[i])) {
-  //       output += arr[i];
-  //     } else if (isNaN(arr[i]) && !isNaN(arr[i + 1]) && !isNaN(arr[i - 1])) {
-  //       output += ':';
-  //     }
-  //   }
-  //   return output;
-  // };
   return (
     <div className={styles.relatedVideoContainer}>
       <ul className={styles.relatedList}>
@@ -29,7 +29,9 @@ const RelatedVideoInVideoDetail = () => {
                 {/* 썸네일과 영상 길이 */}
                 <div className={styles.videoPreviewContainer}>
                   <img src={item.snippet.thumbnails.default.url} />
-                  <div className={styles.videoDuration}>{VideoInfo?.items[i]?.contentDetails?.duration}</div>
+                  <div className={styles.videoDuration}>
+                    {formatDuration(VideoInfo?.items[i]?.contentDetails?.duration)}
+                  </div>
                 </div>
                 {/* 영상 제목, 채널 이름, 조회수, 올린 시간 */}
                 <div className={styles.videoInfoContainer}>
