@@ -1,8 +1,139 @@
-header {
-  height: 56px;
-  padding: 0 16px;
-  background-color: #000;
+button {
+  cursor: pointer;
 }
 
-.logo {
+header {
+  display: flex;
+
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  height: 56px;
+  padding: 0 16px;
+  background-color: #0f0f0f;
+
+  .header-icon {
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    color: #fff;
+    border-radius: 50%;
+
+    &.voice {
+      padding: 10px;
+      background-color: #181818;
+    }
+
+    &:hover {
+      background-color: #272727;
+    }
+
+    &.search:hover {
+      background-color: transparent;
+    }
+  }
+
+  .header-left-logomenu {
+    display: flex;
+    align-items: center;
+    .logo {
+      position: relative;
+
+      &,
+      img {
+        width: 120px;
+        height: 56px;
+      }
+
+      img {
+        padding: 18px 14px 18px 16px;
+      }
+      sup {
+        position: absolute;
+        top: 20%;
+        right: 1px;
+
+        color: #aaa;
+        font-size: 10px;
+      }
+    }
+  }
+
+  .header-search {
+    display: flex;
+
+    form {
+      position: relative;
+
+      input {
+        width: 400px;
+        height: 40px;
+        margin-left: 32px;
+        padding: 0px 4px 0px 16px;
+        border: 1px solid #303030;
+        border-right: none;
+        border-radius: 40px 0 0 40px;
+        background-color: #121212;
+
+        color: #ffffffe0;
+
+        &:focus {
+          border-color: #008cff;
+        }
+      }
+
+      .keyboard {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+
+        &:hover {
+          filter: brightness(140%);
+        }
+      }
+    }
+
+    .header-search-zoombtn {
+      width: 60px;
+      height: 40px;
+      margin-right: 10px;
+      padding: 1px 8px;
+      border: 1px solid #303030;
+      border-radius: 0 40px 40px 0;
+      background-color: #222222;
+    }
+  }
+
+  .header-right-btns {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+    width: 225px;
+    height: 40px;
+
+    .header-icon {
+      padding: 10px;
+
+      &.user {
+        width: 34px;
+        height: 34px;
+        margin-left: 17px;
+        padding: 6px 0;
+        background-color: #303030;
+
+        &:hover {
+          background-color: transparent;
+        }
+      }
+    }
+  }
+
+  .tooltip {
+    font-size: 12px;
+    opacity: 70%;
+  }
 }
