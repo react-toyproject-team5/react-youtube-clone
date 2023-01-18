@@ -4,6 +4,7 @@ import NotFound from './pages/NotFound';
 import Videos from './pages/Videos';
 import VideoDetail from './pages/VideoDetail';
 import VideoSearch from './pages/VideoSearch';
+import HeaderTest from './pages/HeaderTest';
 
 //라우터 구조
 //<App>
@@ -25,6 +26,7 @@ const router = createBrowserRouter([
       { path: 'watch/:videoId', element: <VideoDetail /> },
       { path: 'results', element: <VideoSearch /> },
       { path: 'results/:keyword', element: <VideoSearch /> },
+      { path: 'test', element: <HeaderTest /> },
     ],
   },
 ]);
