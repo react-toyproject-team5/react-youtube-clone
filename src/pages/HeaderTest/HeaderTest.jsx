@@ -8,7 +8,7 @@ export default function HeaderTest() {
     <div>
       <Header></Header>
       <Sidebar></Sidebar>
-      <main>메인 페이지</main>
+      <main>메인 페이지22</main>
     </div>
   );
 }
