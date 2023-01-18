@@ -1,11 +1,10 @@
-import React, { useState, useRef } from 'react';
+import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Tooltip } from 'react-tooltip';
 import 'react-tooltip/dist/react-tooltip.css';
 
 import styles from './Header.module.scss';
 import logo from './assets/logo.png';
-import Sidebar from '../Sidebar/Sidebar';
 
 // icons
 import { BsList, BsBell } from 'react-icons/bs';
@@ -16,16 +15,15 @@ import { IoSearchOutline } from 'react-icons/io5';
 export default function Header(drop) {
   const navigate = useNavigate();
   const [inputValue, setInputValue] = useState('');
-  const inputRef = useRef('');
 
+  // input 검색어
   const getSearchValue = (e) => {
     e.preventDefault();
     setInputValue(e.target[0].value);
     navigate(`/results/${inputValue}`);
-    // console.log(inputRef.current.value)
-    // setInputValue(inputRef.current.value);
   };
 
+  // 메뉴 버튼 클릭
   const menuBtnClick = (e) => {
     drop.setMenuDrop((e) => !e);
   };
@@ -42,7 +40,7 @@ export default function Header(drop) {
         </div>
         <div className={styles.headerSearch}>
           <form onSubmit={getSearchValue}>
-            <input type="text" placeholder="검색" ref={useRef('')} />
+            <input type="text" placeholder="검색" />
             <button className={styles.keyboard}>
               <img src="https://www.gstatic.com/inputtools/images/tia.png" alt="키보드" />
             </button>

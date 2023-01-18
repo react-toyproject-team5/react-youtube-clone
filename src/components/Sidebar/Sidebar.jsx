@@ -5,7 +5,6 @@ import SidebarLarge from './SidebarLarge';
 import SidebarSmall from './SidebarSmall';
 
 export default function Sidebar(drop) {
-  // drop 값 context
   console.log(drop.menuDrop);
 
   // 리액트 반응형
@@ -22,7 +21,6 @@ export default function Sidebar(drop) {
     return isMobile ? children : null;
   };
 
-  // console.log(sidebarDrop);
   return (
     <>
       {drop.menuDrop ? (
