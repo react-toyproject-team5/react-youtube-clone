@@ -4,9 +4,7 @@ import styles from './Sidebar.module.scss';
 // icons
 import { RiHome5Fill } from 'react-icons/ri';
 import { BsCollectionPlay } from 'react-icons/bs';
-import { MdOutlineRestore, MdOutlineQueryBuilder, MdOutlineVideoLibrary } from 'react-icons/md';
-import { AiOutlinePlaySquare } from 'react-icons/ai';
-import { SlArrowDown } from 'react-icons/sl';
+import { MdOutlineRestore, MdOutlineVideoLibrary } from 'react-icons/md';
 
 export default function SidebarSmall() {
   return (
