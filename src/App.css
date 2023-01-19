@@ -43,19 +43,28 @@
 }
 
 /* Outlet Layout */
-.outlet-layout {
+.outlet-layout-false,
+.outlet-layout-true {
   margin-top: 56px;
   margin-left: 250px;
 }
 
+@media (min-width: 1300px) {
+  .outlet-layout-true {
+    margin-left: 72px;
+  }
+}
+
 @media (min-width: 792px) and (max-width: 1300px) {
-  .outlet-layout {
+  .outlet-layout-false,
+  .outlet-layout-true {
     margin-left: 72px;
   }
 }
 
 @media (max-width: 792px) {
-  .outlet-layout {
+  .outlet-layout-false,
+  .outlet-layout-true {
     margin-left: 0;
   }
 }

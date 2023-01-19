@@ -24,7 +24,7 @@ function App() {
         <Header menuDrop={menuDrop} setMenuDrop={setMenuDrop} menuSlide={menuSlide} setMenuSlide={setMenuSlide} />
         <div style={{ display: 'flex' }}>
           {location.pathname === '/watch/:videoId' ? null : <Sidebar menuDrop={menuDrop} menuSlide={menuSlide} />}
-          <div className="outlet-layout">
+          <div className={`${menuDrop ? 'outlet-layout-true' : 'outlet-layout-false'}`}>
             <Outlet />
           </div>
         </div>
