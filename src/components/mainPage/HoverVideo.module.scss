@@ -1,0 +1,73 @@
+.hover {
+  width: 360px;
+  height: fit-content;
+  z-index: 5;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: white;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.hoverPosition {
+  position: relative;
+  height: 220px;
+}
+.hoverinfo {
+  display: flex;
+}
+.channelimage {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 10px;
+}
+.videoInfo {
+  width: 250px;
+  margin: 10px 0;
+  height: 95px;
+}
+.videoTitle {
+  height: 40px;
+  width: 250px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  white-space: normal;
+  line-height: 19px;
+  color: black;
+}
+.chan_view_date {
+  font-size: 13px;
+  color: gray;
+  margin: 8px 3px;
+}
+.listicon {
+  position: relative;
+  top: -110px;
+  left: 320px;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+}
+.hoverbuttons {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -30px;
+}
+.hoverbutton {
+  background-color: lightgray;
+  margin: 5px 5px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+.hoverbutton:hover {
+  background-color: gray;
+  color: white;
+}
