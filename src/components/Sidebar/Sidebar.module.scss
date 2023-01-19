@@ -41,29 +41,28 @@ input {
 }
 
 .largeNav {
-  width: 240px;
-  height: 100vh;
+  width: 250px;
+  height: 94vh;
   padding: 0 4px;
   background-color: #0f0f0f;
-  // z-index: 2000;
+  overflow: auto;
 
   ul {
     margin: 0 auto;
+    padding: 12px;
 
     button {
       display: flex;
-      flex-direction: column;
+      gap: 24px;
+      justify-content: flex-start;
       align-items: center;
-
-      margin: 0 auto;
+      margin: 0 12px;
       padding: 16px 0 14px;
-      width: 64px;
+      width: 204px;
       height: 72px;
       border-radius: 10px;
-
-      font-size: 10px;
       color: #fff;
-      text-align: center;
+      font-size: 14px;
       cursor: pointer;
       .sidebarIcon {
         margin-bottom: 6px;
@@ -72,6 +71,36 @@ input {
       &:hover {
         background-color: #272727;
       }
+    }
+  }
+
+  ul + ul {
+    border-top: 1px solid #272727;
+  }
+
+  .navAnchor {
+    padding: 16px 24px 0;
+    border-top: 1px solid #272727;
+    div + div {
+      padding-top: 12px;
+    }
+    a {
+      margin-right: 8px;
+      color: #aaa;
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 1.2;
+    }
+  }
+
+  footer {
+    padding: 16px 24px;
+    color: #717171;
+    font-size: 12px;
+    line-height: 1.5;
+
+    a {
+      color: #3ea6ff;
     }
   }
 }
