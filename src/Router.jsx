@@ -12,7 +12,6 @@ import VideoSearch from './pages/VideoSearch';
 //	/watch/id 👉 <VideoDetail></VideoDetail> : 비디오 상세페이지
 //  /results 👉 <VideoSearch>
 //	/results/query 👉 <VideoSearch> : 검색페이지
-// /test 👉 <HeaderTest> : 헤더 test 페이지
 
 const router = createBrowserRouter([
   {
