@@ -1,0 +1,122 @@
+button,
+input {
+  border: none;
+  background-color: transparent;
+}
+
+.smallNav,
+.largeNav {
+  position: fixed;
+  z-index: 1010;
+  top: 56px;
+
+  padding: 0 4px;
+  height: 100%;
+  background-color: #0f0f0f;
+}
+
+.smallNav {
+  width: 72px;
+
+  ul {
+    margin: 0 auto;
+
+    button {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      margin: 0 auto;
+      padding: 16px 0 14px;
+      width: 64px;
+      height: 72px;
+      border-radius: 10px;
+
+      font-size: 10px;
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+      .sidebarIcon {
+        margin-bottom: 6px;
+      }
+
+      &:hover {
+        background-color: #272727;
+      }
+    }
+  }
+}
+
+.largeNav {
+  width: 250px;
+  overflow: auto;
+
+  ul {
+    margin: 0 auto;
+    padding: 12px;
+
+    button {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 24px;
+
+      width: 204px;
+      height: 40px;
+      padding: 0 12px;
+      border-radius: 10px;
+
+      color: #fff;
+      font-size: 14px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #272727;
+      }
+    }
+
+    .sidebarUlTitle {
+      display: block;
+      padding: 6px 12px 8px;
+      font-size: 16px;
+      color: #f1f1f1;
+    }
+  }
+
+  ul + ul {
+    border-top: 1px solid #272727;
+  }
+
+  .sidebarViewmore {
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  .navAnchor {
+    padding: 16px 24px 0;
+    border-top: 1px solid #272727;
+    div + div {
+      padding-top: 12px;
+    }
+    a {
+      margin-right: 8px;
+      color: #aaa;
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 1.2;
+    }
+  }
+
+  footer {
+    padding: 16px 24px 80px;
+    color: #717171;
+    font-size: 12px;
+    line-height: 1.5;
+
+    a {
+      color: #3ea6ff;
+    }
+  }
+}

@@ -41,3 +41,21 @@
     transform: rotate(360deg);
   }
 }
+
+/* Outlet Layout */
+.outlet-layout {
+  margin-top: 56px;
+  margin-left: 250px;
+}
+
+@media (min-width: 792px) and (max-width: 1300px) {
+  .outlet-layout {
+    margin-left: 72px;
+  }
+}
+
+@media (max-width: 792px) {
+  .outlet-layout {
+    margin-left: 0;
+  }
+}
