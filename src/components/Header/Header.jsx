@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { Link, useNavigate, useParams } from 'react-router-dom';
 import { Tooltip } from 'react-tooltip';
 import 'react-tooltip/dist/react-tooltip.css';
 
@@ -13,15 +13,17 @@ import { FaUserAlt } from 'react-icons/fa';
 import { IoSearchOutline } from 'react-icons/io5';
 
 export default function Header(drop) {
+  const { keyword } = useParams();
+  const [text, setText] = useState('');
   const navigate = useNavigate();
-  const [inputValue, setInputValue] = useState('');
 
   // input 검색어
-  const getSearchValue = (e) => {
-    e.preventDefault();
-    setInputValue(e.target[0].value);
-    navigate(`/results/${inputValue}`);
+  const handleSumbit = (event) => {
+    event.preventDefault();
+    navigate(`results/${text}`);
   };
+
+  useEffect(() => setText(keyword || ''), [keyword]);
 
   // 메뉴 버튼 클릭
   const menuBtnClick = (e) => {
@@ -40,9 +42,15 @@ export default function Header(drop) {
           </Link>
         </div>
         <div className={styles.headerSearch}>
-          <form onSubmit={getSearchValue}>
+          <form onSubmit={handleSumbit}>
             <div className={styles.inputWrap}>
-              <input type="text" placeholder="검색" />
+              <input
+                className="search-input"
+                type="text"
+                placeholder="검색"
+                value={text}
+                onChange={(event) => setText(event.target.value)}
+              />
               <button className={styles.keyboard} type="button">
                 <img src="https://www.gstatic.com/inputtools/images/tia.png" alt="키보드" />
               </button>
