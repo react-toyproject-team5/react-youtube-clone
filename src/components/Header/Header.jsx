@@ -28,6 +28,7 @@ export default function Header(drop) {
     drop.setMenuDrop((e) => !e);
   };
   console.log(drop.menuDrop);
+
   return (
     <>
       <header>
@@ -40,10 +41,12 @@ export default function Header(drop) {
         </div>
         <div className={styles.headerSearch}>
           <form onSubmit={getSearchValue}>
-            <input type="text" placeholder="검색" />
-            <button className={styles.keyboard}>
-              <img src="https://www.gstatic.com/inputtools/images/tia.png" alt="키보드" />
-            </button>
+            <div className={styles.inputWrap}>
+              <input type="text" placeholder="검색" />
+              <button className={styles.keyboard} type="button">
+                <img src="https://www.gstatic.com/inputtools/images/tia.png" alt="키보드" />
+              </button>
+            </div>
           </form>
           <button className={styles.headerSearchZoombtn} id="tooltip-search">
             <IoSearchOutline className={`${styles.headerIcon} ${styles.search}`} />
@@ -60,7 +63,7 @@ export default function Header(drop) {
           </button>
           <Tooltip anchorId="tooltip-upload" content="만들기" className={styles.tooltip} />
           <button id="tooltip-notice">
-            <BsBell className={styles.headerIcon} />
+            <BsBell className={`${styles.headerIcon} ${styles.notice}`} />
           </button>
           <Tooltip anchorId="tooltip-notice" content="알림" className={styles.tooltip} />
           <button>
