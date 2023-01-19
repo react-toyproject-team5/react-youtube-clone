@@ -23,10 +23,10 @@ function App() {
         <Header menuDrop={menuDrop} setMenuDrop={setMenuDrop} menuSlide={menuSlide} setMenuSlide={setMenuSlide} />
         <div style={{ display: 'flex' }}>
           {location.pathname === '/watch/:videoId' ? null : <Sidebar menuDrop={menuDrop} menuSlide={menuSlide} />}
-          <div className="VideoDetail">
+          {/* <div className="VideoDetail">
             <Comment />
             <RelatedVideoInVideoDetail />
-          </div>
+          </div> */}
           <Outlet />
         </div>
       </QueryClientProvider>
