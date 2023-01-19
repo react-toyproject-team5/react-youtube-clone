@@ -4,12 +4,19 @@ input {
   background-color: transparent;
 }
 
+.smallNav,
+.largeNav {
+  position: fixed;
+  z-index: 1010;
+  top: 56px;
+
+  padding: 0 4px;
+  height: 100%;
+  background-color: #0f0f0f;
+}
+
 .smallNav {
   width: 72px;
-  height: 100vh;
-  padding: 0 4px;
-  background-color: #0f0f0f;
-  // z-index: 1000;
 
   ul {
     margin: 0 auto;
@@ -42,9 +49,6 @@ input {
 
 .largeNav {
   width: 250px;
-  height: 94vh;
-  padding: 0 4px;
-  background-color: #0f0f0f;
   overflow: auto;
 
   ul {
@@ -106,7 +110,7 @@ input {
   }
 
   footer {
-    padding: 16px 24px;
+    padding: 16px 24px 80px;
     color: #717171;
     font-size: 12px;
     line-height: 1.5;

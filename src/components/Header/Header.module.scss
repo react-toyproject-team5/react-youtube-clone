@@ -3,6 +3,8 @@ button {
 }
 
 header {
+  position: fixed;
+  z-index: 1010;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -128,7 +130,7 @@ header {
         width: 12px;
         height: 12px;
         background: #121212 url('./assets/formFocusIcon.svg') no-repeat 0;
-        z-index: 1;
+        z-index: 10;
       }
     }
 
