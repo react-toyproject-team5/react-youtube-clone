@@ -1,9 +1,9 @@
 import React from 'react';
 import { MdOutlineQueueMusic } from 'react-icons/md';
 import { IoIosShareAlt } from 'react-icons/io';
-import styles from './VideoMenu.module.scss';
+import styles from './HoverVideoMenu.module.scss';
 
-const VideoMenu = () => {
+const HoverVideoMenu = () => {
   return (
     <ul className={styles.menu}>
       <li className={styles.menulist}>
@@ -22,4 +22,4 @@ const VideoMenu = () => {
   );
 };
 
-export default VideoMenu;
+export default HoverVideoMenu;

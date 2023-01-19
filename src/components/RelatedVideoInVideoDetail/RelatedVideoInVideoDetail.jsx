@@ -6,17 +6,68 @@ import { format, register } from 'timeago.js';
 import koLocale from 'timeago.js/lib/lang/ko';
 
 register('ko', koLocale);
-const formatDuration = (duration) => {
-  let arr = (duration || '').split('');
-  let output = '';
-  for (let i = 0; i < arr.length; i++) {
-    if (!isNaN(arr[i])) {
-      output += arr[i];
-    } else if (isNaN(arr[i]) && !isNaN(arr[i + 1]) && !isNaN(arr[i - 1])) {
-      output += ':';
+const YTDurationToSeconds = (duration) => {
+  var a = duration.match(/\d+/g);
+
+  if (duration.indexOf('M') >= 0 && duration.indexOf('H') == -1 && duration.indexOf('S') == -1) {
+    a = [0, a[0], 0];
+  }
+
+  if (duration.indexOf('H') >= 0 && duration.indexOf('M') == -1) {
+    a = [a[0], 0, a[1]];
+  }
+  if (duration.indexOf('H') >= 0 && duration.indexOf('M') == -1 && duration.indexOf('S') == -1) {
+    a = [a[0], 0, 0];
+  }
+
+  duration = 0;
+
+  if (a.length == 3) {
+    if (parseInt(a[0]) !== 0) {
+      duration = duration + parseInt(a[0]) + ':';
+      duration = duration + parseInt(a[1]) + ':';
+      duration = duration + parseInt(a[2]);
     }
   }
-  return output;
+
+  if (a.length == 2) {
+    duration = duration + parseInt(a[0]) + ':';
+    if (parseInt(a[1]) < 10) {
+      duration = duration + '0' + parseInt(a[1]);
+    } else {
+      duration = duration + parseInt(a[1]);
+    }
+  }
+
+  if (a.length == 1) {
+    duration = duration + '0:' + parseInt(a[0]);
+  }
+
+  return duration;
+};
+const numberToEng = (number) => {
+  var inputNumber = number < 0 ? false : number;
+  var unitWords = ['', 'K,', 'M,', 'G,'];
+  var splitUnit = 1000;
+  var splitCount = unitWords.length;
+  var resultArray = [];
+  var resultString = '';
+
+  for (var i = 0; i < splitCount; i++) {
+    var unitResult = (inputNumber % Math.pow(splitUnit, i + 1)) / Math.pow(splitUnit, i);
+    unitResult = Math.floor(unitResult);
+    if (unitResult > 0) {
+      resultArray[i] = unitResult;
+    }
+  }
+
+  for (var i = 0; i < resultArray.length; i++) {
+    if (!resultArray[i]) continue;
+    resultString = String(resultArray[i]) + unitWords[i] + resultString;
+  }
+  resultString = resultString.split(',')[0];
+
+  return resultString;
 };
 const RelatedVideoInVideoDetail = () => {
   return (
@@ -30,7 +81,7 @@ const RelatedVideoInVideoDetail = () => {
                 <div className={styles.videoPreviewContainer}>
                   <img src={item.snippet.thumbnails.default.url} />
                   <div className={styles.videoDuration}>
-                    {formatDuration(VideoInfo?.items[i]?.contentDetails?.duration)}
+                    {YTDurationToSeconds(VideoInfo?.items[i]?.contentDetails?.duration)}
                   </div>
                 </div>
                 {/* 영상 제목, 채널 이름, 조회수, 올린 시간 */}
@@ -40,7 +91,9 @@ const RelatedVideoInVideoDetail = () => {
                     {item.snippet.channelTitle}
                   </a>
                   <div className={styles.videoMetaData}>
-                    <span className={styles.videoViewPoint}>{VideoInfo?.items[i]?.statistics?.viewCount} views </span>
+                    <span className={styles.videoViewPoint}>
+                      {numberToEng(VideoInfo?.items[i]?.statistics?.viewCount)} views{' '}
+                    </span>
                     <span> • </span>
                     <span>{format(VideoInfo?.items[i]?.snippet?.publishedAt, 'ko')}</span>
                   </div>

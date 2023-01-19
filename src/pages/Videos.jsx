@@ -46,8 +46,7 @@ export default function Videos() {
 
   return (
     <div>
-      videos
-      <div>
+      <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
         {videoData.map((videoCard) => (
           <VideoCard listOpen={listOpen} setListOpen={setListOpen} videoCard={videoCard} key={videoCard.id} />
         ))}

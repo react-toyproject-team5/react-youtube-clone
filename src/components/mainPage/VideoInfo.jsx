@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { format } from 'timeago.js';
+import { format, register } from 'timeago.js';
+import koLocale from 'timeago.js/lib/lang/ko';
+import styles from './VideoInfo.module.scss';
+import { BsDot } from 'react-icons/bs';
 
 const VideoInfo = ({ videoCard, profileData }) => {
   let link = (url) => {
@@ -22,30 +25,25 @@ const VideoInfo = ({ videoCard, profileData }) => {
     }
   };
 
-  let date = (ago) => {
-    const day = format(ago);
-    if (day.includes('day')) {
-      return day.replace(/\s[a-z]+\s(ago)/, '일 전');
-    }
-    if (day.includes('month')) {
-      return day.replace(/\s[a-z]+\s(ago)/, '달 전');
-    }
-    if (day.includes('year')) {
-      return day.replace(/\s[a-z]+\s(ago)/, '년 전');
-    }
-    return day;
-  };
+  register('ko', koLocale);
 
   return (
-    <div>
-      <Link to={link(videoCard.id)}>
-        <div>{videoCard.snippet.title}</div>
-        <div>{videoCard.snippet.channelTitle}</div>
-        <img src={profileData} alt={videoCard.snippet.channelTitle} />
-        <div>{view(videoCard.statistics.viewCount)}</div>
-        <div>{date(videoCard.snippet.publishedAt)}</div>
-      </Link>
-    </div>
+    <Link to={link(videoCard.id)}>
+      <div className={styles.videoinfo}>
+        <div>
+          <img className={styles.channelimage} src={profileData} alt={videoCard.snippet.channelTitle} />
+        </div>
+        <div className={styles.info}>
+          <div className={styles.infotitle}>{videoCard.snippet.title}</div>
+          <div className={styles.infochan_view}>{videoCard.snippet.channelTitle}</div>
+          <div className={styles.infochan_view}>
+            <span>{view(videoCard.statistics.viewCount)}</span>
+            <BsDot />
+            <span>{format(videoCard.snippet.publishedAt, 'ko')}</span>
+          </div>
+        </div>
+      </div>
+    </Link>
   );
 };
 

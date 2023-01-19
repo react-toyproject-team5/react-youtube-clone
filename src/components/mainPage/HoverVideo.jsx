@@ -1,9 +1,13 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { format } from 'timeago.js';
-import VideoMenu from './VideoMenu';
+import { format, register } from 'timeago.js';
+import koLocale from 'timeago.js/lib/lang/ko';
+import HoverVideoMenu from './HoverVideoMenu';
+import styles from './HoverVideo.module.scss';
+import { BsDot, BsList } from 'react-icons/bs';
+import { MdOutlineQueueMusic, MdMoreTime } from 'react-icons/md';
 
-const HoverVideo = ({ profileData, videoCard, videoHover }) => {
+const HoverVideo = ({ profileData, videoCard, videoHover, setVideoHover, setPlayVideo }) => {
   const [listOpen, setListOpen] = useState(false);
 
   let link = (url) => {
@@ -25,29 +29,23 @@ const HoverVideo = ({ profileData, videoCard, videoHover }) => {
     }
   };
 
-  let date = (ago) => {
-    const day = format(ago);
-    if (day.includes('day')) {
-      return day.replace(/\s[a-z]+\s(ago)/, '일 전');
-    }
-    if (day.includes('month')) {
-      return day.replace(/\s[a-z]+\s(ago)/, '달 전');
-    }
-    if (day.includes('year')) {
-      return day.replace(/\s[a-z]+\s(ago)/, '년 전');
-    }
-    return day;
+  register('ko', koLocale);
+
+  const mouseOn = () => {
+    setVideoHover(true);
+    setPlayVideo(true);
   };
 
   return (
-    <div>
-      <div>
+    <div className={styles.hover} onMouseOver={mouseOn}>
+      <Link to={link(videoCard.id)}>
         <div>
           <iframe
+            title={videoCard.id}
             id="ytplayer"
             type="text/html"
-            width="640"
-            height="360"
+            width="360"
+            height="200"
             src={`https://www.youtube.com/embed/${videoCard.id}?autoplay=${
               videoHover ? 1 : 0
             }&mute=1&modestbranding=1&controls=0`}
@@ -55,20 +53,39 @@ const HoverVideo = ({ profileData, videoCard, videoHover }) => {
             frameBorder="0"
           ></iframe>
         </div>
+      </Link>
+      <div className={styles.hoverPosition}>
+        <div className={styles.hoverinfo}>
+          <Link to={link(videoCard.id)}>
+            <div>
+              <img className={styles.channelimage} src={profileData} alt={videoCard.snippet.channelTitle} />
+            </div>
+          </Link>
+          <Link to={link(videoCard.id)}>
+            <div className={styles.videoInfo}>
+              <div className={styles.videoTitle}>{videoCard.snippet.title}</div>
+              <div className={styles.chan_view_date}>{videoCard.snippet.channelTitle}</div>
+              <span className={styles.chan_view_date}>{view(videoCard.statistics.viewCount)}</span>
+              <BsDot />
+              <span className={styles.chan_view_date}>{format(videoCard.snippet.publishedAt, 'ko')}</span>
+            </div>
+          </Link>
+        </div>
         <div>
-          <Link to={link(videoCard.id)}>
-            <img src={profileData} alt={videoCard.snippet.channelTitle} />
-            <div>{videoCard.snippet.title}</div>
-          </Link>
-          <button onClick={() => setListOpen(true)}>list</button>
-          {listOpen && <VideoMenu />}
-          <Link to={link(videoCard.id)}>
-            <div>{videoCard.snippet.channelTitle}</div>
-            <div>{view(videoCard.statistics.viewCount)}</div>
-            <div>{date(videoCard.snippet.publishedAt)}</div>
-            <button>나중에 볼 동영상</button>
-            <button>현재 재생목록에 추가</button>
-          </Link>
+          <button onClick={() => setListOpen(listOpen ? false : true)} className={styles.listicon}>
+            <BsList className={styles.icon} />
+          </button>
+          {listOpen && <HoverVideoMenu />}
+        </div>
+        <div className={styles.hoverbuttons}>
+          <button className={styles.hoverbutton}>
+            <MdMoreTime />
+            <div>나중에 볼 동영상</div>
+          </button>
+          <button className={styles.hoverbutton}>
+            <MdOutlineQueueMusic />
+            <div>현재 재생목록에 추가</div>
+          </button>
         </div>
       </div>
     </div>
