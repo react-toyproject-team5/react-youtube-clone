@@ -124,3 +124,15 @@ input {
     }
   }
 }
+
+.modalNav {
+  z-index: 1020;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 0 0 9999px;
+
+  .modalLogo {
+    position: fixed;
+    width: 250px;
+    height: 56px;
+    background-color: #3ea6ff;
+  }
+}

@@ -1,11 +1,13 @@
 import React from 'react';
 import { useMediaQuery } from 'react-responsive';
 
+// Components
 import SidebarLarge from './SidebarLarge';
 import SidebarSmall from './SidebarSmall';
+import SidebarModal from './SidebarModal';
 
-export default function Sidebar(drop) {
-  console.log(drop.menuDrop);
+export default function Sidebar({ menuDrop, setMenuDrop }) {
+  console.log(menuDrop);
 
   // 리액트 반응형
   const Desktop = ({ children }) => {
@@ -23,16 +25,19 @@ export default function Sidebar(drop) {
 
   return (
     <>
-      {drop.menuDrop ? (
+      {menuDrop ? (
         //메뉴 클릭시 true
         <>
           <Desktop>
             <SidebarSmall />
           </Desktop>
           <Tablet>
+            <SidebarModal setMenuDrop={setMenuDrop} />
             <SidebarSmall />
           </Tablet>
-          <Mobile></Mobile>
+          <Mobile>
+            <SidebarModal setMenuDrop={setMenuDrop} />
+          </Mobile>
         </>
       ) : (
         //메뉴 클릭 전 또는 클릭 취소 false

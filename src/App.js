@@ -17,13 +17,12 @@ function App() {
   let location = useLocation();
   // 반응형 사이드바
   const [menuDrop, setMenuDrop] = useState(false);
-  const [menuSlide, setMenuSlide] = useState(false);
   return (
     <>
       <QueryClientProvider client={queryClient}>
-        <Header menuDrop={menuDrop} setMenuDrop={setMenuDrop} menuSlide={menuSlide} setMenuSlide={setMenuSlide} />
+        <Header menuDrop={menuDrop} setMenuDrop={setMenuDrop} />
         <div style={{ display: 'flex' }}>
-          {location.pathname === '/watch/:videoId' ? null : <Sidebar menuDrop={menuDrop} menuSlide={menuSlide} />}
+          {location.pathname === '/watch/:videoId' ? null : <Sidebar menuDrop={menuDrop} setMenuDrop={setMenuDrop} />}
           <div className={`${menuDrop ? 'outlet-layout-true' : 'outlet-layout-false'}`}>
             <Outlet />
           </div>
