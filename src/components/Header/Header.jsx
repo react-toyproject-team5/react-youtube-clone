@@ -32,7 +32,7 @@ export default function Header(drop) {
     <>
       <header>
         <div className={styles.headerLeftLogomenu}>
-          <BsList className={styles.headerIcon} size="24" onClick={menuBtnClick}></BsList>
+          <BsList className={styles.headerIcon} size="24" onClick={menuBtnClick} />
           <Link to={'/'} className={styles.logo}>
             <img src={logo} alt="youtube logo" />
             <sup>KR</sup>
@@ -46,25 +46,25 @@ export default function Header(drop) {
             </button>
           </form>
           <button className={styles.headerSearchZoombtn} id="tooltip-search">
-            <IoSearchOutline className={`${styles.headerIcon} ${styles.search}`}></IoSearchOutline>
+            <IoSearchOutline className={`${styles.headerIcon} ${styles.search}`} />
           </button>
           <Tooltip anchorId="tooltip-search" content="검색" className={styles.tooltip} />
           <button className={styles.headerSearchVoicebtn} id="tooltip-voice">
-            <RiMicFill className={`${styles.headerIcon} ${styles.voice}`}></RiMicFill>
+            <RiMicFill className={`${styles.headerIcon} ${styles.voice}`} />
           </button>
           <Tooltip anchorId="tooltip-voice" content="음성으로 검색" className={styles.tooltip} />
         </div>
         <div className={styles.headerRightBtns}>
           <button id="tooltip-upload">
-            <RiVideoAddLine className={styles.headerIcon}></RiVideoAddLine>
+            <RiVideoAddLine className={styles.headerIcon} />
           </button>
           <Tooltip anchorId="tooltip-upload" content="만들기" className={styles.tooltip} />
           <button id="tooltip-notice">
-            <BsBell className={styles.headerIcon}></BsBell>
+            <BsBell className={styles.headerIcon} />
           </button>
           <Tooltip anchorId="tooltip-notice" content="알림" className={styles.tooltip} />
           <button>
-            <FaUserAlt className={`${styles.headerIcon} ${styles.user}`}></FaUserAlt>
+            <FaUserAlt className={`${styles.headerIcon} ${styles.user}`} />
           </button>
         </div>
       </header>
