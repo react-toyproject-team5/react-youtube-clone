@@ -31,7 +31,7 @@ export default function Header() {
       </div>
       <div className="header-search">
         <form onSubmit={getSearchValue}>
-          <input type="text" placeholder="검색" ref="inputRef" />
+          <input type="text" placeholder="검색" ref={useRef('')} />
           <button className="keyboard">
             <img src="https://www.gstatic.com/inputtools/images/tia.png" alt="키보드" />
           </button>
