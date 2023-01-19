@@ -6,17 +6,44 @@ import { format, register } from 'timeago.js';
 import koLocale from 'timeago.js/lib/lang/ko';
 
 register('ko', koLocale);
-const formatDuration = (duration) => {
-  let arr = (duration || '').split('');
-  let output = '';
-  for (let i = 0; i < arr.length; i++) {
-    if (!isNaN(arr[i])) {
-      output += arr[i];
-    } else if (isNaN(arr[i]) && !isNaN(arr[i + 1]) && !isNaN(arr[i - 1])) {
-      output += ':';
+const YTDurationToSeconds = (duration) => {
+  var a = duration.match(/\d+/g);
+
+  if (duration.indexOf('M') >= 0 && duration.indexOf('H') == -1 && duration.indexOf('S') == -1) {
+    a = [0, a[0], 0];
+  }
+
+  if (duration.indexOf('H') >= 0 && duration.indexOf('M') == -1) {
+    a = [a[0], 0, a[1]];
+  }
+  if (duration.indexOf('H') >= 0 && duration.indexOf('M') == -1 && duration.indexOf('S') == -1) {
+    a = [a[0], 0, 0];
+  }
+
+  duration = 0;
+
+  if (a.length == 3) {
+    if (parseInt(a[0]) !== 0) {
+      duration = duration + parseInt(a[0]) + ':';
+      duration = duration + parseInt(a[1]) + ':';
+      duration = duration + parseInt(a[2]);
     }
   }
-  return output;
+
+  if (a.length == 2) {
+    duration = duration + parseInt(a[0]) + ':';
+    if (parseInt(a[1]) < 10) {
+      duration = duration + '0' + parseInt(a[1]);
+    } else {
+      duration = duration + parseInt(a[1]);
+    }
+  }
+
+  if (a.length == 1) {
+    duration = duration + '0:' + parseInt(a[0]);
+  }
+
+  return duration;
 };
 const numberToEng = (number) => {
   var inputNumber = number < 0 ? false : number;
@@ -54,7 +81,7 @@ const RelatedVideoInVideoDetail = () => {
                 <div className={styles.videoPreviewContainer}>
                   <img src={item.snippet.thumbnails.default.url} />
                   <div className={styles.videoDuration}>
-                    {formatDuration(VideoInfo?.items[i]?.contentDetails?.duration)}
+                    {YTDurationToSeconds(VideoInfo?.items[i]?.contentDetails?.duration)}
                   </div>
                 </div>
                 {/* 영상 제목, 채널 이름, 조회수, 올린 시간 */}

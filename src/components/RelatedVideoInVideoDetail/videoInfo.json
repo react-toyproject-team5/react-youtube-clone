@@ -1,10 +1,10 @@
 {
   "kind": "youtube#videoListResponse",
-  "etag": "EEGmAIyzeseeYB_xjKMjViRHxlY",
+  "etag": "cy6lvhx_6o4XWnrbr-g0EVP4Mis",
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "uk1g71WBiWKlgWgIO_1yfQwDIzI",
+      "etag": "-S6Y4k3fNaWnGudyzAaxflhWd_A",
       "id": "-EXQtU80q1M",
       "snippet": {
         "publishedAt": "2023-01-18T17:00:00Z",
@@ -78,15 +78,89 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "964076",
-        "likeCount": "133319",
+        "viewCount": "1260054",
+        "likeCount": "147461",
         "favoriteCount": "0",
-        "commentCount": "9674"
+        "commentCount": "10633"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "GifYTbGAcIVW71RK-bezaLZPhjU",
+      "etag": "vJwZhjuRsjM_ch4rggs_zNWFKGs",
+      "id": "-e1_QhJ1EhQ",
+      "snippet": {
+        "publishedAt": "2023-01-18T15:00:03Z",
+        "channelId": "UC7vVhkEfw4nOGp8TyDk7RcQ",
+        "title": "Atlas Gets a Grip | Boston Dynamics",
+        "description": "It’s time for Atlas to pick up a new set of skills and get hands on. In this video, the humanoid robot manipulates the world around it: Atlas interacts with objects and modifies the course to reach its goal—pushing the limits of locomotion, sensing, and athleticism.\n\nTo learn how we go from idea to execution, go being the scenes with our team: https://youtu.be/XPVC4IyRTG8\n\n#BostonDynamics #Robots #Robotics",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-e1_QhJ1EhQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-e1_QhJ1EhQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-e1_QhJ1EhQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/-e1_QhJ1EhQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/-e1_QhJ1EhQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Boston Dynamics",
+        "tags": [
+          "boston dynamics",
+          "boston dynamics robot",
+          "boston dynamics atlas",
+          "boston dynamics parkour",
+          "atlas",
+          "atlas robot",
+          "atlas parkour",
+          "partners in parkour",
+          "what's new atlas",
+          "atlas gets a grip",
+          "atlas picks things up"
+        ],
+        "categoryId": "28",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Atlas Gets a Grip | Boston Dynamics",
+          "description": "It’s time for Atlas to pick up a new set of skills and get hands on. In this video, the humanoid robot manipulates the world around it: Atlas interacts with objects and modifies the course to reach its goal—pushing the limits of locomotion, sensing, and athleticism.\n\nTo learn how we go from idea to execution, go being the scenes with our team: https://youtu.be/XPVC4IyRTG8\n\n#BostonDynamics #Robots #Robotics"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT1M21S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "1387139",
+        "likeCount": "55940",
+        "favoriteCount": "0",
+        "commentCount": "5000"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "Rm_mxUHbw2K4OMWd0X2QMaT7PUU",
       "id": "oBrkbWSB3Ls",
       "snippet": {
         "publishedAt": "2023-01-18T15:00:01Z",
@@ -162,89 +236,15 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "308712",
-        "likeCount": "40031",
+        "viewCount": "403501",
+        "likeCount": "44250",
         "favoriteCount": "0",
-        "commentCount": "3797"
+        "commentCount": "4038"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "nuAh8MhcCvOVMnzMXNjLKMJaziU",
-      "id": "-e1_QhJ1EhQ",
-      "snippet": {
-        "publishedAt": "2023-01-18T15:00:03Z",
-        "channelId": "UC7vVhkEfw4nOGp8TyDk7RcQ",
-        "title": "Atlas Gets a Grip | Boston Dynamics",
-        "description": "It’s time for Atlas to pick up a new set of skills and get hands on. In this video, the humanoid robot manipulates the world around it: Atlas interacts with objects and modifies the course to reach its goal—pushing the limits of locomotion, sensing, and athleticism.\n\nTo learn how we go from idea to execution, go being the scenes with our team: https://youtu.be/XPVC4IyRTG8\n\n#BostonDynamics #Robots #Robotics",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/-e1_QhJ1EhQ/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/-e1_QhJ1EhQ/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/-e1_QhJ1EhQ/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/-e1_QhJ1EhQ/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/-e1_QhJ1EhQ/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
-        },
-        "channelTitle": "Boston Dynamics",
-        "tags": [
-          "boston dynamics",
-          "boston dynamics robot",
-          "boston dynamics atlas",
-          "boston dynamics parkour",
-          "atlas",
-          "atlas robot",
-          "atlas parkour",
-          "partners in parkour",
-          "what's new atlas",
-          "atlas gets a grip",
-          "atlas picks things up"
-        ],
-        "categoryId": "28",
-        "liveBroadcastContent": "none",
-        "defaultLanguage": "en",
-        "localized": {
-          "title": "Atlas Gets a Grip | Boston Dynamics",
-          "description": "It’s time for Atlas to pick up a new set of skills and get hands on. In this video, the humanoid robot manipulates the world around it: Atlas interacts with objects and modifies the course to reach its goal—pushing the limits of locomotion, sensing, and athleticism.\n\nTo learn how we go from idea to execution, go being the scenes with our team: https://youtu.be/XPVC4IyRTG8\n\n#BostonDynamics #Robots #Robotics"
-        }
-      },
-      "contentDetails": {
-        "duration": "PT1M21S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "false",
-        "licensedContent": false,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "933836",
-        "likeCount": "46721",
-        "favoriteCount": "0",
-        "commentCount": "4031"
-      }
-    },
-    {
-      "kind": "youtube#video",
-      "etag": "ZzXYibGavFA-fBpv3KQxiBXZiW4",
+      "etag": "79M44iBUqkm5PMlUb8fFH1DOPEk",
       "id": "NthGfn_ddRQ",
       "snippet": {
         "publishedAt": "2023-01-18T14:00:18Z",
@@ -338,15 +338,91 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1209888",
-        "likeCount": "47398",
+        "viewCount": "1537731",
+        "likeCount": "50317",
         "favoriteCount": "0",
-        "commentCount": "4917"
+        "commentCount": "5269"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "-EQRJ8703YqGg_MfsjpQ8Xpy2zc",
+      "etag": "qPyRnCWiWKmQIBpDp853cCRz2fw",
+      "id": "SRknVVlwgsE",
+      "snippet": {
+        "publishedAt": "2023-01-18T17:00:18Z",
+        "channelId": "UC-gW4TeZAlKm7UATp24JsWQ",
+        "title": "GROUNDED GLIZZY MOMENTS",
+        "description": "GROUNDED GLIZZY MOMENTS\nLeave a like and Subscribe if you enjoyed! Thanks =)\n\nAll the footage featured in this video was livestreamed on my Twitch channel!\nFollow it to catch the streams live when they happen! - https://www.twitch.tv/smii7y\n\nCheck out my other channels!\nSMii7Y  https://www.youtube.com/c/SMii7Y\nSMii7Y➖  https://www.youtube.com/c/SMii7Yminus\n\nFollow my Stream, Social Medias and check out my Merch!\n📺 Stream - http://www.twitch.tv/smii7y\n🐦 Twitter - https://twitter.com/SMii7Y\n📷 Instagram - https://www.instagram.com/smii7y/\n👕 Merch - https://smii7y.store/\n\nFriends in the video:\nhttps://www.twitch.tv/jericho\nhttps://www.twitch.tv/EliLikesRice\nhttps://www.twitch.tv/fl0m\n\n🎵 Music by:\nhttp://www.epidemicsound.com/\nhttp://www.premiumbeat.com/\nhttp://audiojungle.net/\nincompetech.com \nLicensed under Creative Commons: By Attribution 3.0\nhttps://creativecommons.org/licenses/by/3.0/\nhttps://99sounds.org/\n\nOutro Music Created by:  @MattercellEntertainment",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SRknVVlwgsE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SRknVVlwgsE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SRknVVlwgsE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/SRknVVlwgsE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/SRknVVlwgsE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "SMii7Yplus",
+        "tags": [
+          "grounded",
+          "grounded game",
+          "grounded update",
+          "grounded gameplay",
+          "grounded full release",
+          "grounded 1.0",
+          "grounded new update",
+          "grounded multiplayer",
+          "grounded coop",
+          "grounded playthrough",
+          "smii7y",
+          "smii7yplus",
+          "smii7y+",
+          "smii7y plus"
+        ],
+        "categoryId": "20",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "GROUNDED GLIZZY MOMENTS",
+          "description": "GROUNDED GLIZZY MOMENTS\nLeave a like and Subscribe if you enjoyed! Thanks =)\n\nAll the footage featured in this video was livestreamed on my Twitch channel!\nFollow it to catch the streams live when they happen! - https://www.twitch.tv/smii7y\n\nCheck out my other channels!\nSMii7Y  https://www.youtube.com/c/SMii7Y\nSMii7Y➖  https://www.youtube.com/c/SMii7Yminus\n\nFollow my Stream, Social Medias and check out my Merch!\n📺 Stream - http://www.twitch.tv/smii7y\n🐦 Twitter - https://twitter.com/SMii7Y\n📷 Instagram - https://www.instagram.com/smii7y/\n👕 Merch - https://smii7y.store/\n\nFriends in the video:\nhttps://www.twitch.tv/jericho\nhttps://www.twitch.tv/EliLikesRice\nhttps://www.twitch.tv/fl0m\n\n🎵 Music by:\nhttp://www.epidemicsound.com/\nhttp://www.premiumbeat.com/\nhttp://audiojungle.net/\nincompetech.com \nLicensed under Creative Commons: By Attribution 3.0\nhttps://creativecommons.org/licenses/by/3.0/\nhttps://99sounds.org/\n\nOutro Music Created by:  @MattercellEntertainment"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT25M11S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "530384",
+        "likeCount": "34572",
+        "favoriteCount": "0",
+        "commentCount": "864"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "k_5wz2lsgVdlirj5j_ddnSTEzXE",
       "id": "Z9rsqMFO_W4",
       "snippet": {
         "publishedAt": "2023-01-18T14:45:29Z",
@@ -400,96 +476,15 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "284083",
-        "likeCount": "2755",
+        "viewCount": "362702",
+        "likeCount": "3035",
         "favoriteCount": "0",
-        "commentCount": "1879"
+        "commentCount": "2118"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "BXpDV1WMgC6kN4HZJY_H2tVNnec",
-      "id": "Znsa4Deavgg",
-      "snippet": {
-        "publishedAt": "2023-01-17T02:44:15Z",
-        "channelId": "UCZGYJFUizSax-yElQaFDp5Q",
-        "title": "The Mandalorian | Season 3 Official Trailer | Disney+",
-        "description": "Reunited.\n\nThe Mandalorian, Season 3 March 1 on Disney+.\nThe journeys of the Mandalorian through the Star Wars galaxy continue. Once a lone bounty hunter, Din Djarin has reunited with Grogu. Meanwhile, the New Republic struggles to lead the galaxy away from its dark history. The Mandalorian will cross paths with old allies and make new enemies as he and Grogu continue their journey together.\n\nThe series stars Pedro Pascal, Katee Sackhoff, Carl Weathers, Amy Sedaris, Emily Swallow and Giancarlo Esposito.",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/Znsa4Deavgg/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/Znsa4Deavgg/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/Znsa4Deavgg/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/Znsa4Deavgg/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/Znsa4Deavgg/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
-        },
-        "channelTitle": "Star Wars",
-        "tags": [
-          "The Mandalorian",
-          "Mandalorian",
-          "Grogu",
-          "Baby Yoda",
-          "Star Wars",
-          "Mando",
-          "Pedro Pascal",
-          "Dave Filoni",
-          "Jon Favreau",
-          "Carl Weathers",
-          "Giancarlo Esposito",
-          "Din Djarin",
-          "Greef Karga",
-          "Moff Gideon",
-          "Katee Sackhoff",
-          "Bo-Katan Kryze",
-          "Emily Swallow",
-          "The Armorer"
-        ],
-        "categoryId": "24",
-        "liveBroadcastContent": "none",
-        "localized": {
-          "title": "The Mandalorian | Season 3 Official Trailer | Disney+",
-          "description": "Reunited.\n\nThe Mandalorian, Season 3 March 1 on Disney+.\nThe journeys of the Mandalorian through the Star Wars galaxy continue. Once a lone bounty hunter, Din Djarin has reunited with Grogu. Meanwhile, the New Republic struggles to lead the galaxy away from its dark history. The Mandalorian will cross paths with old allies and make new enemies as he and Grogu continue their journey together.\n\nThe series stars Pedro Pascal, Katee Sackhoff, Carl Weathers, Amy Sedaris, Emily Swallow and Giancarlo Esposito."
-        },
-        "defaultAudioLanguage": "en-US"
-      },
-      "contentDetails": {
-        "duration": "PT1M43S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "true",
-        "licensedContent": true,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "5150688",
-        "likeCount": "118413",
-        "favoriteCount": "0",
-        "commentCount": "5470"
-      }
-    },
-    {
-      "kind": "youtube#video",
-      "etag": "z16qY32kzS7lveIZZfhBYUgfrM8",
+      "etag": "JttP_w0aIjM6QRnicNa6OwV1NRU",
       "id": "k_zz3239DA0",
       "snippet": {
         "publishedAt": "2023-01-18T15:00:34Z",
@@ -587,15 +582,241 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "537014",
-        "likeCount": "32304",
+        "viewCount": "682674",
+        "likeCount": "37398",
         "favoriteCount": "0",
-        "commentCount": "2507"
+        "commentCount": "2885"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "iKS8DF8MMhYBHqUxXOZAj2OWyNc",
+      "etag": "6t5KMXAy9ZZ_C8Y1yc3xkcDs17Q",
+      "id": "Znsa4Deavgg",
+      "snippet": {
+        "publishedAt": "2023-01-17T02:44:15Z",
+        "channelId": "UCZGYJFUizSax-yElQaFDp5Q",
+        "title": "The Mandalorian | Season 3 Official Trailer | Disney+",
+        "description": "Reunited.\n\nThe Mandalorian, Season 3 March 1 on Disney+.\nThe journeys of the Mandalorian through the Star Wars galaxy continue. Once a lone bounty hunter, Din Djarin has reunited with Grogu. Meanwhile, the New Republic struggles to lead the galaxy away from its dark history. The Mandalorian will cross paths with old allies and make new enemies as he and Grogu continue their journey together.\n\nThe series stars Pedro Pascal, Katee Sackhoff, Carl Weathers, Amy Sedaris, Emily Swallow and Giancarlo Esposito.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Znsa4Deavgg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Znsa4Deavgg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Znsa4Deavgg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Znsa4Deavgg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Znsa4Deavgg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Star Wars",
+        "tags": [
+          "The Mandalorian",
+          "Mandalorian",
+          "Grogu",
+          "Baby Yoda",
+          "Star Wars",
+          "Mando",
+          "Pedro Pascal",
+          "Dave Filoni",
+          "Jon Favreau",
+          "Carl Weathers",
+          "Giancarlo Esposito",
+          "Din Djarin",
+          "Greef Karga",
+          "Moff Gideon",
+          "Katee Sackhoff",
+          "Bo-Katan Kryze",
+          "Emily Swallow",
+          "The Armorer"
+        ],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "The Mandalorian | Season 3 Official Trailer | Disney+",
+          "description": "Reunited.\n\nThe Mandalorian, Season 3 March 1 on Disney+.\nThe journeys of the Mandalorian through the Star Wars galaxy continue. Once a lone bounty hunter, Din Djarin has reunited with Grogu. Meanwhile, the New Republic struggles to lead the galaxy away from its dark history. The Mandalorian will cross paths with old allies and make new enemies as he and Grogu continue their journey together.\n\nThe series stars Pedro Pascal, Katee Sackhoff, Carl Weathers, Amy Sedaris, Emily Swallow and Giancarlo Esposito."
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "contentDetails": {
+        "duration": "PT1M43S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "5191048",
+        "likeCount": "119206",
+        "favoriteCount": "0",
+        "commentCount": "5501"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "CWB9qff1Af_XtiK0vhg6YvGaxiQ",
+      "id": "XPVC4IyRTG8",
+      "snippet": {
+        "publishedAt": "2023-01-18T15:00:18Z",
+        "channelId": "UC7vVhkEfw4nOGp8TyDk7RcQ",
+        "title": "Inside the Lab: Taking Atlas From Sim to Scaffold",
+        "description": "How does Atlas recognize and interact with objects? How do we develop new Atlas behaviors? Why is manipulation important for the future of robotics?\n\nJoin our team in the Atlas lab to discover the answers to these questions and more. Keep reading on our blog: https://www.bostondynamics.com/resources/blog/sick-tricks-and-tricky-grips\n\n00:00: Introduction\n01:57: Perception and Manipulation\n05:11: Electrical Doctors\n06:29: Developing in Simulation\n07:13: \"Sick Trick\"\n08:24: What's Next?\n\n#BostonDynamics #robotics",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XPVC4IyRTG8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XPVC4IyRTG8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XPVC4IyRTG8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/XPVC4IyRTG8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/XPVC4IyRTG8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Boston Dynamics",
+        "tags": [
+          "boston dynamics",
+          "boston dynamics robot",
+          "boston dynamics atlas",
+          "boston dynamics parkour",
+          "atlas",
+          "atlas robot",
+          "atlas parkour",
+          "partners in parkour",
+          "what's new atlas",
+          "atlas gets a grip",
+          "atlas picks things up"
+        ],
+        "categoryId": "28",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Inside the Lab: Taking Atlas From Sim to Scaffold",
+          "description": "How does Atlas recognize and interact with objects? How do we develop new Atlas behaviors? Why is manipulation important for the future of robotics?\n\nJoin our team in the Atlas lab to discover the answers to these questions and more. Keep reading on our blog: https://www.bostondynamics.com/resources/blog/sick-tricks-and-tricky-grips\n\n00:00: Introduction\n01:57: Perception and Manipulation\n05:11: Electrical Doctors\n06:29: Developing in Simulation\n07:13: \"Sick Trick\"\n08:24: What's Next?\n\n#BostonDynamics #robotics"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT9M47S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "618393",
+        "likeCount": "21748",
+        "favoriteCount": "0",
+        "commentCount": "1729"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "X8Qz41UfwCxAM3efta7ToQ9YhUs",
+      "id": "oMf_i1YBuMk",
+      "snippet": {
+        "publishedAt": "2023-01-18T14:44:48Z",
+        "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+        "title": "Introducing the all-new HomePod | Apple",
+        "description": "A powerful, high-excursion woofer and beamforming tweeters create room-filling sound. HomePod senses its surroundings and automatically adapts audio for where it’s placed. Advanced computational audio, powered by Apple silicon, optimizes acoustic performance. Spatial Audio directs music with great precision, surrounding you in sound. It all comes together for the ultimate home audio experience. \n\nHomePod also works seamlessly with all your Apple devices. It comes with Siri built in and works as a smart home hub to connect and control your home, privately and securely. Available in Midnight and White.\n\n“GMT (Jamie xx Remix)” by Oliver Sim and Jamie xx https://apple.co/GMT-Remix\n\nLearn more about HomePod: https://apple.co/3iPMmC7\n\n#Apple #HomePod\n\nSpatial Audio works with compatible content in supported apps.\nMusic streaming services may require a subscription.\nSmart home functionality requires a HomeKit- or Matter-enabled accessory. Smart home accessories sold separately.\n\nWelcome to the official Apple YouTube channel. Here you’ll find news about product launches, tutorials, and other great content. Apple’s more than 160,000 employees are dedicated to making the best products on earth, and to leaving the world better than we found it.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/oMf_i1YBuMk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/oMf_i1YBuMk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/oMf_i1YBuMk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/oMf_i1YBuMk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/oMf_i1YBuMk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Apple",
+        "tags": [
+          "Apple",
+          "HomePod",
+          "home audio",
+          "smart speaker",
+          "Siri",
+          "computational audio",
+          "room sensing",
+          "Spatial Audio",
+          "smart home"
+        ],
+        "categoryId": "28",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Introducing the all-new HomePod | Apple",
+          "description": "A powerful, high-excursion woofer and beamforming tweeters create room-filling sound. HomePod senses its surroundings and automatically adapts audio for where it’s placed. Advanced computational audio, powered by Apple silicon, optimizes acoustic performance. Spatial Audio directs music with great precision, surrounding you in sound. It all comes together for the ultimate home audio experience. \n\nHomePod also works seamlessly with all your Apple devices. It comes with Siri built in and works as a smart home hub to connect and control your home, privately and securely. Available in Midnight and White.\n\n“GMT (Jamie xx Remix)” by Oliver Sim and Jamie xx https://apple.co/GMT-Remix\n\nLearn more about HomePod: https://apple.co/3iPMmC7\n\n#Apple #HomePod\n\nSpatial Audio works with compatible content in supported apps.\nMusic streaming services may require a subscription.\nSmart home functionality requires a HomeKit- or Matter-enabled accessory. Smart home accessories sold separately.\n\nWelcome to the official Apple YouTube channel. Here you’ll find news about product launches, tutorials, and other great content. Apple’s more than 160,000 employees are dedicated to making the best products on earth, and to leaving the world better than we found it."
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT2M22S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "2345826",
+        "likeCount": "38631",
+        "favoriteCount": "0"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "CC17yLCUP26zanjkDXhs4ThzLwQ",
       "id": "SJN903kCJrc",
       "snippet": {
         "publishedAt": "2023-01-18T00:52:02Z",
@@ -677,86 +898,87 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "685265",
-        "likeCount": "23482",
+        "viewCount": "737136",
+        "likeCount": "24114",
         "favoriteCount": "0",
-        "commentCount": "2369"
+        "commentCount": "2416"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "km4yi4MsR4bVzlBWnFkKdBHfOt8",
-      "id": "oMf_i1YBuMk",
+      "etag": "4UhXBniV5RZExCwliRXRGLGVMYY",
+      "id": "TkPCdI2aZhQ",
       "snippet": {
-        "publishedAt": "2023-01-18T14:44:48Z",
-        "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
-        "title": "Introducing the all-new HomePod | Apple",
-        "description": "A powerful, high-excursion woofer and beamforming tweeters create room-filling sound. HomePod senses its surroundings and automatically adapts audio for where it’s placed. Advanced computational audio, powered by Apple silicon, optimizes acoustic performance. Spatial Audio directs music with great precision, surrounding you in sound. It all comes together for the ultimate home audio experience. \n\nHomePod also works seamlessly with all your Apple devices. It comes with Siri built in and works as a smart home hub to connect and control your home, privately and securely. Available in Midnight and White.\n\n“GMT (Jamie xx Remix)” by Oliver Sim and Jamie xx https://apple.co/GMT-Remix\n\nLearn more about HomePod: https://apple.co/3iPMmC7\n\n#Apple #HomePod\n\nSpatial Audio works with compatible content in supported apps.\nMusic streaming services may require a subscription.\nSmart home functionality requires a HomeKit- or Matter-enabled accessory. Smart home accessories sold separately.\n\nWelcome to the official Apple YouTube channel. Here you’ll find news about product launches, tutorials, and other great content. Apple’s more than 160,000 employees are dedicated to making the best products on earth, and to leaving the world better than we found it.",
+        "publishedAt": "2023-01-17T22:13:41Z",
+        "channelId": "UC4mLlRa_dezwvytudo9s1sw",
+        "title": "Touring Colorado's $177 Million Football Facilities! (w/ Travis Hunter)",
+        "description": "Deestroying and Travis Hunter tour Colorado’s new football facilities for the first time! Even had special guest appearances by Shedeur Sanders and more! Deion Sanders hopes to get many recruits to commit to colorado and this is how..\n\nGET YOUR ELEVEN GEAR HERE : https://theeleven.store\n\nSUBSCRIBE TO MY 2ND CHANNEL :\nhttps://www.youtube.com/@moredeestroying692\n\nTHE ELEVEN : https://theeleven.store\n\nFOLLOW ME ON\nTwitter : https://www.twitter.com/deestroying\nIG : https://www.instagram.com/deestroying",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/oMf_i1YBuMk/default.jpg",
+            "url": "https://i.ytimg.com/vi/TkPCdI2aZhQ/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/oMf_i1YBuMk/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/TkPCdI2aZhQ/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/oMf_i1YBuMk/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/TkPCdI2aZhQ/hqdefault.jpg",
             "width": 480,
             "height": 360
           },
           "standard": {
-            "url": "https://i.ytimg.com/vi/oMf_i1YBuMk/sddefault.jpg",
+            "url": "https://i.ytimg.com/vi/TkPCdI2aZhQ/sddefault.jpg",
             "width": 640,
             "height": 480
           },
           "maxres": {
-            "url": "https://i.ytimg.com/vi/oMf_i1YBuMk/maxresdefault.jpg",
+            "url": "https://i.ytimg.com/vi/TkPCdI2aZhQ/maxresdefault.jpg",
             "width": 1280,
             "height": 720
           }
         },
-        "channelTitle": "Apple",
+        "channelTitle": "Deestroying",
         "tags": [
-          "Apple",
-          "HomePod",
-          "home audio",
-          "smart speaker",
-          "Siri",
-          "computational audio",
-          "room sensing",
-          "Spatial Audio",
-          "smart home"
+          "Travis hunter",
+          "Deestroying",
+          "Shedeur sanders",
+          "Deoin sanders",
+          "Colorado university",
+          "Colorado buffs",
+          "Facility tour",
+          "D1",
+          "College visit"
         ],
-        "categoryId": "28",
+        "categoryId": "24",
         "liveBroadcastContent": "none",
         "localized": {
-          "title": "Introducing the all-new HomePod | Apple",
-          "description": "A powerful, high-excursion woofer and beamforming tweeters create room-filling sound. HomePod senses its surroundings and automatically adapts audio for where it’s placed. Advanced computational audio, powered by Apple silicon, optimizes acoustic performance. Spatial Audio directs music with great precision, surrounding you in sound. It all comes together for the ultimate home audio experience. \n\nHomePod also works seamlessly with all your Apple devices. It comes with Siri built in and works as a smart home hub to connect and control your home, privately and securely. Available in Midnight and White.\n\n“GMT (Jamie xx Remix)” by Oliver Sim and Jamie xx https://apple.co/GMT-Remix\n\nLearn more about HomePod: https://apple.co/3iPMmC7\n\n#Apple #HomePod\n\nSpatial Audio works with compatible content in supported apps.\nMusic streaming services may require a subscription.\nSmart home functionality requires a HomeKit- or Matter-enabled accessory. Smart home accessories sold separately.\n\nWelcome to the official Apple YouTube channel. Here you’ll find news about product launches, tutorials, and other great content. Apple’s more than 160,000 employees are dedicated to making the best products on earth, and to leaving the world better than we found it."
+          "title": "Touring Colorado's $177 Million Football Facilities! (w/ Travis Hunter)",
+          "description": "Deestroying and Travis Hunter tour Colorado’s new football facilities for the first time! Even had special guest appearances by Shedeur Sanders and more! Deion Sanders hopes to get many recruits to commit to colorado and this is how..\n\nGET YOUR ELEVEN GEAR HERE : https://theeleven.store\n\nSUBSCRIBE TO MY 2ND CHANNEL :\nhttps://www.youtube.com/@moredeestroying692\n\nTHE ELEVEN : https://theeleven.store\n\nFOLLOW ME ON\nTwitter : https://www.twitter.com/deestroying\nIG : https://www.instagram.com/deestroying"
         },
         "defaultAudioLanguage": "en"
       },
       "contentDetails": {
-        "duration": "PT2M22S",
+        "duration": "PT18M25S",
         "dimension": "2d",
         "definition": "hd",
-        "caption": "true",
+        "caption": "false",
         "licensedContent": true,
         "contentRating": {},
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "2019382",
-        "likeCount": "35725",
-        "favoriteCount": "0"
+        "viewCount": "830309",
+        "likeCount": "28987",
+        "favoriteCount": "0",
+        "commentCount": "1650"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "nN_w2tcgxLZw5LWaR6g5SrDvPI0",
+      "etag": "YX5VKjkdWQyMXdja7mwdo-ga_GU",
       "id": "_I9T4hxmZXU",
       "snippet": {
         "publishedAt": "2023-01-18T07:59:02Z",
@@ -837,89 +1059,188 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1517935",
-        "likeCount": "46845",
+        "viewCount": "1655398",
+        "likeCount": "48987",
         "favoriteCount": "0",
-        "commentCount": "2717"
+        "commentCount": "2820"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "dpQe9kZ3iOt7xP8gxBlqkphKX0g",
-      "id": "XPVC4IyRTG8",
+      "etag": "AkgSRnPv9sHHAcK0UvCoc_hYz0c",
+      "id": "Wj5lcSi5Nrg",
       "snippet": {
-        "publishedAt": "2023-01-18T15:00:18Z",
-        "channelId": "UC7vVhkEfw4nOGp8TyDk7RcQ",
-        "title": "Inside the Lab: Taking Atlas From Sim to Scaffold",
-        "description": "How does Atlas recognize and interact with objects? How do we develop new Atlas behaviors? Why is manipulation important for the future of robotics?\n\nJoin our team in the Atlas lab to discover the answers to these questions and more. Keep reading on our blog: https://www.bostondynamics.com/resources/blog/sick-tricks-and-tricky-grips\n\n00:00: Introduction\n01:57: Perception and Manipulation\n05:11: Electrical Doctors\n06:29: Developing in Simulation\n07:13: \"Sick Trick\"\n08:24: What's Next?\n\n#BostonDynamics #robotics",
+        "publishedAt": "2023-01-18T17:36:40Z",
+        "channelId": "UCUK0HBIBWgM2c4vsPhkYY4w",
+        "title": "Tiniest Exploding Fire Extinguisher at 150,000FPS - The Slow Mo Guys",
+        "description": "How do you use a fire extinguisher when it doesn't have a handle? Blow it up?\nGav and Dan film the explosive fire suppression at 150,000fps.\nInstagram - https://www.instagram.com/theslowmoguys\nFilmed at 150,000FPS with the Phantom TMX7510\nTiniest Exploding Fire Extinguisher at 150,000FPS - The Slow Mo Guys",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/XPVC4IyRTG8/default.jpg",
+            "url": "https://i.ytimg.com/vi/Wj5lcSi5Nrg/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/XPVC4IyRTG8/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/Wj5lcSi5Nrg/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/XPVC4IyRTG8/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/Wj5lcSi5Nrg/hqdefault.jpg",
             "width": 480,
             "height": 360
           },
           "standard": {
-            "url": "https://i.ytimg.com/vi/XPVC4IyRTG8/sddefault.jpg",
+            "url": "https://i.ytimg.com/vi/Wj5lcSi5Nrg/sddefault.jpg",
             "width": 640,
             "height": 480
           },
           "maxres": {
-            "url": "https://i.ytimg.com/vi/XPVC4IyRTG8/maxresdefault.jpg",
+            "url": "https://i.ytimg.com/vi/Wj5lcSi5Nrg/maxresdefault.jpg",
             "width": 1280,
             "height": 720
           }
         },
-        "channelTitle": "Boston Dynamics",
+        "channelTitle": "The Slow Mo Guys",
         "tags": [
-          "boston dynamics",
-          "boston dynamics robot",
-          "boston dynamics atlas",
-          "boston dynamics parkour",
-          "atlas",
-          "atlas robot",
-          "atlas parkour",
-          "partners in parkour",
-          "what's new atlas",
-          "atlas gets a grip",
-          "atlas picks things up"
+          "slomo",
+          "slow",
+          "mo",
+          "super",
+          "motion",
+          "Slow Motion",
+          "1000",
+          "1000fps",
+          "gav",
+          "dan",
+          "slowmoguys",
+          "phantom",
+          "guys",
+          "HD",
+          "flex",
+          "gavin",
+          "free",
+          "gavin free",
+          "high speed camera",
+          "the slow mo guys",
+          "2000",
+          "2000fps",
+          "5000",
+          "5000fps",
+          "tiny",
+          "small",
+          "fire",
+          "extinguisher",
+          "exploding"
         ],
-        "categoryId": "28",
+        "categoryId": "24",
         "liveBroadcastContent": "none",
-        "defaultLanguage": "en",
+        "defaultLanguage": "en-GB",
         "localized": {
-          "title": "Inside the Lab: Taking Atlas From Sim to Scaffold",
-          "description": "How does Atlas recognize and interact with objects? How do we develop new Atlas behaviors? Why is manipulation important for the future of robotics?\n\nJoin our team in the Atlas lab to discover the answers to these questions and more. Keep reading on our blog: https://www.bostondynamics.com/resources/blog/sick-tricks-and-tricky-grips\n\n00:00: Introduction\n01:57: Perception and Manipulation\n05:11: Electrical Doctors\n06:29: Developing in Simulation\n07:13: \"Sick Trick\"\n08:24: What's Next?\n\n#BostonDynamics #robotics"
-        }
+          "title": "Tiniest Exploding Fire Extinguisher at 150,000FPS - The Slow Mo Guys",
+          "description": "How do you use a fire extinguisher when it doesn't have a handle? Blow it up?\nGav and Dan film the explosive fire suppression at 150,000fps.\nInstagram - https://www.instagram.com/theslowmoguys\nFilmed at 150,000FPS with the Phantom TMX7510\nTiniest Exploding Fire Extinguisher at 150,000FPS - The Slow Mo Guys"
+        },
+        "defaultAudioLanguage": "en-GB"
       },
       "contentDetails": {
-        "duration": "PT9M47S",
+        "duration": "PT10M20S",
         "dimension": "2d",
         "definition": "hd",
         "caption": "false",
-        "licensedContent": false,
+        "licensedContent": true,
         "contentRating": {},
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "390574",
-        "likeCount": "18784",
+        "viewCount": "378652",
+        "likeCount": "24720",
         "favoriteCount": "0",
-        "commentCount": "1491"
+        "commentCount": "849"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "p-LobhPUiLRu5jeglt_QsdyRLa0",
+      "etag": "DmZdlq1IBwXkYClPj6R-c1hb_eA",
+      "id": "rcNPgc7hPBI",
+      "snippet": {
+        "publishedAt": "2023-01-18T05:00:16Z",
+        "channelId": "UCaO6TYtlC8U5ttz62hTrZgg",
+        "title": "TWICE Pre-release english track \"MOONLIGHT SUNRISE\" M/V Teaser 2",
+        "description": "TWICE Pre-release english track \"MOONLIGHT SUNRISE\" M/V Teaser 2\n\nTWICE Pre-Release English Single \"MOONLIGHT SUNRISE\"\n\nRelease on 2023.01.20 FRI 2PM KST/0AM EST\n\n📌\"MOONLIGHT SUNRISE\" Digital Pre-Save & Pre-Order\nhttps://TWICE.lnk.to/MoonlightSunrise \n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official Twitter: http://www.twitter.com/JYPETWICE\nTWICE Official TikTok https://www.tiktok.com/@twice_tiktok_...\nTWICE Official Instagram: http://www.instagram.com/TWICETAGRAM\nTWICE Official Homepage: http://TWICE.jype.com\nTWICE Official Fan's: http://fans.jype.com/TWICE\n\nⓒ 2023 JYP Entertainment. All Rights Reserved\n\n#TWICE #MOONLIGHTSUNRISE",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rcNPgc7hPBI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rcNPgc7hPBI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rcNPgc7hPBI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/rcNPgc7hPBI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "JYP Entertainment",
+        "tags": [
+          "JYP Entertainment",
+          "JYP",
+          "TWICE",
+          "트와이스",
+          "MOONLIGHT SUNRISE",
+          "문라이트 썬라이즈",
+          "TWICE MOONLIGHT SUNRISE",
+          "트와이스 문라이트 썬라이즈",
+          "TWICE Pre-Release English Single",
+          "트와이스 영어 선공개곡",
+          "TWICE English Single",
+          "트와이스 영어곡",
+          "TWICE 컴백",
+          "TWICE 신곡",
+          "트와이스 컴백",
+          "트와이스 신곡",
+          "문라이트 선라이즈 티저",
+          "Moonlight Sunrise Teaser",
+          "문라선라 티저",
+          "트와이스 티저",
+          "트와이스 신곡 티저"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "TWICE Pre-release english track \"MOONLIGHT SUNRISE\" M/V Teaser 2",
+          "description": "TWICE Pre-release english track \"MOONLIGHT SUNRISE\" M/V Teaser 2\n\nTWICE Pre-Release English Single \"MOONLIGHT SUNRISE\"\n\nRelease on 2023.01.20 FRI 2PM KST/0AM EST\n\n📌\"MOONLIGHT SUNRISE\" Digital Pre-Save & Pre-Order\nhttps://TWICE.lnk.to/MoonlightSunrise \n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official Twitter: http://www.twitter.com/JYPETWICE\nTWICE Official TikTok https://www.tiktok.com/@twice_tiktok_...\nTWICE Official Instagram: http://www.instagram.com/TWICETAGRAM\nTWICE Official Homepage: http://TWICE.jype.com\nTWICE Official Fan's: http://fans.jype.com/TWICE\n\nⓒ 2023 JYP Entertainment. All Rights Reserved\n\n#TWICE #MOONLIGHTSUNRISE"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT10S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "1804963",
+        "likeCount": "204502",
+        "favoriteCount": "0",
+        "commentCount": "9608"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "Em2pKReLWOTHdrboiuGsopGDxeQ",
       "id": "n5zNdiQEtrQ",
       "snippet": {
         "publishedAt": "2023-01-17T18:47:24Z",
@@ -973,15 +1294,15 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "1765235",
-        "likeCount": "100724",
+        "viewCount": "1820270",
+        "likeCount": "102955",
         "favoriteCount": "0",
-        "commentCount": "2427"
+        "commentCount": "2489"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "f5jCEFa_KSuiHAVPneJMcoFkiBM",
+      "etag": "kmP75as9A3ldfJWM1FDsMvkMNio",
       "id": "pMK85fUN12I",
       "snippet": {
         "publishedAt": "2023-01-17T19:00:27Z",
@@ -1065,904 +1386,15 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "430907",
-        "likeCount": "21196",
+        "viewCount": "456272",
+        "likeCount": "21790",
         "favoriteCount": "0",
-        "commentCount": "1272"
+        "commentCount": "1307"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "E0avwzXYYs5B3W4wE4A8x0Jj68k",
-      "id": "rcNPgc7hPBI",
-      "snippet": {
-        "publishedAt": "2023-01-18T05:00:16Z",
-        "channelId": "UCaO6TYtlC8U5ttz62hTrZgg",
-        "title": "TWICE Pre-release english track \"MOONLIGHT SUNRISE\" M/V Teaser 2",
-        "description": "TWICE Pre-release english track \"MOONLIGHT SUNRISE\" M/V Teaser 2\n\nTWICE Pre-Release English Single \"MOONLIGHT SUNRISE\"\n\nRelease on 2023.01.20 FRI 2PM KST/0AM EST\n\n📌\"MOONLIGHT SUNRISE\" Digital Pre-Save & Pre-Order\nhttps://TWICE.lnk.to/MoonlightSunrise \n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official Twitter: http://www.twitter.com/JYPETWICE\nTWICE Official TikTok https://www.tiktok.com/@twice_tiktok_...\nTWICE Official Instagram: http://www.instagram.com/TWICETAGRAM\nTWICE Official Homepage: http://TWICE.jype.com\nTWICE Official Fan's: http://fans.jype.com/TWICE\n\nⓒ 2023 JYP Entertainment. All Rights Reserved\n\n#TWICE #MOONLIGHTSUNRISE",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/rcNPgc7hPBI/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/rcNPgc7hPBI/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/rcNPgc7hPBI/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/rcNPgc7hPBI/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          }
-        },
-        "channelTitle": "JYP Entertainment",
-        "tags": [
-          "JYP Entertainment",
-          "JYP",
-          "TWICE",
-          "트와이스",
-          "MOONLIGHT SUNRISE",
-          "문라이트 썬라이즈",
-          "TWICE MOONLIGHT SUNRISE",
-          "트와이스 문라이트 썬라이즈",
-          "TWICE Pre-Release English Single",
-          "트와이스 영어 선공개곡",
-          "TWICE English Single",
-          "트와이스 영어곡",
-          "TWICE 컴백",
-          "TWICE 신곡",
-          "트와이스 컴백",
-          "트와이스 신곡",
-          "문라이트 선라이즈 티저",
-          "Moonlight Sunrise Teaser",
-          "문라선라 티저",
-          "트와이스 티저",
-          "트와이스 신곡 티저"
-        ],
-        "categoryId": "10",
-        "liveBroadcastContent": "none",
-        "defaultLanguage": "en",
-        "localized": {
-          "title": "TWICE Pre-release english track \"MOONLIGHT SUNRISE\" M/V Teaser 2",
-          "description": "TWICE Pre-release english track \"MOONLIGHT SUNRISE\" M/V Teaser 2\n\nTWICE Pre-Release English Single \"MOONLIGHT SUNRISE\"\n\nRelease on 2023.01.20 FRI 2PM KST/0AM EST\n\n📌\"MOONLIGHT SUNRISE\" Digital Pre-Save & Pre-Order\nhttps://TWICE.lnk.to/MoonlightSunrise \n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official Twitter: http://www.twitter.com/JYPETWICE\nTWICE Official TikTok https://www.tiktok.com/@twice_tiktok_...\nTWICE Official Instagram: http://www.instagram.com/TWICETAGRAM\nTWICE Official Homepage: http://TWICE.jype.com\nTWICE Official Fan's: http://fans.jype.com/TWICE\n\nⓒ 2023 JYP Entertainment. All Rights Reserved\n\n#TWICE #MOONLIGHTSUNRISE"
-        },
-        "defaultAudioLanguage": "ko"
-      },
-      "contentDetails": {
-        "duration": "PT10S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "false",
-        "licensedContent": true,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "1635124",
-        "likeCount": "196730",
-        "favoriteCount": "0",
-        "commentCount": "9278"
-      }
-    },
-    {
-      "kind": "youtube#video",
-      "etag": "adoNzkCeOglKJ-Pg8FFhmOMpLyk",
-      "id": "KHpMxHOGelo",
-      "snippet": {
-        "publishedAt": "2023-01-18T01:00:08Z",
-        "channelId": "UCDK9qD5DAQML-pzrtA7A4oA",
-        "title": "OFFLINETV'S LAST UNBOXING EVER",
-        "description": "Thank you all as always for the wonderful letters & gifts, we hope you enjoyed this series as much as we did! 😄\nGo to https://buyraycon.com/offlinetv for 15% off your order! Brought to you by Raycon.\n\n-------------------------------------------------------------\n\n👕 Merch & Apparel:\n• OfflineTV - https://offlinetv.com\n\n📸 Follow OfflineTV:\n• Twitter - https://www.twitter.com/OfflineTV\n• Instagram - https://www.instagram.com/OfflineTV\n• TikTok - https://www.tiktok.com/@offlinetv\n• Reddit - https://www.reddit.com/r/offlineTV\n• Patreon - https://www.patreon.com/offlinetv\n\n📝 OfflineTV Roster:\n• Scarra - https://twitter.com/scarra\n• Pokimane - https://twitter.com/pokimanelol\n• LilyPichu - https://twitter.com/LilyPichu\n• Disguised Toast - https://twitter.com/DisguisedToast\n• Michael Reeves - https://twitter.com/michaelreeves\n• QuarterJade - https://twitter.com/QuarterJade\n• Masayoshi - https://twitter.com/ItzMasayoshi\n• Sydeon - https://twitter.com/Sydeon\n• Yvonnie - https://twitter.com/yvonnie\n\n🎥 Producer & Director:\n• Brodin - https://twitter.com/brodinplett\n\n🎞️ Editor:\n• Stevo - https://twitter.com/stevotevo\n\n📋 YT Manager: \n• Dunois - https://twitter.com/DunoisKR\n\n\n\n\n\n#OfflineTV #Unboxing #Subscribe",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/KHpMxHOGelo/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/KHpMxHOGelo/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/KHpMxHOGelo/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/KHpMxHOGelo/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/KHpMxHOGelo/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
-        },
-        "channelTitle": "OfflineTV",
-        "tags": [
-          "OfflineTV",
-          "Scarra",
-          "Poki",
-          "Pokimane",
-          "Lily",
-          "LilyPichu",
-          "DisguisedToast",
-          "Toast",
-          "TwitchTV",
-          "twitch",
-          "Streaming",
-          "Vlog",
-          "Fail",
-          "Epic",
-          "Gamers",
-          "Streamers",
-          "OTV",
-          "Lilypichu Voice",
-          "Pokimane thicc",
-          "OTV Plays",
-          "OfflineTV plays",
-          "Michael Reeves",
-          "Michael",
-          "Reeves"
-        ],
-        "categoryId": "20",
-        "liveBroadcastContent": "none",
-        "localized": {
-          "title": "OFFLINETV'S LAST UNBOXING EVER",
-          "description": "Thank you all as always for the wonderful letters & gifts, we hope you enjoyed this series as much as we did! 😄\nGo to https://buyraycon.com/offlinetv for 15% off your order! Brought to you by Raycon.\n\n-------------------------------------------------------------\n\n👕 Merch & Apparel:\n• OfflineTV - https://offlinetv.com\n\n📸 Follow OfflineTV:\n• Twitter - https://www.twitter.com/OfflineTV\n• Instagram - https://www.instagram.com/OfflineTV\n• TikTok - https://www.tiktok.com/@offlinetv\n• Reddit - https://www.reddit.com/r/offlineTV\n• Patreon - https://www.patreon.com/offlinetv\n\n📝 OfflineTV Roster:\n• Scarra - https://twitter.com/scarra\n• Pokimane - https://twitter.com/pokimanelol\n• LilyPichu - https://twitter.com/LilyPichu\n• Disguised Toast - https://twitter.com/DisguisedToast\n• Michael Reeves - https://twitter.com/michaelreeves\n• QuarterJade - https://twitter.com/QuarterJade\n• Masayoshi - https://twitter.com/ItzMasayoshi\n• Sydeon - https://twitter.com/Sydeon\n• Yvonnie - https://twitter.com/yvonnie\n\n🎥 Producer & Director:\n• Brodin - https://twitter.com/brodinplett\n\n🎞️ Editor:\n• Stevo - https://twitter.com/stevotevo\n\n📋 YT Manager: \n• Dunois - https://twitter.com/DunoisKR\n\n\n\n\n\n#OfflineTV #Unboxing #Subscribe"
-        },
-        "defaultAudioLanguage": "en"
-      },
-      "contentDetails": {
-        "duration": "PT13M28S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "false",
-        "licensedContent": true,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "901170",
-        "likeCount": "64427",
-        "favoriteCount": "0",
-        "commentCount": "2078"
-      }
-    },
-    {
-      "kind": "youtube#video",
-      "etag": "1gqHyjVtiD0NR7t1o_RH3zjH_0w",
-      "id": "gCEeCFlV0IA",
-      "snippet": {
-        "publishedAt": "2023-01-17T15:00:26Z",
-        "channelId": "UC52XYgEExV9VG6Rt-6vnzVA",
-        "title": "Destiny 2: Lightfall | Neomuna Environment Trailer",
-        "description": "A neon metropolis.\n \nTravel to a destination unlike any you've explored in Destiny 2. Cross paths with bone-chilling Tormentors and valiant Cloud Striders, join the fight against the Shadow Legion, and prevent devastation in the technologically advanced secret city of Neomuna.\n\nLearn more: http://bung.ie/lightfall\n\nFOLLOW DESTINY:\nFacebook: https://www.facebook.com/DestinyTheGame\nTwitter: https://www.twitter.com/destinythegame\nInstagram: https://www.instagram.com/destinythegame\nDiscord: http://www.discord.gg/destinygame\n\nFOLLOW BUNGIE:\nFacebook: https://www.facebook.com/Bungie/\nTwitter: https://www.twitter.com/bungie\nInstagram: https://www.instagram.com/bungie/\n⠀ ⠀ ⠀ ⠀\nDive into the free-to-play world of Destiny 2 to experience responsive first-person shooter combat, explore the mysteries of our solar system, and unleash elemental abilities against powerful enemies. Create your Guardian and collect unique weapons, armor, and gear to customize your look and playstyle. Experience Destiny 2’s cinematic story alone or with friends, join other Guardians for challenging co-op missions, or compete against them in a variety of PvP modes.",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/gCEeCFlV0IA/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/gCEeCFlV0IA/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/gCEeCFlV0IA/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/gCEeCFlV0IA/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/gCEeCFlV0IA/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
-        },
-        "channelTitle": "Destiny 2",
-        "tags": ["Destiny"],
-        "categoryId": "20",
-        "liveBroadcastContent": "none",
-        "localized": {
-          "title": "Destiny 2: Lightfall | Neomuna Environment Trailer",
-          "description": "A neon metropolis.\n \nTravel to a destination unlike any you've explored in Destiny 2. Cross paths with bone-chilling Tormentors and valiant Cloud Striders, join the fight against the Shadow Legion, and prevent devastation in the technologically advanced secret city of Neomuna.\n\nLearn more: http://bung.ie/lightfall\n\nFOLLOW DESTINY:\nFacebook: https://www.facebook.com/DestinyTheGame\nTwitter: https://www.twitter.com/destinythegame\nInstagram: https://www.instagram.com/destinythegame\nDiscord: http://www.discord.gg/destinygame\n\nFOLLOW BUNGIE:\nFacebook: https://www.facebook.com/Bungie/\nTwitter: https://www.twitter.com/bungie\nInstagram: https://www.instagram.com/bungie/\n⠀ ⠀ ⠀ ⠀\nDive into the free-to-play world of Destiny 2 to experience responsive first-person shooter combat, explore the mysteries of our solar system, and unleash elemental abilities against powerful enemies. Create your Guardian and collect unique weapons, armor, and gear to customize your look and playstyle. Experience Destiny 2’s cinematic story alone or with friends, join other Guardians for challenging co-op missions, or compete against them in a variety of PvP modes."
-        },
-        "defaultAudioLanguage": "en"
-      },
-      "contentDetails": {
-        "duration": "PT1M40S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "true",
-        "licensedContent": false,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "721035",
-        "likeCount": "26292",
-        "favoriteCount": "0",
-        "commentCount": "2485"
-      }
-    },
-    {
-      "kind": "youtube#video",
-      "etag": "vYM5ioCzYF96PSE9EoDXqFkVzJY",
-      "id": "OpUh77FY0t4",
-      "snippet": {
-        "publishedAt": "2023-01-17T21:45:56Z",
-        "channelId": "UCPJHQ5_DLtxZ1gzBvZE99_g",
-        "title": "This YouTuber hid a secret for 28 years - I spent a day with DANIEL HOWELL",
-        "description": "I spent a day with Dan Howell to learn the truth about coming out and taking a break from YouTube. Sponsors ▸This episode is sponsored by BetterHelp — go to http://betterhelp.com/padilla to get 10% off your first month. ▸ Go to http://rocketmoney.com/padilla to cancel your unnecessary subscriptions now.\n\n🎙THE PODCAST (UNCENSORED)\nSpotify ▸ https://open.spotify.com/show/5aOLuPenneHbhLh05fmkeu  \nApple ▸ https://podcasts.apple.com/us/podcast/i-spent-a-day-with/id1550213250  \n\n💥NEW YOUTOOZ FIGURE: https://youtooz.com/products/anthony-padilla \n\n🧨HUGE thank you to Dan Howell:\nYOUTUBE:https://www.youtube.com/user/danisnotonfire\nTWITTER: https://twitter.com/danielhowell\nINSTAGRAM: https://www.instagram.com/danielhowell/\n \n🗯MORE EPISODES…\n▸ BRANDON ROGERS - https://youtu.be/MofCGZrHxCI\n▸ JACKSEPTICEYE - https://youtu.be/5obktsi8XdI\n▸ LUDWIG - https://youtu.be/tpXLJq3YZyk\n\n🎥Crew\n▸ Creator, Director, Writer, etc. - Anthony Padilla\n▸ Executive Producer - Alessandra Catanese\n▸ Producer, Co-writer & Research - Elise Felber\n▸ Director of Photography/Gaffer - Kathy Sue Holtorf\n▸ Camera Operator - Matthew Faulkner\n▸ Social Media Manager - Mallory Myers\n▸ Editor - Mike Criscimagna AKA Mork Crispy\n▸ Assistant Editor - Patrick Horba\n▸ Assistant Editor - Ash Duckworth\n▸ Assistant Editor - Nikki Blacklock\n▸ Sound Editor - Gareth Hird\n▸ Post PA - Levi Villalpando\n▸ PA - Joshua Dozier\n▸ Thumbnail Artist - Dill Toma\n▸ Captions - Davy Gerichten\n\n🎵Theme Music Composer - Matt Good AKA The King of Emo \n🖼Portrait painted by: Rhianna Robles - https://instagram.com/zerogattsu\n🦥Slade mascot built by: The Pastel Prince - https://youtube.com/channel/UC7wq2U4FF2NyZD1o_P8QP0g \n📺3D animations by: Jacob Dalton - https://twitter.com/jacobdaltonvfx \n\n📢BE ON THE SHOW\n▸ If you are part of an underrepresented subculture or live a lifestyle you feel is not widely understood and would like to be interviewed by me, email inquiry[at]pressalike.com with your subculture in the title of the email.\n\n❗️You dug this deep into the description. You owe it to yourself to subscribe ▶ https://youtube.com/subscription_center?add_user=AnthonyPadilla or get more at http://instagram.com/anthonypadilla & http://twitter.com/anthonypadilla\n\n0:00 INTRODUCTION\n3:21 BULLIED AS A CHILD\n7:50 ON YOUTUBE FOR 13 YEARS\n10:11 “BASICALLY I’M GAY”\n14:44 REFLECTING ON EMOTIONS\n17:20 STRAIGHT FOR 28 YEARS\n19:45 SPONSOR MESSAGE\n21:59 COMPARING NUMBERS TO SELF-WORTH\n23:46 PARASOCIAL RELATIONSHIPS\n24:52 WHAT’S NEXT FOR DAN HOWELL?\n26:59 WE ARE ALL DOOMED\n31:27 BLOOPER",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/OpUh77FY0t4/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/OpUh77FY0t4/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/OpUh77FY0t4/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/OpUh77FY0t4/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/OpUh77FY0t4/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
-        },
-        "channelTitle": "AnthonyPadilla",
-        "tags": ["anthony padilla", "padilla", "anthony", "i spent a day with", "interview"],
-        "categoryId": "27",
-        "liveBroadcastContent": "none",
-        "defaultLanguage": "en",
-        "localized": {
-          "title": "This YouTuber hid a secret for 28 years - I spent a day with DANIEL HOWELL",
-          "description": "I spent a day with Dan Howell to learn the truth about coming out and taking a break from YouTube. Sponsors ▸This episode is sponsored by BetterHelp — go to http://betterhelp.com/padilla to get 10% off your first month. ▸ Go to http://rocketmoney.com/padilla to cancel your unnecessary subscriptions now.\n\n🎙THE PODCAST (UNCENSORED)\nSpotify ▸ https://open.spotify.com/show/5aOLuPenneHbhLh05fmkeu  \nApple ▸ https://podcasts.apple.com/us/podcast/i-spent-a-day-with/id1550213250  \n\n💥NEW YOUTOOZ FIGURE: https://youtooz.com/products/anthony-padilla \n\n🧨HUGE thank you to Dan Howell:\nYOUTUBE:https://www.youtube.com/user/danisnotonfire\nTWITTER: https://twitter.com/danielhowell\nINSTAGRAM: https://www.instagram.com/danielhowell/\n \n🗯MORE EPISODES…\n▸ BRANDON ROGERS - https://youtu.be/MofCGZrHxCI\n▸ JACKSEPTICEYE - https://youtu.be/5obktsi8XdI\n▸ LUDWIG - https://youtu.be/tpXLJq3YZyk\n\n🎥Crew\n▸ Creator, Director, Writer, etc. - Anthony Padilla\n▸ Executive Producer - Alessandra Catanese\n▸ Producer, Co-writer & Research - Elise Felber\n▸ Director of Photography/Gaffer - Kathy Sue Holtorf\n▸ Camera Operator - Matthew Faulkner\n▸ Social Media Manager - Mallory Myers\n▸ Editor - Mike Criscimagna AKA Mork Crispy\n▸ Assistant Editor - Patrick Horba\n▸ Assistant Editor - Ash Duckworth\n▸ Assistant Editor - Nikki Blacklock\n▸ Sound Editor - Gareth Hird\n▸ Post PA - Levi Villalpando\n▸ PA - Joshua Dozier\n▸ Thumbnail Artist - Dill Toma\n▸ Captions - Davy Gerichten\n\n🎵Theme Music Composer - Matt Good AKA The King of Emo \n🖼Portrait painted by: Rhianna Robles - https://instagram.com/zerogattsu\n🦥Slade mascot built by: The Pastel Prince - https://youtube.com/channel/UC7wq2U4FF2NyZD1o_P8QP0g \n📺3D animations by: Jacob Dalton - https://twitter.com/jacobdaltonvfx \n\n📢BE ON THE SHOW\n▸ If you are part of an underrepresented subculture or live a lifestyle you feel is not widely understood and would like to be interviewed by me, email inquiry[at]pressalike.com with your subculture in the title of the email.\n\n❗️You dug this deep into the description. You owe it to yourself to subscribe ▶ https://youtube.com/subscription_center?add_user=AnthonyPadilla or get more at http://instagram.com/anthonypadilla & http://twitter.com/anthonypadilla\n\n0:00 INTRODUCTION\n3:21 BULLIED AS A CHILD\n7:50 ON YOUTUBE FOR 13 YEARS\n10:11 “BASICALLY I’M GAY”\n14:44 REFLECTING ON EMOTIONS\n17:20 STRAIGHT FOR 28 YEARS\n19:45 SPONSOR MESSAGE\n21:59 COMPARING NUMBERS TO SELF-WORTH\n23:46 PARASOCIAL RELATIONSHIPS\n24:52 WHAT’S NEXT FOR DAN HOWELL?\n26:59 WE ARE ALL DOOMED\n31:27 BLOOPER"
-        },
-        "defaultAudioLanguage": "en"
-      },
-      "contentDetails": {
-        "duration": "PT32M11S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "false",
-        "licensedContent": true,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "484355",
-        "likeCount": "44107",
-        "favoriteCount": "0",
-        "commentCount": "1630"
-      }
-    },
-    {
-      "kind": "youtube#video",
-      "etag": "1TRillsQH36zT18NQom1aT-JufA",
-      "id": "XftJTSLyMNE",
-      "snippet": {
-        "publishedAt": "2023-01-17T20:30:03Z",
-        "channelId": "UCsvn_Po0SmunchJYOWpOxMg",
-        "title": "The Stanley's Parable",
-        "description": "\"Shut up Michael, I'm only working here for the pretzel day\" - Stanley Parable.\n\ndonkey store https://dunkeyscastle.com/\ndonkey publishing company https://twitter.com/BIGMODEgames",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/XftJTSLyMNE/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/XftJTSLyMNE/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/XftJTSLyMNE/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/XftJTSLyMNE/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/XftJTSLyMNE/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
-        },
-        "channelTitle": "videogamedunkey",
-        "tags": [
-          "stanley parable",
-          "dunkey",
-          "videogamedunkey",
-          "dunkey stanley parable",
-          "the stanly parable",
-          "the stanley parable",
-          "stanley parable ultra deluxe",
-          "stanley parable 2"
-        ],
-        "categoryId": "20",
-        "liveBroadcastContent": "none",
-        "localized": {
-          "title": "The Stanley's Parable",
-          "description": "\"Shut up Michael, I'm only working here for the pretzel day\" - Stanley Parable.\n\ndonkey store https://dunkeyscastle.com/\ndonkey publishing company https://twitter.com/BIGMODEgames"
-        },
-        "defaultAudioLanguage": "en"
-      },
-      "contentDetails": {
-        "duration": "PT8M43S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "false",
-        "licensedContent": true,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "1596285",
-        "likeCount": "101382",
-        "favoriteCount": "0",
-        "commentCount": "2262"
-      }
-    },
-    {
-      "kind": "youtube#video",
-      "etag": "0fnwya4p63VP3fo3zvfZj58GoFs",
-      "id": "NRNfPcgFtVc",
-      "snippet": {
-        "publishedAt": "2023-01-18T00:00:07Z",
-        "channelId": "UCYbvqjljebwzWVdTb9Fetiw",
-        "title": "Trinidad James Talks Kanye, TIG, Def Jam, Painted Nails, Stage Fight",
-        "description": "Nicholaus Joseph Williams, better known by his stage name Trinidad James is a Trinidadian-American rapper. In 2012, he signed a recording contract with Def Jam Recordings. The label dropped him in 2014 when he failed to release an album, although he continues to release music as an independent artist and is signed to Artist Publishing Group for songwriting.  \n\nIn this interview Marco starts off by asking who does Trinidad want to be? The interview starts very awkwardly as Trinidad has a bear mask on. Trinidad challenges Marco and says Marco brought him on the show to exploit him. The tables are turned as Trinidad seems to be trolling Marco and has him on his toes. Marco asks Trinidad to remove his mask and Trinidad asks Marco to tie his tie and in exchange Trinidad takes the tie and puts it on. Trinidad takes off his mask to reveal his face with one eyed made up. Marco gets into the interview asking why Trinidad hasn’t made any new music. Trinidad reveals that he wanted to know what the business of entertainment was about. Trinidad talks about his relationships with record labels. Trinidad goes deeper into relationships. Trinidad then goes into his various products and the meaning behind them. Trinidad asks Marco what he thinks about him. Trinidad and Marco go back and forth about the word ugly. The conversation speeds up and the two go back and forth. Marco’s phone goes off and Marco blames it on Matt the Producer. Matt the Producer enters and Trinidad and Matt get into a discussion that gets a little tense. Trinidad and Marco continue the interview. Marco asks Trinidad about his hair. Matt the Producer tells Trinidad to get out of Marco’s creative space. A lady enters from the backstage and Trinidad yells at the lady and Marco invites her on stage. She awkwardly exits and Marco attempts to end the interview as Marco exits while talking to Matt the Producer and the mics are hot. Trinidad throws his chair and goes under the ladder and Matt the Producer holds exception.\n\nExecutive Producers for Breakbeat: Dave Mays & Brett Jeffries\n                                                                                                                                                                                          \nExecutive Producers: Marco Summers & Harvey Sutton\n \nDirector: Matt Ables  IG @mattablespromotions\n\nFilmed on location at 4U Recording, Atlanta\n \nIG @Breakbeatmedia @FunnyMarco\n\nComment, like and subscribe on the Breakbeat Media YouTube page, subscribe on Apple, Spotify or wherever podcasts are available, and visit us at www.breakbeatmedia.com",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/NRNfPcgFtVc/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/NRNfPcgFtVc/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/NRNfPcgFtVc/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/NRNfPcgFtVc/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/NRNfPcgFtVc/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
-        },
-        "channelTitle": "Breakbeat Media",
-        "categoryId": "24",
-        "liveBroadcastContent": "none",
-        "localized": {
-          "title": "Trinidad James Talks Kanye, TIG, Def Jam, Painted Nails, Stage Fight",
-          "description": "Nicholaus Joseph Williams, better known by his stage name Trinidad James is a Trinidadian-American rapper. In 2012, he signed a recording contract with Def Jam Recordings. The label dropped him in 2014 when he failed to release an album, although he continues to release music as an independent artist and is signed to Artist Publishing Group for songwriting.  \n\nIn this interview Marco starts off by asking who does Trinidad want to be? The interview starts very awkwardly as Trinidad has a bear mask on. Trinidad challenges Marco and says Marco brought him on the show to exploit him. The tables are turned as Trinidad seems to be trolling Marco and has him on his toes. Marco asks Trinidad to remove his mask and Trinidad asks Marco to tie his tie and in exchange Trinidad takes the tie and puts it on. Trinidad takes off his mask to reveal his face with one eyed made up. Marco gets into the interview asking why Trinidad hasn’t made any new music. Trinidad reveals that he wanted to know what the business of entertainment was about. Trinidad talks about his relationships with record labels. Trinidad goes deeper into relationships. Trinidad then goes into his various products and the meaning behind them. Trinidad asks Marco what he thinks about him. Trinidad and Marco go back and forth about the word ugly. The conversation speeds up and the two go back and forth. Marco’s phone goes off and Marco blames it on Matt the Producer. Matt the Producer enters and Trinidad and Matt get into a discussion that gets a little tense. Trinidad and Marco continue the interview. Marco asks Trinidad about his hair. Matt the Producer tells Trinidad to get out of Marco’s creative space. A lady enters from the backstage and Trinidad yells at the lady and Marco invites her on stage. She awkwardly exits and Marco attempts to end the interview as Marco exits while talking to Matt the Producer and the mics are hot. Trinidad throws his chair and goes under the ladder and Matt the Producer holds exception.\n\nExecutive Producers for Breakbeat: Dave Mays & Brett Jeffries\n                                                                                                                                                                                          \nExecutive Producers: Marco Summers & Harvey Sutton\n \nDirector: Matt Ables  IG @mattablespromotions\n\nFilmed on location at 4U Recording, Atlanta\n \nIG @Breakbeatmedia @FunnyMarco\n\nComment, like and subscribe on the Breakbeat Media YouTube page, subscribe on Apple, Spotify or wherever podcasts are available, and visit us at www.breakbeatmedia.com"
-        }
-      },
-      "contentDetails": {
-        "duration": "PT24M15S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "false",
-        "licensedContent": true,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "347590",
-        "likeCount": "7131",
-        "favoriteCount": "0",
-        "commentCount": "1126"
-      }
-    },
-    {
-      "kind": "youtube#video",
-      "etag": "MHU35ZP1sgh-NuNVHMdk9Kyg1ZA",
-      "id": "ByJafdBwmBI",
-      "snippet": {
-        "publishedAt": "2023-01-17T02:23:11Z",
-        "channelId": "UCT2X19JJaJGUN7mrYuImANQ",
-        "title": "Keren Montero | Shy Singer SHOCKS The Judges With Her BIG Voice! | AGT: All-Stars 2023",
-        "description": "16-year-old Keren Montero has a voice that will blow you away! Watch as Keren sings \"Rescue\" by Lauren Daigle. \n\n» Get The America's Got Talent App: http://bit.ly/AGTAppDownload\n» Subscribe for More: http://bit.ly/AGTSub\n» Watch on NBC & Peacock: https://pck.tv/3cCQGhH\n\nAMERICA'S GOT TALENT ON SOCIAL\nLike AGT: https://www.facebook.com/agt\nFollow AGT: https://twitter.com/agt\nAGT Instagram: http://instagram.com/agt\n\nFind America's Got Talent trailers, full episode highlights, previews, promos, clips, and digital exclusives here.\n\nNBC ON SOCIAL:\nYouTube: http://www.youtube.com/nbc\nTwitter: http://Twitter.com/NBC\nFacebook: http://Facebook.com/NBC\nInstagram: http://instagram.com/nbc\n\nKeren Montero | Shy Singer SHOCKS The Judges With Her BIG Voice! | AGT: All-Stars 2023\nhttps://youtu.be/ByJafdBwmBI\n\nAmerica's Got Talent\nhttp://www.youtube.com/user/americasgottalent\n#AGT #AmericasGotTalent #AGTAllStars",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/ByJafdBwmBI/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/ByJafdBwmBI/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/ByJafdBwmBI/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/ByJafdBwmBI/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/ByJafdBwmBI/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
-        },
-        "channelTitle": "America's Got Talent",
-        "tags": [
-          "AGT",
-          "America's Got Talent",
-          "Sofia Vergara",
-          "Simon Cowell",
-          "Howie Mandel",
-          "Heidi Klum",
-          "Terry Crews",
-          "Keren Montero",
-          "Keren Montero AGT",
-          "Keren Montero America's Got Talent",
-          "Keren Montero AGT Allstars",
-          "Keren Montero 2023",
-          "AGT Rescue",
-          "Rescue",
-          "by",
-          "Lauren",
-          "Daigle",
-          "Rescue",
-          "covers",
-          "Rescue Lauren Daigle Cover",
-          "Teen Singers",
-          "Teen Singer",
-          "Shocking Voices",
-          "Surprising Singers",
-          "Shy Singer Big Voice",
-          "Shy Singer"
-        ],
-        "categoryId": "24",
-        "liveBroadcastContent": "none",
-        "localized": {
-          "title": "Keren Montero | Shy Singer SHOCKS The Judges With Her BIG Voice! | AGT: All-Stars 2023",
-          "description": "16-year-old Keren Montero has a voice that will blow you away! Watch as Keren sings \"Rescue\" by Lauren Daigle. \n\n» Get The America's Got Talent App: http://bit.ly/AGTAppDownload\n» Subscribe for More: http://bit.ly/AGTSub\n» Watch on NBC & Peacock: https://pck.tv/3cCQGhH\n\nAMERICA'S GOT TALENT ON SOCIAL\nLike AGT: https://www.facebook.com/agt\nFollow AGT: https://twitter.com/agt\nAGT Instagram: http://instagram.com/agt\n\nFind America's Got Talent trailers, full episode highlights, previews, promos, clips, and digital exclusives here.\n\nNBC ON SOCIAL:\nYouTube: http://www.youtube.com/nbc\nTwitter: http://Twitter.com/NBC\nFacebook: http://Facebook.com/NBC\nInstagram: http://instagram.com/nbc\n\nKeren Montero | Shy Singer SHOCKS The Judges With Her BIG Voice! | AGT: All-Stars 2023\nhttps://youtu.be/ByJafdBwmBI\n\nAmerica's Got Talent\nhttp://www.youtube.com/user/americasgottalent\n#AGT #AmericasGotTalent #AGTAllStars"
-        },
-        "defaultAudioLanguage": "en-US"
-      },
-      "contentDetails": {
-        "duration": "PT6M9S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "true",
-        "licensedContent": true,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "2651593",
-        "likeCount": "37967",
-        "favoriteCount": "0",
-        "commentCount": "2481"
-      }
-    },
-    {
-      "kind": "youtube#video",
-      "etag": "bkxnCnfk5oyvvwtuPpkr4Ycb90k",
-      "id": "viP5CvCvoec",
-      "snippet": {
-        "publishedAt": "2023-01-18T05:01:12Z",
-        "channelId": "UCz4qHgsY_BtJtTngBI-zQkg",
-        "title": "Gloss Up - BestFrenn (feat. GloRilla)",
-        "description": "#NowPlaying Gloss Up - BestFrenn (feat. Glorilla)\nDirected By: Diesel Filmz\n\nStream & Download \" BestFrenn\" here: \nhttps://presave.umusic.com/gloss-up-glorilla-bestfrenn-pre-sav\n\nConnect With Gloss Up:\nInstagram: https://www.instagram.com/glittergirl...\nTwitter: https://twitter.com/GlitterGirlGlos \nTikTok: https://vm.tiktok.com/ZMJajXSKV/",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/viP5CvCvoec/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/viP5CvCvoec/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/viP5CvCvoec/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/viP5CvCvoec/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/viP5CvCvoec/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
-        },
-        "channelTitle": "Gloss Up",
-        "tags": [
-          "Gloss up",
-          "Glittergloss",
-          "Qc the label",
-          "Memphis",
-          "Glorilla",
-          "Shabooya",
-          "Cmg",
-          "Fnf",
-          "Tomorrow",
-          "City girls",
-          "Lil baby",
-          "Atlanta",
-          "Migos",
-          "Female rap"
-        ],
-        "categoryId": "10",
-        "liveBroadcastContent": "none",
-        "localized": {
-          "title": "Gloss Up - BestFrenn (feat. GloRilla)",
-          "description": "#NowPlaying Gloss Up - BestFrenn (feat. Glorilla)\nDirected By: Diesel Filmz\n\nStream & Download \" BestFrenn\" here: \nhttps://presave.umusic.com/gloss-up-glorilla-bestfrenn-pre-sav\n\nConnect With Gloss Up:\nInstagram: https://www.instagram.com/glittergirl...\nTwitter: https://twitter.com/GlitterGirlGlos \nTikTok: https://vm.tiktok.com/ZMJajXSKV/"
-        }
-      },
-      "contentDetails": {
-        "duration": "PT2M23S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "false",
-        "licensedContent": false,
-        "regionRestriction": {
-          "blocked": ["BY", "RU"]
-        },
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "174447",
-        "likeCount": "14336",
-        "favoriteCount": "0",
-        "commentCount": "902"
-      }
-    },
-    {
-      "kind": "youtube#video",
-      "etag": "AzqfcFghsmGEKt98ZXeBQ3uOWDI",
-      "id": "alvFhaKwlq0",
-      "snippet": {
-        "publishedAt": "2023-01-16T20:00:01Z",
-        "channelId": "UCtNdVINwfYFTQEEZgMiQ8FA",
-        "title": "Dr Butcher Brown - Doin the lords work or a complete PSYCHO?!  |  Mystery & Makeup - Bailey Sarian",
-        "description": "Hi friends! How are you today? \nLook, I’m all about following your passions in life. But John Ronald Brown perhaps, took that too far. Today’s story is very graphic, but also I want to know what you think. Was he a good doctor, a butcher, or both?  Let me know down in the comment section. \nAlso, let me know who you want me to talk about next time! Hope you have a wonderful rest of your week, you make good choices and I'll be seeing you very soon\nxo\nBailey Sarian\n\n#truecrime #storytime #makeup \n________\n\n\n:  :    F O L L O W    M E     :  :\n\nDiscord : http://discord.gg/baileysarian\nTik Tok : BaileySarian\nInstagram : http://bit.ly/2nbO4PR\nFacebook : http://bit.ly/2mdZtK6\nTwitter : http://bit.ly/2yT4BLV\nPinterest : http://bit.ly/2mVpXnY\nYoutube : http://bit.ly/1HGw3Og\nSnapchat : BaileySarian \n\n\nRECOMMEND A STORY HERE : cases4bailey@gmail.com \n\n\nBusiness Related Emails : Baileysarianteam@wmeagency.com\n\n\nWanna Send Me Something?\nBailey Sarian\n4400 W Riverside Dr Ste 110-300,\nBurbank, CA 91505\n\n\nWant some cool Bailey Merch? \nShop Merch Here : https://www.baileysarian.com\n\n_________\n\n:  :    P R O D U C T S     U S E D    :  :\n\nFACE\nToo Faced Born This Way Concealer “Nude” (Used as Foundation)\nhttps://shop-links.co/ciVcntzR6GZ\n\nTarte Shape Tape Concealer “Fair Neutral”\nhttps://shop-links.co/ciVcns4VItB\n\nJouer Concealer “Wheat”\nhttps://shop-links.co/ciVcnsunBYL\n\nBen Nye Neutral Set Colorless Powder\nhttps://shop-links.co/ciVcnsEBzyW\n\nScott Barnes Contour Palette\nhttps://shop-links.co/ciVcns2X0YL\n\nDior Backstage Blush “Rosy Glow”\nhttps://shop-links.co/ciVcntjNTGE\n\nCharlotte Tilbury Hollywood Glow Guide Highlighter “Moonlit Glow”\nhttps://shop-links.co/ciVcnsszr6n\n\nL’Oreal Infallible Foundation in a Powder Shade #10\nhttps://shop-links.co/ciVcnuhyK0m\n\n\nBROWS\nJecca Blac Brow Seal\nhttps://shop-links.co/ciVcnuA1dBO\n\nMakeup Forever Brow Pencil “Dark Brown”\nhttps://shop-links.co/ciVcnuC1TQm\n\n\nEYES\nP. Louise Base “Rumour 02”\nhttps://shop-links.co/ciVcnutAgNJ\n\nHuda Beauty Sapphire Obsessions Eyeshadow Palette\nhttps://shop-links.co/ciVcnuyfUde\n\nMelt Cosmetics Gel Liner “Steel”\nhttps://shop-links.co/ciVcnuHWKle\n\n“Endless Silky Eye Pen” Pixi by Petra-Black\nhttps://shop-links.co/ciVcnuG3Dxo\n\nAbout Face Matte Fluid Eye Paint “Vertigo Flowers”\nhttps://shop-links.co/ciVcnufVEtu\n\nNatasha Denona Metropolis Palette\nhttps://shop-links.co/ciVcnutvHPy\n\nMake Up Forever Smoky Lash Mascara\nhttps://shop-links.co/ciVcnuuvfXm\n\nKiss x Meredith Duxbury “Drunk in Love” Lashes \nhttps://shop-links.co/ciVcnuzIMCl\n\n\nLIPS\nUrban Decay Lip Liner “1993”\nhttps://shop-links.co/ciVcnutCR7R\n\nCharlotte Tilbury Lipstick “Kim KW”\nhttps://shop-links.co/ciVcnum12Yv\n\nColorpop Lux Lip Oil “Under the Stars”\nhttps://shop-links.co/ciVcpMcgYOg\n\n\n♡ \n*These links are affiliate links. Which means, if you click on the link and purchase a product, a small percentage comes back to me. It helps me keep on keepin on with my videos, and I appreciate you if you choose to support. If you don’t, that’s ok too.",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/alvFhaKwlq0/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/alvFhaKwlq0/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/alvFhaKwlq0/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/alvFhaKwlq0/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          }
-        },
-        "channelTitle": "Bailey Sarian",
-        "tags": [
-          "Bailey sarian",
-          "youtube bailey sarian",
-          "bailey sarian youtube",
-          "youtube bailey",
-          "bailey",
-          "sarian",
-          "mystery makeup monday",
-          "monday mystery makeup",
-          "mystery makeup",
-          "mystery makeup mondays",
-          "makeup artist",
-          "new makeup tutorial",
-          "flawless makeup",
-          "makeup and story time",
-          "makeup story time",
-          "story time and makeup",
-          "story time",
-          "grwm",
-          "grwm and makeup",
-          "get ready with me and makeup",
-          "makeup grwm",
-          "flawless foundation",
-          "mystery monday",
-          "mystery",
-          "monday story time",
-          "dark history",
-          "history story",
-          "hilarious"
-        ],
-        "categoryId": "24",
-        "liveBroadcastContent": "none",
-        "defaultLanguage": "en",
-        "localized": {
-          "title": "Dr Butcher Brown - Doin the lords work or a complete PSYCHO?!  |  Mystery & Makeup - Bailey Sarian",
-          "description": "Hi friends! How are you today? \nLook, I’m all about following your passions in life. But John Ronald Brown perhaps, took that too far. Today’s story is very graphic, but also I want to know what you think. Was he a good doctor, a butcher, or both?  Let me know down in the comment section. \nAlso, let me know who you want me to talk about next time! Hope you have a wonderful rest of your week, you make good choices and I'll be seeing you very soon\nxo\nBailey Sarian\n\n#truecrime #storytime #makeup \n________\n\n\n:  :    F O L L O W    M E     :  :\n\nDiscord : http://discord.gg/baileysarian\nTik Tok : BaileySarian\nInstagram : http://bit.ly/2nbO4PR\nFacebook : http://bit.ly/2mdZtK6\nTwitter : http://bit.ly/2yT4BLV\nPinterest : http://bit.ly/2mVpXnY\nYoutube : http://bit.ly/1HGw3Og\nSnapchat : BaileySarian \n\n\nRECOMMEND A STORY HERE : cases4bailey@gmail.com \n\n\nBusiness Related Emails : Baileysarianteam@wmeagency.com\n\n\nWanna Send Me Something?\nBailey Sarian\n4400 W Riverside Dr Ste 110-300,\nBurbank, CA 91505\n\n\nWant some cool Bailey Merch? \nShop Merch Here : https://www.baileysarian.com\n\n_________\n\n:  :    P R O D U C T S     U S E D    :  :\n\nFACE\nToo Faced Born This Way Concealer “Nude” (Used as Foundation)\nhttps://shop-links.co/ciVcntzR6GZ\n\nTarte Shape Tape Concealer “Fair Neutral”\nhttps://shop-links.co/ciVcns4VItB\n\nJouer Concealer “Wheat”\nhttps://shop-links.co/ciVcnsunBYL\n\nBen Nye Neutral Set Colorless Powder\nhttps://shop-links.co/ciVcnsEBzyW\n\nScott Barnes Contour Palette\nhttps://shop-links.co/ciVcns2X0YL\n\nDior Backstage Blush “Rosy Glow”\nhttps://shop-links.co/ciVcntjNTGE\n\nCharlotte Tilbury Hollywood Glow Guide Highlighter “Moonlit Glow”\nhttps://shop-links.co/ciVcnsszr6n\n\nL’Oreal Infallible Foundation in a Powder Shade #10\nhttps://shop-links.co/ciVcnuhyK0m\n\n\nBROWS\nJecca Blac Brow Seal\nhttps://shop-links.co/ciVcnuA1dBO\n\nMakeup Forever Brow Pencil “Dark Brown”\nhttps://shop-links.co/ciVcnuC1TQm\n\n\nEYES\nP. Louise Base “Rumour 02”\nhttps://shop-links.co/ciVcnutAgNJ\n\nHuda Beauty Sapphire Obsessions Eyeshadow Palette\nhttps://shop-links.co/ciVcnuyfUde\n\nMelt Cosmetics Gel Liner “Steel”\nhttps://shop-links.co/ciVcnuHWKle\n\n“Endless Silky Eye Pen” Pixi by Petra-Black\nhttps://shop-links.co/ciVcnuG3Dxo\n\nAbout Face Matte Fluid Eye Paint “Vertigo Flowers”\nhttps://shop-links.co/ciVcnufVEtu\n\nNatasha Denona Metropolis Palette\nhttps://shop-links.co/ciVcnutvHPy\n\nMake Up Forever Smoky Lash Mascara\nhttps://shop-links.co/ciVcnuuvfXm\n\nKiss x Meredith Duxbury “Drunk in Love” Lashes \nhttps://shop-links.co/ciVcnuzIMCl\n\n\nLIPS\nUrban Decay Lip Liner “1993”\nhttps://shop-links.co/ciVcnutCR7R\n\nCharlotte Tilbury Lipstick “Kim KW”\nhttps://shop-links.co/ciVcnum12Yv\n\nColorpop Lux Lip Oil “Under the Stars”\nhttps://shop-links.co/ciVcpMcgYOg\n\n\n♡ \n*These links are affiliate links. Which means, if you click on the link and purchase a product, a small percentage comes back to me. It helps me keep on keepin on with my videos, and I appreciate you if you choose to support. If you don’t, that’s ok too."
-        },
-        "defaultAudioLanguage": "en"
-      },
-      "contentDetails": {
-        "duration": "PT1H21S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "false",
-        "licensedContent": true,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "1079440",
-        "likeCount": "54061",
-        "favoriteCount": "0",
-        "commentCount": "4314"
-      }
-    },
-    {
-      "kind": "youtube#video",
-      "etag": "k4dG2U35G6NlODdb0xkMEfiWTp0",
-      "id": "qNerIhdqSjI",
-      "snippet": {
-        "publishedAt": "2023-01-17T16:45:40Z",
-        "channelId": "UCLXzq85ijg2LwJWFrz4pkmw",
-        "title": "Cowboys eliminate Tom Brady, Bucs for first road playoff win since 1992 | NFL | UNDISPUTED",
-        "description": "Dak Prescott had his best playoff game of his career last night in the 31-14 win over the Tampa Bay Buccaneers as the Dallas Cowboys easily covered as road favorites. Dak threw for over 300 yards, 24 rushing yards and five total touchdowns. Tom Brady finished with 351 passing yards on 66 attempts, the second most in a playoff game, two touchdowns and a red-zone interception. Skip Bayless and Shannon Sharpe discuss the biggest reason America's Team won.\n\n#Undisputed #NFL #Cowboys\n\nDownload the free-to-play FOX Bet Super 6 app: https://foxs.pt/3z96p0j\n\nSUBSCRIBE to get the latest UNDISPUTED content: http://foxs.pt/SubscribeUNDISPUTED\nListen to UNDISPUTED on Spotify: https://foxs.pt/UNDISPUTEDSpotify\nThe all-new FOX Sports App, built for the modern sports fan: https://tinyurl.com/y4uouolb\n\n► Watch the latest content from UNDISPUTED: https://foxs.pt/TheLatestOnUNDISPUTED\n\n▶ First Things First's YouTube channel: http://foxs.pt/SubscribeFIRSTTHINGSFIRST\n▶ The Herd with Colin Cowherd’s YouTube channel: http://foxs.pt/SubscribeTHEHERD\n► SPEAK's YouTube channel: http://sprtspod.fox/SUBSCRIBEtoSpeak\n► FOX Bet Live’s YouTube channel: https://foxs.pt/SubscribeFOXBETLIVE\n► Club Shay Shay’s YouTube channel: http://foxs.pt/SubscribeCLUBSHAYSHAY\n► The Skip Bayless Show YouTube channel: http://sprtspod.fox/SUBSCRIBESkipShow\n► What's Wright? with Nick Wright YouTube channel: http://sprtspod.fox/whatswright/youtube\n▶ The Carton Show’s YouTube channel: http://sprtspod.fox/SubscribeCartonShow\n\nSee more from UNDISPUTED: http://foxs.pt/UNDISPUTEDFoxSports\nLike UNDISPUTED on Facebook: http://foxs.pt/UNDISPUTEDFacebook\nFollow UNDISPUTED on Twitter: http://foxs.pt/UNDISPUTEDTwitter\nFollow UNDISPUTED on Instagram: http://foxs.pt/UNDISPUTEDInstagram\nFollow UNDISPUTED on TikTok: https://www.tiktok.com/@undisputedonfs1?lang=en\n\nFollow Skip Bayless on Twitter: http://foxs.pt/SkipBaylessTwitter\nFollow Shannon Sharpe on Twitter: http://foxs.pt/ShannonSharpeTwitter\n\nAbout Skip and Shannon: UNDISPUTED:\nUNDISPUTED is a daily two-and-a-half hour sports debate show starring Skip Bayless and Shannon Sharpe. Every day, Skip and Shannon will give their unfiltered, incisive, passionate opinions on the biggest sports topics of the day.\n\nCowboys eliminate Tom Brady, Bucs for first road playoff win since 1992 | NFL | UNDISPUTED\nhttps://youtu.be/qNerIhdqSjI\n\nSkip and Shannon: UNDISPUTED\nhttps://www.youtube.com/c/UndisputedOnFS1",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/qNerIhdqSjI/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/qNerIhdqSjI/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/qNerIhdqSjI/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/qNerIhdqSjI/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/qNerIhdqSjI/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
-        },
-        "channelTitle": "Skip and Shannon: UNDISPUTED",
-        "tags": [
-          "fs1",
-          "undisputed",
-          "nfl",
-          "football",
-          "dallas cowboys",
-          "tampa bay bucs",
-          "dak prescott",
-          "tom brady",
-          "super wild card round weekend",
-          "playoffs",
-          "Dak Prescott",
-          "San Francisco",
-          "Tom Brady",
-          "goat",
-          "Super Bowl",
-          "QBR",
-          "incompletion",
-          "Wild Card",
-          "NFL",
-          "NFL news",
-          "Cowboys",
-          "contenders",
-          "playoff schedule",
-          "lopsided",
-          "debate",
-          "discussion",
-          "T. Y. Hilton",
-          "Chris Godwin",
-          "LeBron James",
-          "Houston",
-          "Lakers",
-          "Ezekiel Elliott",
-          "fullback",
-          "halfback",
-          "Tony Pollard",
-          "Christian McCaffrey",
-          "fast",
-          "speed",
-          "greatness"
-        ],
-        "categoryId": "17",
-        "liveBroadcastContent": "none",
-        "localized": {
-          "title": "Cowboys eliminate Tom Brady, Bucs for first road playoff win since 1992 | NFL | UNDISPUTED",
-          "description": "Dak Prescott had his best playoff game of his career last night in the 31-14 win over the Tampa Bay Buccaneers as the Dallas Cowboys easily covered as road favorites. Dak threw for over 300 yards, 24 rushing yards and five total touchdowns. Tom Brady finished with 351 passing yards on 66 attempts, the second most in a playoff game, two touchdowns and a red-zone interception. Skip Bayless and Shannon Sharpe discuss the biggest reason America's Team won.\n\n#Undisputed #NFL #Cowboys\n\nDownload the free-to-play FOX Bet Super 6 app: https://foxs.pt/3z96p0j\n\nSUBSCRIBE to get the latest UNDISPUTED content: http://foxs.pt/SubscribeUNDISPUTED\nListen to UNDISPUTED on Spotify: https://foxs.pt/UNDISPUTEDSpotify\nThe all-new FOX Sports App, built for the modern sports fan: https://tinyurl.com/y4uouolb\n\n► Watch the latest content from UNDISPUTED: https://foxs.pt/TheLatestOnUNDISPUTED\n\n▶ First Things First's YouTube channel: http://foxs.pt/SubscribeFIRSTTHINGSFIRST\n▶ The Herd with Colin Cowherd’s YouTube channel: http://foxs.pt/SubscribeTHEHERD\n► SPEAK's YouTube channel: http://sprtspod.fox/SUBSCRIBEtoSpeak\n► FOX Bet Live’s YouTube channel: https://foxs.pt/SubscribeFOXBETLIVE\n► Club Shay Shay’s YouTube channel: http://foxs.pt/SubscribeCLUBSHAYSHAY\n► The Skip Bayless Show YouTube channel: http://sprtspod.fox/SUBSCRIBESkipShow\n► What's Wright? with Nick Wright YouTube channel: http://sprtspod.fox/whatswright/youtube\n▶ The Carton Show’s YouTube channel: http://sprtspod.fox/SubscribeCartonShow\n\nSee more from UNDISPUTED: http://foxs.pt/UNDISPUTEDFoxSports\nLike UNDISPUTED on Facebook: http://foxs.pt/UNDISPUTEDFacebook\nFollow UNDISPUTED on Twitter: http://foxs.pt/UNDISPUTEDTwitter\nFollow UNDISPUTED on Instagram: http://foxs.pt/UNDISPUTEDInstagram\nFollow UNDISPUTED on TikTok: https://www.tiktok.com/@undisputedonfs1?lang=en\n\nFollow Skip Bayless on Twitter: http://foxs.pt/SkipBaylessTwitter\nFollow Shannon Sharpe on Twitter: http://foxs.pt/ShannonSharpeTwitter\n\nAbout Skip and Shannon: UNDISPUTED:\nUNDISPUTED is a daily two-and-a-half hour sports debate show starring Skip Bayless and Shannon Sharpe. Every day, Skip and Shannon will give their unfiltered, incisive, passionate opinions on the biggest sports topics of the day.\n\nCowboys eliminate Tom Brady, Bucs for first road playoff win since 1992 | NFL | UNDISPUTED\nhttps://youtu.be/qNerIhdqSjI\n\nSkip and Shannon: UNDISPUTED\nhttps://www.youtube.com/c/UndisputedOnFS1"
-        }
-      },
-      "contentDetails": {
-        "duration": "PT18M1S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "false",
-        "licensedContent": true,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "716073",
-        "likeCount": "9548",
-        "favoriteCount": "0",
-        "commentCount": "1989"
-      }
-    },
-    {
-      "kind": "youtube#video",
-      "etag": "esK9a6LpiKM4LbGsJlqXU6UII1s",
-      "id": "6Ij9PiehENA",
-      "snippet": {
-        "publishedAt": "2023-01-17T14:21:22Z",
-        "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
-        "title": "Meet the new MacBook Pro and Mac mini | Apple",
-        "description": "Introducing the new MacBook Pro and Mac mini supercharged by the next generation of Apple silicon. Mac mini with M2 and M2 Pro is ready to flex in any setup, with its next-level performance, wide array of ports, and compact size. The new MacBook Pro with M2 Pro and M2 Max delivers exceptional performance and battery life. With a stunning Liquid Retina XDR display and all the ports you need — this is a pro laptop without equal.\n\n00:00 Intro\n01:35 Mac mini with M2\n03:46 M2 Pro\n06:01 Mac mini with M2 Pro\n09:02 MacBook Pro with M2 Pro\n11:15 M2 Max\n13:01 MacBook Pro with M2 Max\n\nLearn more: https://apple.co/3IV3SQa\n\n“END” by CHAI https://apple.co/End-CHAI\n“Pillow Talk” by Kumo 99 https://apple.co/Pillow-Talk-Kumo-99\n“Abeokuta” by Ki! https://apple.co/Abeokuta\n“Defender” by Poter Elvinger https://apple.co/Defender-Poter-Elvinger\n“Meetings Along the Edge” by Ravi Shankar, Philip Glass https://apple.co/Meetings-Along-the-Edge\n\n#MacBookPro #Macmini #M2Pro #M2Max\n\nWelcome to the official Apple YouTube channel. Here you’ll find news about product launches, tutorials, and other great content. Apple’s more than 160,000 employees are dedicated to making the best products on earth, and to leaving the world better than we found it.",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/6Ij9PiehENA/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/6Ij9PiehENA/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/6Ij9PiehENA/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/6Ij9PiehENA/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/6Ij9PiehENA/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
-        },
-        "channelTitle": "Apple",
-        "tags": [
-          "Apple",
-          "Mac",
-          "Mac mini",
-          "MacBook Pro",
-          "Apple silicon",
-          "M2",
-          "M2 Pro",
-          "M2 Max",
-          "processor",
-          "computer",
-          "laptop",
-          "notebook",
-          "desktop",
-          "workstation",
-          "MagSafe",
-          "CPU",
-          "GPU",
-          "unified memory core",
-          "compact",
-          "performance",
-          "speed",
-          "production",
-          "rendering",
-          "graphics",
-          "ports",
-          "Liquid Retina",
-          "XDR",
-          "Neural Engine",
-          "memory bandwidth",
-          "ProRes",
-          "battery life",
-          "long battery",
-          "Thunderbolt 4",
-          "3D",
-          "editing",
-          "power",
-          "powerful",
-          "Final Cut Pro",
-          "Adobe",
-          "gaming",
-          "Mac gaming",
-          "pro workflow",
-          "creator",
-          "music production",
-          "video creation",
-          "sound design",
-          "VFX",
-          "photo editing"
-        ],
-        "categoryId": "28",
-        "liveBroadcastContent": "none",
-        "localized": {
-          "title": "Meet the new MacBook Pro and Mac mini | Apple",
-          "description": "Introducing the new MacBook Pro and Mac mini supercharged by the next generation of Apple silicon. Mac mini with M2 and M2 Pro is ready to flex in any setup, with its next-level performance, wide array of ports, and compact size. The new MacBook Pro with M2 Pro and M2 Max delivers exceptional performance and battery life. With a stunning Liquid Retina XDR display and all the ports you need — this is a pro laptop without equal.\n\n00:00 Intro\n01:35 Mac mini with M2\n03:46 M2 Pro\n06:01 Mac mini with M2 Pro\n09:02 MacBook Pro with M2 Pro\n11:15 M2 Max\n13:01 MacBook Pro with M2 Max\n\nLearn more: https://apple.co/3IV3SQa\n\n“END” by CHAI https://apple.co/End-CHAI\n“Pillow Talk” by Kumo 99 https://apple.co/Pillow-Talk-Kumo-99\n“Abeokuta” by Ki! https://apple.co/Abeokuta\n“Defender” by Poter Elvinger https://apple.co/Defender-Poter-Elvinger\n“Meetings Along the Edge” by Ravi Shankar, Philip Glass https://apple.co/Meetings-Along-the-Edge\n\n#MacBookPro #Macmini #M2Pro #M2Max\n\nWelcome to the official Apple YouTube channel. Here you’ll find news about product launches, tutorials, and other great content. Apple’s more than 160,000 employees are dedicated to making the best products on earth, and to leaving the world better than we found it."
-        },
-        "defaultAudioLanguage": "en"
-      },
-      "contentDetails": {
-        "duration": "PT18M55S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "true",
-        "licensedContent": true,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "7230158",
-        "likeCount": "63444",
-        "favoriteCount": "0"
-      }
-    },
-    {
-      "kind": "youtube#video",
-      "etag": "akYCLTNIJL2bC-MYqfF_I4O8geE",
+      "etag": "yla9NJJX0Y3c8Zt9rV3RW6MySAM",
       "id": "RvLkqQ9TJl4",
       "snippet": {
         "publishedAt": "2023-01-18T11:42:05Z",
@@ -2045,7 +1477,7 @@
         "defaultAudioLanguage": "en"
       },
       "contentDetails": {
-        "duration": "PT13M",
+        "duration": "PT13M10S",
         "dimension": "2d",
         "definition": "hd",
         "caption": "false",
@@ -2054,10 +1486,521 @@
         "projection": "rectangular"
       },
       "statistics": {
-        "viewCount": "769573",
-        "likeCount": "56544",
+        "viewCount": "888799",
+        "likeCount": "61541",
         "favoriteCount": "0",
-        "commentCount": "2198"
+        "commentCount": "2381"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "_-V0zQEwTfL0_KUjaMWK-bx61is",
+      "id": "viP5CvCvoec",
+      "snippet": {
+        "publishedAt": "2023-01-18T05:01:12Z",
+        "channelId": "UCz4qHgsY_BtJtTngBI-zQkg",
+        "title": "Gloss Up - BestFrenn (feat. GloRilla)",
+        "description": "#NowPlaying Gloss Up - BestFrenn (feat. Glorilla)\nDirected By: Diesel Filmz\n\nStream & Download \" BestFrenn\" here: \nhttps://presave.umusic.com/gloss-up-glorilla-bestfrenn-pre-sav\n\nConnect With Gloss Up:\nInstagram: https://www.instagram.com/glittergirl...\nTwitter: https://twitter.com/GlitterGirlGlos \nTikTok: https://vm.tiktok.com/ZMJajXSKV/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/viP5CvCvoec/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/viP5CvCvoec/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/viP5CvCvoec/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/viP5CvCvoec/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/viP5CvCvoec/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Gloss Up",
+        "tags": [
+          "Gloss up",
+          "Glittergloss",
+          "Qc the label",
+          "Memphis",
+          "Glorilla",
+          "Shabooya",
+          "Cmg",
+          "Fnf",
+          "Tomorrow",
+          "City girls",
+          "Lil baby",
+          "Atlanta",
+          "Migos",
+          "Female rap"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Gloss Up - BestFrenn (feat. GloRilla)",
+          "description": "#NowPlaying Gloss Up - BestFrenn (feat. Glorilla)\nDirected By: Diesel Filmz\n\nStream & Download \" BestFrenn\" here: \nhttps://presave.umusic.com/gloss-up-glorilla-bestfrenn-pre-sav\n\nConnect With Gloss Up:\nInstagram: https://www.instagram.com/glittergirl...\nTwitter: https://twitter.com/GlitterGirlGlos \nTikTok: https://vm.tiktok.com/ZMJajXSKV/"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT2M23S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "regionRestriction": {
+          "blocked": ["BY", "RU"]
+        },
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "205187",
+        "likeCount": "15539",
+        "favoriteCount": "0",
+        "commentCount": "985"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "aMU3qOJM7ikUTUjRJzAXCg3hmPg",
+      "id": "KHpMxHOGelo",
+      "snippet": {
+        "publishedAt": "2023-01-18T01:00:08Z",
+        "channelId": "UCDK9qD5DAQML-pzrtA7A4oA",
+        "title": "OFFLINETV'S LAST UNBOXING EVER",
+        "description": "Thank you all as always for the wonderful letters & gifts, we hope you enjoyed this series as much as we did! 😄\nGo to https://buyraycon.com/offlinetv for 15% off your order! Brought to you by Raycon.\n\n-------------------------------------------------------------\n\n👕 Merch & Apparel:\n• OfflineTV - https://offlinetv.com\n\n📸 Follow OfflineTV:\n• Twitter - https://www.twitter.com/OfflineTV\n• Instagram - https://www.instagram.com/OfflineTV\n• TikTok - https://www.tiktok.com/@offlinetv\n• Reddit - https://www.reddit.com/r/offlineTV\n• Patreon - https://www.patreon.com/offlinetv\n\n📝 OfflineTV Roster:\n• Scarra - https://twitter.com/scarra\n• Pokimane - https://twitter.com/pokimanelol\n• LilyPichu - https://twitter.com/LilyPichu\n• Disguised Toast - https://twitter.com/DisguisedToast\n• Michael Reeves - https://twitter.com/michaelreeves\n• QuarterJade - https://twitter.com/QuarterJade\n• Masayoshi - https://twitter.com/ItzMasayoshi\n• Sydeon - https://twitter.com/Sydeon\n• Yvonnie - https://twitter.com/yvonnie\n\n🎥 Producer & Director:\n• Brodin - https://twitter.com/brodinplett\n\n🎞️ Editor:\n• Stevo - https://twitter.com/stevotevo\n\n📋 YT Manager: \n• Dunois - https://twitter.com/DunoisKR\n\n\n\n\n\n#OfflineTV #Unboxing #Subscribe",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KHpMxHOGelo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KHpMxHOGelo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KHpMxHOGelo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/KHpMxHOGelo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/KHpMxHOGelo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "OfflineTV",
+        "tags": [
+          "OfflineTV",
+          "Scarra",
+          "Poki",
+          "Pokimane",
+          "Lily",
+          "LilyPichu",
+          "DisguisedToast",
+          "Toast",
+          "TwitchTV",
+          "twitch",
+          "Streaming",
+          "Vlog",
+          "Fail",
+          "Epic",
+          "Gamers",
+          "Streamers",
+          "OTV",
+          "Lilypichu Voice",
+          "Pokimane thicc",
+          "OTV Plays",
+          "OfflineTV plays",
+          "Michael Reeves",
+          "Michael",
+          "Reeves"
+        ],
+        "categoryId": "20",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "OFFLINETV'S LAST UNBOXING EVER",
+          "description": "Thank you all as always for the wonderful letters & gifts, we hope you enjoyed this series as much as we did! 😄\nGo to https://buyraycon.com/offlinetv for 15% off your order! Brought to you by Raycon.\n\n-------------------------------------------------------------\n\n👕 Merch & Apparel:\n• OfflineTV - https://offlinetv.com\n\n📸 Follow OfflineTV:\n• Twitter - https://www.twitter.com/OfflineTV\n• Instagram - https://www.instagram.com/OfflineTV\n• TikTok - https://www.tiktok.com/@offlinetv\n• Reddit - https://www.reddit.com/r/offlineTV\n• Patreon - https://www.patreon.com/offlinetv\n\n📝 OfflineTV Roster:\n• Scarra - https://twitter.com/scarra\n• Pokimane - https://twitter.com/pokimanelol\n• LilyPichu - https://twitter.com/LilyPichu\n• Disguised Toast - https://twitter.com/DisguisedToast\n• Michael Reeves - https://twitter.com/michaelreeves\n• QuarterJade - https://twitter.com/QuarterJade\n• Masayoshi - https://twitter.com/ItzMasayoshi\n• Sydeon - https://twitter.com/Sydeon\n• Yvonnie - https://twitter.com/yvonnie\n\n🎥 Producer & Director:\n• Brodin - https://twitter.com/brodinplett\n\n🎞️ Editor:\n• Stevo - https://twitter.com/stevotevo\n\n📋 YT Manager: \n• Dunois - https://twitter.com/DunoisKR\n\n\n\n\n\n#OfflineTV #Unboxing #Subscribe"
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT13M28S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "942973",
+        "likeCount": "66134",
+        "favoriteCount": "0",
+        "commentCount": "2094"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "3Nh77QepLmmJtxpk7z1_Nu0ofBQ",
+      "id": "OpUh77FY0t4",
+      "snippet": {
+        "publishedAt": "2023-01-17T21:45:56Z",
+        "channelId": "UCPJHQ5_DLtxZ1gzBvZE99_g",
+        "title": "This YouTuber hid a secret for 28 years - I spent a day with DANIEL HOWELL",
+        "description": "I spent a day with Dan Howell to learn the truth about coming out and taking a break from YouTube. Sponsors ▸This episode is sponsored by BetterHelp — go to http://betterhelp.com/padilla to get 10% off your first month. ▸ Go to http://rocketmoney.com/padilla to cancel your unnecessary subscriptions now.\n\n🎙THE PODCAST (UNCENSORED)\nSpotify ▸ https://open.spotify.com/show/5aOLuPenneHbhLh05fmkeu  \nApple ▸ https://podcasts.apple.com/us/podcast/i-spent-a-day-with/id1550213250  \n\n💥NEW YOUTOOZ FIGURE: https://youtooz.com/products/anthony-padilla \n\n🧨HUGE thank you to Dan Howell:\nYOUTUBE:https://www.youtube.com/user/danisnotonfire\nTWITTER: https://twitter.com/danielhowell\nINSTAGRAM: https://www.instagram.com/danielhowell/\n \n🗯MORE EPISODES…\n▸ BRANDON ROGERS - https://youtu.be/MofCGZrHxCI\n▸ JACKSEPTICEYE - https://youtu.be/5obktsi8XdI\n▸ LUDWIG - https://youtu.be/tpXLJq3YZyk\n\n🎥Crew\n▸ Creator, Director, Writer, etc. - Anthony Padilla\n▸ Executive Producer - Alessandra Catanese\n▸ Producer, Co-writer & Research - Elise Felber\n▸ Director of Photography/Gaffer - Kathy Sue Holtorf\n▸ Camera Operator - Matthew Faulkner\n▸ Social Media Manager - Mallory Myers\n▸ Editor - Mike Criscimagna AKA Mork Crispy\n▸ Assistant Editor - Patrick Horba\n▸ Assistant Editor - Ash Duckworth\n▸ Assistant Editor - Nikki Blacklock\n▸ Sound Editor - Gareth Hird\n▸ Post PA - Levi Villalpando\n▸ PA - Joshua Dozier\n▸ Thumbnail Artist - Dill Toma\n▸ Captions - Davy Gerichten\n\n🎵Theme Music Composer - Matt Good AKA The King of Emo \n🖼Portrait painted by: Rhianna Robles - https://instagram.com/zerogattsu\n🦥Slade mascot built by: The Pastel Prince - https://youtube.com/channel/UC7wq2U4FF2NyZD1o_P8QP0g \n📺3D animations by: Jacob Dalton - https://twitter.com/jacobdaltonvfx \n\n📢BE ON THE SHOW\n▸ If you are part of an underrepresented subculture or live a lifestyle you feel is not widely understood and would like to be interviewed by me, email inquiry[at]pressalike.com with your subculture in the title of the email.\n\n❗️You dug this deep into the description. You owe it to yourself to subscribe ▶ https://youtube.com/subscription_center?add_user=AnthonyPadilla or get more at http://instagram.com/anthonypadilla & http://twitter.com/anthonypadilla\n\n0:00 INTRODUCTION\n3:21 BULLIED AS A CHILD\n7:50 ON YOUTUBE FOR 13 YEARS\n10:11 “BASICALLY I’M GAY”\n14:44 REFLECTING ON EMOTIONS\n17:20 STRAIGHT FOR 28 YEARS\n19:45 SPONSOR MESSAGE\n21:59 COMPARING NUMBERS TO SELF-WORTH\n23:46 PARASOCIAL RELATIONSHIPS\n24:52 WHAT’S NEXT FOR DAN HOWELL?\n26:59 WE ARE ALL DOOMED\n31:27 BLOOPER",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OpUh77FY0t4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OpUh77FY0t4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OpUh77FY0t4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/OpUh77FY0t4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/OpUh77FY0t4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "AnthonyPadilla",
+        "tags": ["anthony padilla", "padilla", "anthony", "i spent a day with", "interview"],
+        "categoryId": "27",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "This YouTuber hid a secret for 28 years - I spent a day with DANIEL HOWELL",
+          "description": "I spent a day with Dan Howell to learn the truth about coming out and taking a break from YouTube. Sponsors ▸This episode is sponsored by BetterHelp — go to http://betterhelp.com/padilla to get 10% off your first month. ▸ Go to http://rocketmoney.com/padilla to cancel your unnecessary subscriptions now.\n\n🎙THE PODCAST (UNCENSORED)\nSpotify ▸ https://open.spotify.com/show/5aOLuPenneHbhLh05fmkeu  \nApple ▸ https://podcasts.apple.com/us/podcast/i-spent-a-day-with/id1550213250  \n\n💥NEW YOUTOOZ FIGURE: https://youtooz.com/products/anthony-padilla \n\n🧨HUGE thank you to Dan Howell:\nYOUTUBE:https://www.youtube.com/user/danisnotonfire\nTWITTER: https://twitter.com/danielhowell\nINSTAGRAM: https://www.instagram.com/danielhowell/\n \n🗯MORE EPISODES…\n▸ BRANDON ROGERS - https://youtu.be/MofCGZrHxCI\n▸ JACKSEPTICEYE - https://youtu.be/5obktsi8XdI\n▸ LUDWIG - https://youtu.be/tpXLJq3YZyk\n\n🎥Crew\n▸ Creator, Director, Writer, etc. - Anthony Padilla\n▸ Executive Producer - Alessandra Catanese\n▸ Producer, Co-writer & Research - Elise Felber\n▸ Director of Photography/Gaffer - Kathy Sue Holtorf\n▸ Camera Operator - Matthew Faulkner\n▸ Social Media Manager - Mallory Myers\n▸ Editor - Mike Criscimagna AKA Mork Crispy\n▸ Assistant Editor - Patrick Horba\n▸ Assistant Editor - Ash Duckworth\n▸ Assistant Editor - Nikki Blacklock\n▸ Sound Editor - Gareth Hird\n▸ Post PA - Levi Villalpando\n▸ PA - Joshua Dozier\n▸ Thumbnail Artist - Dill Toma\n▸ Captions - Davy Gerichten\n\n🎵Theme Music Composer - Matt Good AKA The King of Emo \n🖼Portrait painted by: Rhianna Robles - https://instagram.com/zerogattsu\n🦥Slade mascot built by: The Pastel Prince - https://youtube.com/channel/UC7wq2U4FF2NyZD1o_P8QP0g \n📺3D animations by: Jacob Dalton - https://twitter.com/jacobdaltonvfx \n\n📢BE ON THE SHOW\n▸ If you are part of an underrepresented subculture or live a lifestyle you feel is not widely understood and would like to be interviewed by me, email inquiry[at]pressalike.com with your subculture in the title of the email.\n\n❗️You dug this deep into the description. You owe it to yourself to subscribe ▶ https://youtube.com/subscription_center?add_user=AnthonyPadilla or get more at http://instagram.com/anthonypadilla & http://twitter.com/anthonypadilla\n\n0:00 INTRODUCTION\n3:21 BULLIED AS A CHILD\n7:50 ON YOUTUBE FOR 13 YEARS\n10:11 “BASICALLY I’M GAY”\n14:44 REFLECTING ON EMOTIONS\n17:20 STRAIGHT FOR 28 YEARS\n19:45 SPONSOR MESSAGE\n21:59 COMPARING NUMBERS TO SELF-WORTH\n23:46 PARASOCIAL RELATIONSHIPS\n24:52 WHAT’S NEXT FOR DAN HOWELL?\n26:59 WE ARE ALL DOOMED\n31:27 BLOOPER"
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT32M11S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "513597",
+        "likeCount": "45669",
+        "favoriteCount": "0",
+        "commentCount": "1674"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "wcKmK2vOt0IrfzhSaWKhGwuzux8",
+      "id": "NRNfPcgFtVc",
+      "snippet": {
+        "publishedAt": "2023-01-18T00:00:07Z",
+        "channelId": "UCYbvqjljebwzWVdTb9Fetiw",
+        "title": "Trinidad James Talks Kanye, TIG, Def Jam, Painted Nails, Stage Fight",
+        "description": "Nicholaus Joseph Williams, better known by his stage name Trinidad James is a Trinidadian-American rapper. In 2012, he signed a recording contract with Def Jam Recordings. The label dropped him in 2014 when he failed to release an album, although he continues to release music as an independent artist and is signed to Artist Publishing Group for songwriting.  \n\nIn this interview Marco starts off by asking who does Trinidad want to be? The interview starts very awkwardly as Trinidad has a bear mask on. Trinidad challenges Marco and says Marco brought him on the show to exploit him. The tables are turned as Trinidad seems to be trolling Marco and has him on his toes. Marco asks Trinidad to remove his mask and Trinidad asks Marco to tie his tie and in exchange Trinidad takes the tie and puts it on. Trinidad takes off his mask to reveal his face with one eyed made up. Marco gets into the interview asking why Trinidad hasn’t made any new music. Trinidad reveals that he wanted to know what the business of entertainment was about. Trinidad talks about his relationships with record labels. Trinidad goes deeper into relationships. Trinidad then goes into his various products and the meaning behind them. Trinidad asks Marco what he thinks about him. Trinidad and Marco go back and forth about the word ugly. The conversation speeds up and the two go back and forth. Marco’s phone goes off and Marco blames it on Matt the Producer. Matt the Producer enters and Trinidad and Matt get into a discussion that gets a little tense. Trinidad and Marco continue the interview. Marco asks Trinidad about his hair. Matt the Producer tells Trinidad to get out of Marco’s creative space. A lady enters from the backstage and Trinidad yells at the lady and Marco invites her on stage. She awkwardly exits and Marco attempts to end the interview as Marco exits while talking to Matt the Producer and the mics are hot. Trinidad throws his chair and goes under the ladder and Matt the Producer holds exception.\n\nExecutive Producers for Breakbeat: Dave Mays & Brett Jeffries\n                                                                                                                                                                                          \nExecutive Producers: Marco Summers & Harvey Sutton\n \nDirector: Matt Ables  IG @mattablespromotions\n\nFilmed on location at 4U Recording, Atlanta\n \nIG @Breakbeatmedia @FunnyMarco\n\nComment, like and subscribe on the Breakbeat Media YouTube page, subscribe on Apple, Spotify or wherever podcasts are available, and visit us at www.breakbeatmedia.com",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NRNfPcgFtVc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NRNfPcgFtVc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NRNfPcgFtVc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/NRNfPcgFtVc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/NRNfPcgFtVc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Breakbeat Media",
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Trinidad James Talks Kanye, TIG, Def Jam, Painted Nails, Stage Fight",
+          "description": "Nicholaus Joseph Williams, better known by his stage name Trinidad James is a Trinidadian-American rapper. In 2012, he signed a recording contract with Def Jam Recordings. The label dropped him in 2014 when he failed to release an album, although he continues to release music as an independent artist and is signed to Artist Publishing Group for songwriting.  \n\nIn this interview Marco starts off by asking who does Trinidad want to be? The interview starts very awkwardly as Trinidad has a bear mask on. Trinidad challenges Marco and says Marco brought him on the show to exploit him. The tables are turned as Trinidad seems to be trolling Marco and has him on his toes. Marco asks Trinidad to remove his mask and Trinidad asks Marco to tie his tie and in exchange Trinidad takes the tie and puts it on. Trinidad takes off his mask to reveal his face with one eyed made up. Marco gets into the interview asking why Trinidad hasn’t made any new music. Trinidad reveals that he wanted to know what the business of entertainment was about. Trinidad talks about his relationships with record labels. Trinidad goes deeper into relationships. Trinidad then goes into his various products and the meaning behind them. Trinidad asks Marco what he thinks about him. Trinidad and Marco go back and forth about the word ugly. The conversation speeds up and the two go back and forth. Marco’s phone goes off and Marco blames it on Matt the Producer. Matt the Producer enters and Trinidad and Matt get into a discussion that gets a little tense. Trinidad and Marco continue the interview. Marco asks Trinidad about his hair. Matt the Producer tells Trinidad to get out of Marco’s creative space. A lady enters from the backstage and Trinidad yells at the lady and Marco invites her on stage. She awkwardly exits and Marco attempts to end the interview as Marco exits while talking to Matt the Producer and the mics are hot. Trinidad throws his chair and goes under the ladder and Matt the Producer holds exception.\n\nExecutive Producers for Breakbeat: Dave Mays & Brett Jeffries\n                                                                                                                                                                                          \nExecutive Producers: Marco Summers & Harvey Sutton\n \nDirector: Matt Ables  IG @mattablespromotions\n\nFilmed on location at 4U Recording, Atlanta\n \nIG @Breakbeatmedia @FunnyMarco\n\nComment, like and subscribe on the Breakbeat Media YouTube page, subscribe on Apple, Spotify or wherever podcasts are available, and visit us at www.breakbeatmedia.com"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT24M15S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "376439",
+        "likeCount": "7471",
+        "favoriteCount": "0",
+        "commentCount": "1175"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "MxQNGsoqURK80ZwZ3cYRj135TQg",
+      "id": "ByJafdBwmBI",
+      "snippet": {
+        "publishedAt": "2023-01-17T02:23:11Z",
+        "channelId": "UCT2X19JJaJGUN7mrYuImANQ",
+        "title": "Keren Montero | Shy Singer SHOCKS The Judges With Her BIG Voice! | AGT: All-Stars 2023",
+        "description": "16-year-old Keren Montero has a voice that will blow you away! Watch as Keren sings \"Rescue\" by Lauren Daigle. \n\n» Get The America's Got Talent App: http://bit.ly/AGTAppDownload\n» Subscribe for More: http://bit.ly/AGTSub\n» Watch on NBC & Peacock: https://pck.tv/3cCQGhH\n\nAMERICA'S GOT TALENT ON SOCIAL\nLike AGT: https://www.facebook.com/agt\nFollow AGT: https://twitter.com/agt\nAGT Instagram: http://instagram.com/agt\n\nFind America's Got Talent trailers, full episode highlights, previews, promos, clips, and digital exclusives here.\n\nNBC ON SOCIAL:\nYouTube: http://www.youtube.com/nbc\nTwitter: http://Twitter.com/NBC\nFacebook: http://Facebook.com/NBC\nInstagram: http://instagram.com/nbc\n\nKeren Montero | Shy Singer SHOCKS The Judges With Her BIG Voice! | AGT: All-Stars 2023\nhttps://youtu.be/ByJafdBwmBI\n\nAmerica's Got Talent\nhttp://www.youtube.com/user/americasgottalent\n#AGT #AmericasGotTalent #AGTAllStars",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ByJafdBwmBI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ByJafdBwmBI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ByJafdBwmBI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ByJafdBwmBI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ByJafdBwmBI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "America's Got Talent",
+        "tags": [
+          "AGT",
+          "America's Got Talent",
+          "Sofia Vergara",
+          "Simon Cowell",
+          "Howie Mandel",
+          "Heidi Klum",
+          "Terry Crews",
+          "Keren Montero",
+          "Keren Montero AGT",
+          "Keren Montero America's Got Talent",
+          "Keren Montero AGT Allstars",
+          "Keren Montero 2023",
+          "AGT Rescue",
+          "Rescue",
+          "by",
+          "Lauren",
+          "Daigle",
+          "Rescue",
+          "covers",
+          "Rescue Lauren Daigle Cover",
+          "Teen Singers",
+          "Teen Singer",
+          "Shocking Voices",
+          "Surprising Singers",
+          "Shy Singer Big Voice",
+          "Shy Singer"
+        ],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Keren Montero | Shy Singer SHOCKS The Judges With Her BIG Voice! | AGT: All-Stars 2023",
+          "description": "16-year-old Keren Montero has a voice that will blow you away! Watch as Keren sings \"Rescue\" by Lauren Daigle. \n\n» Get The America's Got Talent App: http://bit.ly/AGTAppDownload\n» Subscribe for More: http://bit.ly/AGTSub\n» Watch on NBC & Peacock: https://pck.tv/3cCQGhH\n\nAMERICA'S GOT TALENT ON SOCIAL\nLike AGT: https://www.facebook.com/agt\nFollow AGT: https://twitter.com/agt\nAGT Instagram: http://instagram.com/agt\n\nFind America's Got Talent trailers, full episode highlights, previews, promos, clips, and digital exclusives here.\n\nNBC ON SOCIAL:\nYouTube: http://www.youtube.com/nbc\nTwitter: http://Twitter.com/NBC\nFacebook: http://Facebook.com/NBC\nInstagram: http://instagram.com/nbc\n\nKeren Montero | Shy Singer SHOCKS The Judges With Her BIG Voice! | AGT: All-Stars 2023\nhttps://youtu.be/ByJafdBwmBI\n\nAmerica's Got Talent\nhttp://www.youtube.com/user/americasgottalent\n#AGT #AmericasGotTalent #AGTAllStars"
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "contentDetails": {
+        "duration": "PT6M9S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "2879895",
+        "likeCount": "39667",
+        "favoriteCount": "0",
+        "commentCount": "2564"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "fCIGKtyp1jEQjm7DM_vRxiLpmvM",
+      "id": "XftJTSLyMNE",
+      "snippet": {
+        "publishedAt": "2023-01-17T20:30:03Z",
+        "channelId": "UCsvn_Po0SmunchJYOWpOxMg",
+        "title": "The Stanley's Parable",
+        "description": "\"Shut up Michael, I'm only working here for the pretzel day\" - Stanley Parable.\n\ndonkey store https://dunkeyscastle.com/\ndonkey publishing company https://twitter.com/BIGMODEgames",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XftJTSLyMNE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XftJTSLyMNE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XftJTSLyMNE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/XftJTSLyMNE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/XftJTSLyMNE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "videogamedunkey",
+        "tags": [
+          "stanley parable",
+          "dunkey",
+          "videogamedunkey",
+          "dunkey stanley parable",
+          "the stanly parable",
+          "the stanley parable",
+          "stanley parable ultra deluxe",
+          "stanley parable 2"
+        ],
+        "categoryId": "20",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "The Stanley's Parable",
+          "description": "\"Shut up Michael, I'm only working here for the pretzel day\" - Stanley Parable.\n\ndonkey store https://dunkeyscastle.com/\ndonkey publishing company https://twitter.com/BIGMODEgames"
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT8M43S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "1674367",
+        "likeCount": "104071",
+        "favoriteCount": "0",
+        "commentCount": "2301"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "cUgqEF3RPTLoxKDJH6Q9DS9SoVk",
+      "id": "gCEeCFlV0IA",
+      "snippet": {
+        "publishedAt": "2023-01-17T15:00:26Z",
+        "channelId": "UC52XYgEExV9VG6Rt-6vnzVA",
+        "title": "Destiny 2: Lightfall | Neomuna Environment Trailer",
+        "description": "A neon metropolis.\n \nTravel to a destination unlike any you've explored in Destiny 2. Cross paths with bone-chilling Tormentors and valiant Cloud Striders, join the fight against the Shadow Legion, and prevent devastation in the technologically advanced secret city of Neomuna.\n\nLearn more: http://bung.ie/lightfall\n\nFOLLOW DESTINY:\nFacebook: https://www.facebook.com/DestinyTheGame\nTwitter: https://www.twitter.com/destinythegame\nInstagram: https://www.instagram.com/destinythegame\nDiscord: http://www.discord.gg/destinygame\n\nFOLLOW BUNGIE:\nFacebook: https://www.facebook.com/Bungie/\nTwitter: https://www.twitter.com/bungie\nInstagram: https://www.instagram.com/bungie/\n⠀ ⠀ ⠀ ⠀\nDive into the free-to-play world of Destiny 2 to experience responsive first-person shooter combat, explore the mysteries of our solar system, and unleash elemental abilities against powerful enemies. Create your Guardian and collect unique weapons, armor, and gear to customize your look and playstyle. Experience Destiny 2’s cinematic story alone or with friends, join other Guardians for challenging co-op missions, or compete against them in a variety of PvP modes.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gCEeCFlV0IA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gCEeCFlV0IA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gCEeCFlV0IA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/gCEeCFlV0IA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/gCEeCFlV0IA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Destiny 2",
+        "tags": ["Destiny"],
+        "categoryId": "20",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Destiny 2: Lightfall | Neomuna Environment Trailer",
+          "description": "A neon metropolis.\n \nTravel to a destination unlike any you've explored in Destiny 2. Cross paths with bone-chilling Tormentors and valiant Cloud Striders, join the fight against the Shadow Legion, and prevent devastation in the technologically advanced secret city of Neomuna.\n\nLearn more: http://bung.ie/lightfall\n\nFOLLOW DESTINY:\nFacebook: https://www.facebook.com/DestinyTheGame\nTwitter: https://www.twitter.com/destinythegame\nInstagram: https://www.instagram.com/destinythegame\nDiscord: http://www.discord.gg/destinygame\n\nFOLLOW BUNGIE:\nFacebook: https://www.facebook.com/Bungie/\nTwitter: https://www.twitter.com/bungie\nInstagram: https://www.instagram.com/bungie/\n⠀ ⠀ ⠀ ⠀\nDive into the free-to-play world of Destiny 2 to experience responsive first-person shooter combat, explore the mysteries of our solar system, and unleash elemental abilities against powerful enemies. Create your Guardian and collect unique weapons, armor, and gear to customize your look and playstyle. Experience Destiny 2’s cinematic story alone or with friends, join other Guardians for challenging co-op missions, or compete against them in a variety of PvP modes."
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT1M40S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "739545",
+        "likeCount": "26434",
+        "favoriteCount": "0",
+        "commentCount": "2503"
       }
     }
   ],
