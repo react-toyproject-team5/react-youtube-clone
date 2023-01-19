@@ -15,10 +15,10 @@ function App() {
     <>
       <Header />
       {/* <Sidebar /> */}
-      <div className="VideoDetail">
+      {/* <div className="VideoDetail">
         <Comment />
         <RelatedVideoInVideoDetail />
-      </div>
+      </div> */}
       <Outlet />
       <QueryClientProvider client={queryClient}>
         <Outlet />
