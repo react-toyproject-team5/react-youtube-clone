@@ -1,5 +1,21 @@
 import React from 'react';
+import RelatedVideoInVideoDetail from '../components/RelatedVideoInVideoDetail/RelatedVideoInVideoDetail';
+import Comments from '../components/Comments/Comments';
+import Player from '../components/Player/Player';
+import { useParams } from 'react-router-dom';
 
-export default function VideoDetail() {
-  return <div>VideoDetail</div>;
-}
+const VideoDetail = () => {
+  const { videoId } = useParams;
+  return (
+    <div>
+      <div className="column1">
+        <Player videoId={videoId} />
+      </div>
+      <div className="column2">
+        <Comments />
+        <RelatedVideoInVideoDetail />
+      </div>
+    </div>
+  );
+};
+export default VideoDetail;
