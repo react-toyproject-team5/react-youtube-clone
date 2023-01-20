@@ -1,48 +1,45 @@
-import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { useNavigate, useParams } from 'react-router-dom';
+import styles from './Header.module.scss';
 import { Tooltip } from 'react-tooltip';
 import 'react-tooltip/dist/react-tooltip.css';
 
-import styles from './Header.module.scss';
-import logo from './assets/logo.png';
+// Components
+import HeaderLogo from './headerLeftLogomenu';
 
-// icons
-import { BsList, BsBell } from 'react-icons/bs';
+// img and icons
+import { BsBell } from 'react-icons/bs';
 import { RiVideoAddLine, RiMicFill } from 'react-icons/ri';
 import { FaUserAlt } from 'react-icons/fa';
 import { IoSearchOutline } from 'react-icons/io5';
 
-export default function Header(drop) {
+export default function Header({ setMenuDrop }) {
+  const { keyword } = useParams();
+  const [text, setText] = useState('');
   const navigate = useNavigate();
-  const [inputValue, setInputValue] = useState('');
 
   // input 검색어
-  const getSearchValue = (e) => {
-    e.preventDefault();
-    setInputValue(e.target[0].value);
-    navigate(`/results/${inputValue}`);
+  const handleSumbit = (event) => {
+    event.preventDefault();
+    navigate(`results/${text}`);
   };
 
-  // 메뉴 버튼 클릭
-  const menuBtnClick = (e) => {
-    drop.setMenuDrop((e) => !e);
-  };
-  console.log(drop.menuDrop);
+  useEffect(() => setText(keyword || ''), [keyword]);
 
   return (
     <>
       <header>
-        <div className={styles.headerLeftLogomenu}>
-          <BsList className={styles.headerIcon} size="24" onClick={menuBtnClick} />
-          <Link to={'/'} className={styles.logo}>
-            <img src={logo} alt="youtube logo" />
-            <sup>KR</sup>
-          </Link>
-        </div>
+        <HeaderLogo setMenuDrop={setMenuDrop} />
         <div className={styles.headerSearch}>
-          <form onSubmit={getSearchValue}>
+          <form onSubmit={handleSumbit}>
             <div className={styles.inputWrap}>
-              <input type="text" placeholder="검색" />
+              <input
+                className="search-input"
+                type="text"
+                placeholder="검색"
+                value={text}
+                onChange={(event) => setText(event.target.value)}
+              />
               <button className={styles.keyboard} type="button">
                 <img src="https://www.gstatic.com/inputtools/images/tia.png" alt="키보드" />
               </button>

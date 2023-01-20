@@ -19,7 +19,7 @@ export default function SidebarLarge() {
   return (
     <nav className={styles.largeNav}>
       <ul>
-        <button>
+        <button className={styles.homeBtn}>
           <RiHome5Fill className={styles.sidebarIcon} size="22" />홈
         </button>
         <button>
