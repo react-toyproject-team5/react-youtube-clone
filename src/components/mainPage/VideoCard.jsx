@@ -10,19 +10,6 @@ const VideoCard = ({ videoCard, listOpen, setListOpen }) => {
   const [cardHover, setCardHover] = useState(false);
   const [profileData, setProfileData] = useState('');
 
-  const getProfile = async (data) => {
-    try {
-      let profile = await axios.get(`http://localhost:5000/file?id=${data}`);
-      setProfileData(profile.data.items[0].snippet.thumbnails.default.url);
-    } catch (error) {
-      console.log(error);
-    }
-    return profileData;
-  };
-  useEffect(() => {
-    getProfile(videoCard.id);
-  }, []);
-
   return (
     <div className={styles.card}>
       <div onMouseOver={() => setCardHover(true)} onMouseOut={() => setCardHover(false)}>

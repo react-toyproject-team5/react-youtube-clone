@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom';
 import ChannelInfo from '../ChannelInfo/ChannelInfo';
 import VideoStatistics from '../VideoStatistics/VideoStatistics';
 import styles from './VideoCard.module.scss';
-import ErrorBoundary from '../../ErrorBoundary';
 
 export default function VideoCard({ video }) {
   const { title, thumbnails, channelTitle, publishedAt, description, channelId } = video.snippet;
@@ -23,10 +22,8 @@ export default function VideoCard({ video }) {
       <img className={styles.video_img} src={thumbnails.medium.url} alt={title} />
       <div className={styles.video_info}>
         <p className={styles.title}>{title}</p>
-        <ErrorBoundary>
-          <VideoStatistics id={videoId} publishedAt={publishedAt} />
-          <ChannelInfo channelId={channelId} title={channelTitle} />
-        </ErrorBoundary>
+        <VideoStatistics id={videoId} publishedAt={publishedAt} />
+        <ChannelInfo channelId={channelId} title={channelTitle} />
         <p className={styles.description}>{description}</p>
       </div>
     </li>
