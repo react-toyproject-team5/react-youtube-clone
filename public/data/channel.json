@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "file": {
     "kind": "youtube#channelListResponse",
     "etag": "_b1BIcF32RpKNFZSTdBwOGwBLPo",
@@ -95,5 +94,4 @@
       }
     }
   ]
->>>>>>> 1f3d928 (feat: Create channelInfo, videoStatistics && Add youtube api)
 }

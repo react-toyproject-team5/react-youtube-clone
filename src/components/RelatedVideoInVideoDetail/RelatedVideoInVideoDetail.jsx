@@ -1,6 +1,6 @@
 import React from 'react';
-import RelatedVideo from './relatedVideo.json';
-import VideoInfo from './videoInfo.json';
+import { relatedVideoList } from '../../api/FakeYoutubeApi';
+import { videoDetailInfo } from '../../api/FakeYoutubeApi';
 import styles from './RelatedVideoInVideoDetail.module.scss';
 import { format, register } from 'timeago.js';
 import koLocale from 'timeago.js/lib/lang/ko';
@@ -73,7 +73,7 @@ const RelatedVideoInVideoDetail = () => {
   return (
     <div className={styles.relatedVideoContainer}>
       <ul className={styles.relatedList}>
-        {RelatedVideo.items.map((item, i) => {
+        {relatedVideoList.map((item, i) => {
           return (
             <li key={item.etag} className={styles.videoCard}>
               <a href={item.id}>
@@ -81,7 +81,7 @@ const RelatedVideoInVideoDetail = () => {
                 <div className={styles.videoPreviewContainer}>
                   <img src={item.snippet.thumbnails.default.url} />
                   <div className={styles.videoDuration}>
-                    {YTDurationToSeconds(VideoInfo?.items[i]?.contentDetails?.duration)}
+                    {YTDurationToSeconds(videoDetailInfo[i]?.contentDetails?.duration)}
                   </div>
                 </div>
                 {/* 영상 제목, 채널 이름, 조회수, 올린 시간 */}
@@ -92,10 +92,10 @@ const RelatedVideoInVideoDetail = () => {
                   </a>
                   <div className={styles.videoMetaData}>
                     <span className={styles.videoViewPoint}>
-                      {numberToEng(VideoInfo?.items[i]?.statistics?.viewCount)} views{' '}
+                      {numberToEng(videoDetailInfo[i]?.statistics?.viewCount)} views{' '}
                     </span>
                     <span> • </span>
-                    <span>{format(VideoInfo?.items[i]?.snippet?.publishedAt, 'ko')}</span>
+                    <span>{format(videoDetailInfo[i]?.snippet?.publishedAt, 'ko')}</span>
                   </div>
                 </div>
               </a>
