@@ -6,9 +6,12 @@ import HoverVideoMenu from './HoverVideoMenu';
 import styles from './HoverVideo.module.scss';
 import { BsDot, BsList } from 'react-icons/bs';
 import { MdOutlineQueueMusic, MdMoreTime } from 'react-icons/md';
+import VideoStatistics from '../VideoStatistics/VideoStatistics';
+import ChannelInfo from '../ChannelInfo/ChannelInfo';
 
 const HoverVideo = ({ profileData, videoCard, videoHover, setVideoHover, setPlayVideo }) => {
   const [listOpen, setListOpen] = useState(false);
+  const { channelId, publishedAt } = videoCard.snippet;
 
   const navigate = useNavigate();
 
@@ -64,7 +67,7 @@ const HoverVideo = ({ profileData, videoCard, videoHover, setVideoHover, setPlay
             }}
           >
             <div>
-              <img className={styles.channelimage} src={profileData} alt={videoCard.snippet.channelTitle} />
+              <ChannelInfo channelId={channelId} />
             </div>
           </div>
           <div
@@ -75,9 +78,7 @@ const HoverVideo = ({ profileData, videoCard, videoHover, setVideoHover, setPlay
             <div className={styles.videoInfo}>
               <div className={styles.videoTitle}>{videoCard.snippet.title}</div>
               <div className={styles.chan_view_date}>{videoCard.snippet.channelTitle}</div>
-              <span className={styles.chan_view_date}>{view(videoCard.statistics.viewCount)}</span>
-              <BsDot />
-              <span className={styles.chan_view_date}>{format(videoCard.snippet.publishedAt, 'ko')}</span>
+              <VideoStatistics id={videoCard.id} publishedAt={publishedAt} />
             </div>
           </div>
         </div>
