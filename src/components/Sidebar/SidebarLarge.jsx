@@ -4,12 +4,18 @@ import styles from './Sidebar.module.scss';
 // icons
 import { RiHome5Fill } from 'react-icons/ri';
 import { BsCollectionPlay, BsLightbulb, BsFlag, BsInfoSquare } from 'react-icons/bs';
-import { MdOutlineRestore, MdOutlineQueryBuilder, MdOutlineVideoLibrary, MdKeyboardArrowDown } from 'react-icons/md';
+import {
+  MdOutlineRestore,
+  MdOutlineQueryBuilder,
+  MdOutlineVideoLibrary,
+  MdKeyboardArrowDown,
+  MdOutlineRecordVoiceOver,
+} from 'react-icons/md';
 import { AiOutlinePlaySquare, AiOutlineSetting } from 'react-icons/ai';
 import { HiOutlineFire } from 'react-icons/hi2';
 import { IoMusicalNoteOutline, IoGameControllerOutline, IoHelpCircleOutline } from 'react-icons/io5';
 import { BiMovie } from 'react-icons/bi';
-import { CiStreamOn, CiTrophy } from 'react-icons/ci';
+import { CiTrophy } from 'react-icons/ci';
 import youtube from './assets/youtube.png';
 import youtube_kids from './assets/youtube_kids.png';
 import youtube_music from './assets/youtube_music.svg';
@@ -63,7 +69,7 @@ export default function SidebarLarge() {
           영화
         </button>
         <button>
-          <CiStreamOn className={styles.sidebarIcon} size="22" />
+          <MdOutlineRecordVoiceOver className={styles.sidebarIcon} size="22" />
           실시간
         </button>
         <button>
