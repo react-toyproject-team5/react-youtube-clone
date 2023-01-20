@@ -6,11 +6,7 @@ import { timeFormat } from '../../util/date';
 import styles from './VideoStatistics.module.scss';
 
 export default function VideoStatistics({ id, publishedAt }) {
-  const {
-    isLoading,
-    error,
-    data: videos,
-  } = useQuery(['videos', id], () => videoInfo(id), { enabled: !!id }, { staleTime: 1000 * 60 * 5 });
+  const { isLoading, data: videos } = useQuery(['videos', id], () => videoInfo(id), { enabled: !!id });
 
   console.log('videos:', videos);
   // const { viewCount } = videos;

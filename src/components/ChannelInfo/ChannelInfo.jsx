@@ -5,12 +5,10 @@ import { channelImage } from '../../api/youtube';
 import styles from './ChannelInfo.module.scss';
 
 export default function ChannelInfo({ channelId, title }) {
-  const { data: channelUrl } = useQuery(
-    ['channel', channelId],
-    () => channels(channelId),
-    { enabled: !!channelId },
-    { staleTime: 1000 * 60 * 5 },
-  );
+  const { data: channelUrl } = useQuery(['channel', channelId], () => channels(channelId), {
+    staleTime: 1000 * 60 * 5,
+  });
+  console.log('channelUrl', channelUrl);
 
   return (
     <div className={styles.channel}>
