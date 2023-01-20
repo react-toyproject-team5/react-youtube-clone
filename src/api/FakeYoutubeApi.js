@@ -20,3 +20,12 @@ export async function relatedVideoList() {
 export async function videoDetailInfo() {
   return axios.get(`/data/videoInfo.json`).then((res) => res.data.items);
 }
+// export async function videoInfoData(videoId) {
+//   return axios.get(`/data/videoInfo.json`).then((res) => {
+//     res.data.items.map((item) => {
+//       if(item.id === videoId){
+//         return
+//       }
+//     })
+//   })
+// }

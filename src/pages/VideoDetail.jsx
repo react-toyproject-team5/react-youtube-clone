@@ -7,6 +7,7 @@ import VideoInfo from '../components/VideoInfo/VideoInfo';
 
 const VideoDetail = () => {
   const { videoId } = useParams;
+  // const videoInfoData =
   return (
     <div>
       <div className="column1">
