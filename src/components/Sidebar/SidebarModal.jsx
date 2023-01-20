@@ -30,7 +30,6 @@ export default function SidebarModal({ setModal }) {
 
   const clickMenuBtn = () => {
     setModal(false);
-    console.log('modal 닫기');
   };
 
   return (
