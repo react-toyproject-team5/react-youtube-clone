@@ -1,6 +1,7 @@
 import { React } from 'react';
 import styles from './Player.module.scss';
 const Player = ({ id }) => {
+  // console.log('id:', id);
   return (
     <div className={styles.wrapper}>
       <iframe
