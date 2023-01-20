@@ -1,6 +1,6 @@
 .relatedVideoContainer {
   margin-top: 50px;
-  width: 30%;
+  width: 100%;
   .relatedList {
     display: flex;
     flex-direction: column;
@@ -47,6 +47,7 @@
           display: flex;
           flex-direction: column;
           position: relative;
+          color: var(--color-white);
           h3 {
             font-size: 14px;
             padding: 0 1rem 0 0;
@@ -58,7 +59,7 @@
             color: #aaa;
             &:hover,
             &:focus {
-              color: black;
+              color: var(--color-white);
             }
           }
           .videoMetaData {

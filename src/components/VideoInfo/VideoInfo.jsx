@@ -6,13 +6,9 @@ import { timeToDay } from '../../util/timeToDay';
 
 const VideoInfo = (props) => {
   const videoData = {
-    tags: props.tags,
-    statistics: props.statistics,
-    videoId: props.videoId,
     title: props.title,
     channelTitle: props.channelTitle,
     description: props.description,
-    channelId: props.channelId,
     publishedAt: props.publishedAt,
   };
 
@@ -116,7 +112,7 @@ const VideoInfo = (props) => {
       </div>
       <div>
         <div className={styles.channelData}>
-          <ChannelInfo channelId={videoData.channelId} title={videoData.channelTitle} />
+          <ChannelInfo title={videoData.channelTitle} />
           <div className={styles.subscribeBtn}>SUBSCRIBED</div>
         </div>
         <div className={styles.videoDescription}>{videoData.description}</div>
