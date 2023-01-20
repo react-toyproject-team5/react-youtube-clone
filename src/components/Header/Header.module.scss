@@ -12,24 +12,24 @@ header {
   width: 100%;
   height: 56px;
   padding: 0 16px;
-  background-color: #0f0f0f;
+  background-color: var(--color-black);
 
   .headerIcon {
     display: block;
     width: 40px;
     height: 40px;
     padding: 8px;
-    color: #fff;
+    color: var(--color-white);
     border-radius: 50%;
     cursor: pointer;
 
     &.voice {
       padding: 10px;
-      background-color: #212121;
+      background-color: var(--color-dark-gray);
     }
 
     &:hover {
-      background-color: #272727;
+      background-color: var(--color-dark-gray);
     }
 
     &.search:hover {
@@ -57,7 +57,7 @@ header {
         top: 20%;
         right: 1px;
 
-        color: #aaa;
+        color: var(--color-light-gray);
         font-size: 10px;
       }
     }
@@ -85,16 +85,16 @@ header {
         margin-left: 32px;
         padding: 0px 4px 0px 16px;
 
-        border: 1px solid #303030;
+        border: 1px solid var(--color-semi-dark-gray);
         border-right: none;
         border-radius: 40px 0 0 40px;
-        background-color: #121212;
+        background-color: var(--color-black);
 
-        color: #ffffffe0;
+        color: var(--color-white);
 
         input {
           width: 100%;
-          color: #ffffffe0;
+          color: var(--color-white);
 
           &:focus {
             outline: none;
@@ -104,7 +104,7 @@ header {
         .keyboard {
           width: 40px;
           height: 30px;
-          background-color: #121212;
+          background-color: var(--color-black);
 
           &:hover {
             filter: brightness(140%);
@@ -129,7 +129,7 @@ header {
         display: block;
         width: 12px;
         height: 12px;
-        background: #121212 url('./assets/formFocusIcon.svg') no-repeat 0;
+        background: var(--color-black) url('./assets/formFocusIcon.svg') no-repeat 0;
         z-index: 10;
       }
     }
@@ -139,9 +139,9 @@ header {
       height: 40px;
       margin-right: 10px;
       padding: 1px 8px;
-      border: 1px solid #303030;
+      border: 1px solid var(--color-semi-dark-gray);
       border-radius: 0 40px 40px 0;
-      background-color: #222222;
+      background-color: var(--color-dark-gray);
     }
   }
 
@@ -161,7 +161,7 @@ header {
         height: 34px;
         margin: 0 12px 0 17px;
         padding: 6px 0;
-        background-color: #303030;
+        background-color: var(--color-semi-dark-gray);
       }
     }
   }
