@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import HoverVideo from './HoverVideo';
 import styles from './VideoPlayer.module.scss';
 
@@ -7,9 +7,7 @@ const VideoPlayer = ({ videoCard, profileData }) => {
   const [videoHover, setVideoHover] = useState(false);
   const [playVideo, setPlayVideo] = useState(false);
 
-  let link = (url) => {
-    return `/watch/:${url}`;
-  };
+  const navigate = useNavigate();
 
   const videoTime = (duration) => {
     let time = [duration.match(/[0-9]+H/) || '', duration.match(/[0-9]+M/) || '00', duration.match(/[0-9]+S/) || '00'];
@@ -35,7 +33,11 @@ const VideoPlayer = ({ videoCard, profileData }) => {
 
   return (
     <div className={styles.videoplayer} onMouseOver={mouseOver} onMouseOut={mouseOut}>
-      <Link to={link(videoCard.id)}>
+      <div
+        onClick={() => {
+          navigate(`/watch/${videoCard.id}`, { state: { video: videoCard } });
+        }}
+      >
         <img
           className={styles.videoimage}
           src={videoCard.snippet.thumbnails.medium.url}
@@ -43,7 +45,7 @@ const VideoPlayer = ({ videoCard, profileData }) => {
         />
         <div className={styles.videotime}>{videoTime(videoCard.contentDetails.duration)}</div>
         {videoHover && <div className={styles.videohover}>계속 마우스오버하여 재생하기</div>}
-      </Link>
+      </div>
       {playVideo && videoHover && (
         <HoverVideo
           profileData={profileData}

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { format, register } from 'timeago.js';
 import koLocale from 'timeago.js/lib/lang/ko';
 import HoverVideoMenu from './HoverVideoMenu';
@@ -10,9 +10,7 @@ import { MdOutlineQueueMusic, MdMoreTime } from 'react-icons/md';
 const HoverVideo = ({ profileData, videoCard, videoHover, setVideoHover, setPlayVideo }) => {
   const [listOpen, setListOpen] = useState(false);
 
-  let link = (url) => {
-    return `/watch/:${url}`;
-  };
+  const navigate = useNavigate();
 
   const view = (viewCount) => {
     if (viewCount < 1000) {
@@ -38,7 +36,11 @@ const HoverVideo = ({ profileData, videoCard, videoHover, setVideoHover, setPlay
 
   return (
     <div className={styles.hover} onMouseOver={mouseOn}>
-      <Link to={link(videoCard.id)}>
+      <div
+        onClick={() => {
+          navigate(`/watch/${videoCard.id}`, { state: { video: videoCard } });
+        }}
+      >
         <div>
           <iframe
             title={videoCard.id}
@@ -53,15 +55,23 @@ const HoverVideo = ({ profileData, videoCard, videoHover, setVideoHover, setPlay
             frameBorder="0"
           ></iframe>
         </div>
-      </Link>
+      </div>
       <div className={styles.hoverPosition}>
         <div className={styles.hoverinfo}>
-          <Link to={link(videoCard.id)}>
+          <div
+            onClick={() => {
+              navigate(`/watch/${videoCard.id}`, { state: { video: videoCard } });
+            }}
+          >
             <div>
               <img className={styles.channelimage} src={profileData} alt={videoCard.snippet.channelTitle} />
             </div>
-          </Link>
-          <Link to={link(videoCard.id)}>
+          </div>
+          <div
+            onClick={() => {
+              navigate(`/watch/${videoCard.id}`, { state: { video: videoCard } });
+            }}
+          >
             <div className={styles.videoInfo}>
               <div className={styles.videoTitle}>{videoCard.snippet.title}</div>
               <div className={styles.chan_view_date}>{videoCard.snippet.channelTitle}</div>
@@ -69,7 +79,7 @@ const HoverVideo = ({ profileData, videoCard, videoHover, setVideoHover, setPlay
               <BsDot />
               <span className={styles.chan_view_date}>{format(videoCard.snippet.publishedAt, 'ko')}</span>
             </div>
-          </Link>
+          </div>
         </div>
         <div>
           <button onClick={() => setListOpen(listOpen ? false : true)} className={styles.listicon}>
