@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <QueryClientProvider client={queryClient}>
-        <Header menuDrop={menuDrop} setMenuDrop={setMenuDrop} />
+        <Header setMenuDrop={setMenuDrop} />
         <div style={{ display: 'flex' }}>
           {location.pathname === '/watch/:videoId' ? null : <Sidebar menuDrop={menuDrop} />}
           <div className={`${menuDrop ? 'outlet-layout-true' : 'outlet-layout-false'}`}>
