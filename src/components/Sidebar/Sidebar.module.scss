@@ -75,6 +75,10 @@ input {
       }
     }
 
+    .homeBtn {
+      background-color: #272727;
+    }
+
     .sidebarUlTitle {
       display: block;
       padding: 6px 12px 8px;
@@ -118,5 +122,19 @@ input {
     a {
       color: #3ea6ff;
     }
+  }
+}
+
+.modalNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1020;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 0 0 9999px;
+
+  .modalLogo {
+    width: 250px;
+    height: 56px;
+    background-color: #3ea6ff;
   }
 }

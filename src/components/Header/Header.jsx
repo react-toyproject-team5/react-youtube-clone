@@ -1,18 +1,19 @@
 import React, { useEffect, useState } from 'react';
-import { Link, useNavigate, useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
+import styles from './Header.module.scss';
 import { Tooltip } from 'react-tooltip';
 import 'react-tooltip/dist/react-tooltip.css';
 
-import styles from './Header.module.scss';
-import logo from './assets/logo.png';
+// Components
+import HeaderLogo from './headerLeftLogomenu';
 
-// icons
-import { BsList, BsBell } from 'react-icons/bs';
+// img and icons
+import { BsBell } from 'react-icons/bs';
 import { RiVideoAddLine, RiMicFill } from 'react-icons/ri';
 import { FaUserAlt } from 'react-icons/fa';
 import { IoSearchOutline } from 'react-icons/io5';
 
-export default function Header(drop) {
+export default function Header({ setMenuDrop }) {
   const { keyword } = useParams();
   const [text, setText] = useState('');
   const navigate = useNavigate();
@@ -25,22 +26,10 @@ export default function Header(drop) {
 
   useEffect(() => setText(keyword || ''), [keyword]);
 
-  // 메뉴 버튼 클릭
-  const menuBtnClick = (e) => {
-    drop.setMenuDrop((e) => !e);
-  };
-  console.log(drop.menuDrop);
-
   return (
     <>
       <header>
-        <div className={styles.headerLeftLogomenu}>
-          <BsList className={styles.headerIcon} size="24" onClick={menuBtnClick} />
-          <Link to={'/'} className={styles.logo}>
-            <img src={logo} alt="youtube logo" />
-            <sup>KR</sup>
-          </Link>
-        </div>
+        <HeaderLogo setMenuDrop={setMenuDrop} />
         <div className={styles.headerSearch}>
           <form onSubmit={handleSumbit}>
             <div className={styles.inputWrap}>
