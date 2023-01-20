@@ -1,20 +1,25 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import styles from './Header.module.scss';
+
 import { Tooltip } from 'react-tooltip';
 import 'react-tooltip/dist/react-tooltip.css';
+import { useMediaQuery } from 'react-responsive';
 
-import styles from './Header.module.scss';
+// Components
+import SidebarModal from '../Sidebar/SidebarModal';
+
+// img and icons
 import logo from './assets/logo.png';
-
-// icons
 import { BsList, BsBell } from 'react-icons/bs';
 import { RiVideoAddLine, RiMicFill } from 'react-icons/ri';
 import { FaUserAlt } from 'react-icons/fa';
 import { IoSearchOutline } from 'react-icons/io5';
 
-export default function Header(drop) {
+export default function Header({ menudrop, setMenuDrop }) {
   const navigate = useNavigate();
   const [inputValue, setInputValue] = useState('');
+  const [modal, setModal] = useState(false);
 
   // input 검색어
   const getSearchValue = (e) => {
@@ -23,17 +28,37 @@ export default function Header(drop) {
     navigate(`/results/${inputValue}`);
   };
 
-  // 메뉴 버튼 클릭
+  // 데스크탑 사이즈, 메뉴 버튼 클릭
   const menuBtnClick = (e) => {
-    drop.setMenuDrop((e) => !e);
+    setMenuDrop((e) => !e);
   };
-  console.log(drop.menuDrop);
+
+  // 태블릿과 모바일 사이즈, 메뉴 버튼 클릭
+  const printModal = (e) => {
+    setModal((e) => !e);
+  };
+
+  // 리액트 반응형
+  const Desktop = ({ children }) => {
+    const isDesktop = useMediaQuery({ minWidth: 1300 });
+    return isDesktop ? children : null;
+  };
+  const TabletAndMobile = ({ children }) => {
+    const isTablet = useMediaQuery({ maxWidth: 1299 });
+    return isTablet ? children : null;
+  };
 
   return (
     <>
       <header>
         <div className={styles.headerLeftLogomenu}>
-          <BsList className={styles.headerIcon} size="24" onClick={menuBtnClick} />
+          <Desktop>
+            <BsList className={styles.headerIcon} size="24" onClick={menuBtnClick} />
+          </Desktop>
+          <TabletAndMobile>
+            <BsList className={styles.headerIcon} size="24" onClick={printModal} />
+            {modal ? <SidebarModal setModal={setModal} /> : null}
+          </TabletAndMobile>
           <Link to={'/'} className={styles.logo}>
             <img src={logo} alt="youtube logo" />
             <sup>KR</sup>
