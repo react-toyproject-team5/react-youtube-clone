@@ -167,38 +167,7 @@
         "isPublic": true
       }
     },
-    {
-      "kind": "youtube#commentThread",
-      "etag": "35xDwpQZmetCxebkM1WhneLiHIY",
-      "id": "Ugy9jc58KlFbbZbvRbJ4AaABAg",
-      "snippet": {
-        "videoId": "Znsa4Deavgg",
-        "topLevelComment": {
-          "kind": "youtube#comment",
-          "etag": "SuM3Qg-rquggQIf1UDnplnjEDhk",
-          "id": "Ugy9jc58KlFbbZbvRbJ4AaABAg",
-          "snippet": {
-            "videoId": "Znsa4Deavgg",
-            "textDisplay": "Pedro Pascal is slowly becoming the best father figure in television history.",
-            "textOriginal": "Pedro Pascal is slowly becoming the best father figure in television history.",
-            "authorDisplayName": "Mia Khalifa Super Fan",
-            "authorProfileImageUrl": "https://yt3.ggpht.com/HjBguUi3RBO7boMZeqEqbzc2Hn7RlXIgx-frAGhKB3sC446l99FTS055oedujf1hlmHciq5v=s48-c-k-c0x00ffffff-no-rj",
-            "authorChannelUrl": "http://www.youtube.com/channel/UCw3qzJmZOEqxkdPg2ZRcUkg",
-            "authorChannelId": {
-              "value": "UCw3qzJmZOEqxkdPg2ZRcUkg"
-            },
-            "canRate": true,
-            "viewerRating": "none",
-            "likeCount": 57,
-            "publishedAt": "2023-01-18T09:18:08Z",
-            "updatedAt": "2023-01-18T09:18:08Z"
-          }
-        },
-        "canReply": true,
-        "totalReplyCount": 0,
-        "isPublic": true
-      }
-    },
+
     {
       "kind": "youtube#commentThread",
       "etag": "Ci00q2cg21eNZzbs8xOgQyyONhM",
