@@ -17,12 +17,12 @@ export async function VideoComment() {
 export async function videoDataInfo() {
   return axios.get(`/data/hyewonTest.json`).then((res) => res.data.items[0]);
 }
-export async function relatedVideoList() {
-  return axios.get(`/data/relatedVideoList.json`).then((res) => res.data.items);
-}
-export async function videoDetailInfo() {
-  return axios.get(`/data/videoInfo.json`).then((res) => res.data.items);
-}
+// export async function relatedVideoList() {
+//   return axios.get(`/data/relatedVideoList.json`).then((res) => res.data.items);
+// }
+// export async function videoDetailInfo() {
+//   return axios.get(`/data/videoInfo.json`).then((res) => res.data.items);
+// }
 // export async function videoInfoData(videoId) {
 //   return axios.get(`/data/videoInfo.json`).then((res) => {
 //     res.data.items.map((item) => {

@@ -8,6 +8,7 @@ import CommentCard from '../CommentCard/CommentCard';
 
 register('ko', koLocale);
 const Comments = ({ videoId: id }) => {
+  // console.log('id', id);
   const { isLoading, data: comments } = useQuery(['comments', id], () => VideoComment(id));
 
   if (isLoading) return;
@@ -18,8 +19,8 @@ const Comments = ({ videoId: id }) => {
     <div className={styles.CommentContainer}>
       <p>{items.length} Comments</p>
       <div className={styles.CommentBox}>
-        {items.map((comment) => (
-          <CommentCard key={id} comment={comment} />
+        {items.map((comment, index) => (
+          <CommentCard key={index} comment={comment} />
         ))}
       </div>
     </div>
