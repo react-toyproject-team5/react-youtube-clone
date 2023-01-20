@@ -88,14 +88,21 @@
   ### 👩‍💻조승후
 
 <details>
-<summary>[페이지명]</summary>
+<summary>[영상플레이어]</summary>
 
 - 설명1
   - 설명2
   </details>
 
 <details>
-<summary>[페이지명]</summary>
+<summary>[댓글리스트]</summary>
+
+- 설명1
+
+  - 설명2
+  </details>
+
+<summary>[관련영상리스트]</summary>
 
 - 설명1
 

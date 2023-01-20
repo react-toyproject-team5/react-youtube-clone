@@ -14,6 +14,9 @@ export async function videoInfo() {
 export async function VideoComment() {
   return axios.get(`/data/VideoComment.json`).then((res) => res.data);
 }
+export async function videoDataInfo() {
+  return axios.get(`/data/hyewonTest.json`).then((res) => res.data.items[0]);
+}
 export async function relatedVideoList() {
   return axios.get(`/data/relatedVideoList.json`).then((res) => res.data.items);
 }
