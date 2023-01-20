@@ -1,5 +1,5 @@
 import React from 'react';
-import VideoComment from './VideoComment.json';
+import { VideoComment } from '../../api/FakeYoutubeApi';
 import styles from './Comments.module.scss';
 import { format, register } from 'timeago.js';
 import koLocale from 'timeago.js/lib/lang/ko';
