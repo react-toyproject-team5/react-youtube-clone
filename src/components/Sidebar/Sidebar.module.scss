@@ -12,7 +12,7 @@ input {
 
   padding: 0 4px;
   height: 100%;
-  background-color: #0f0f0f;
+  background-color: var(--color-black);
 }
 
 .smallNav {
@@ -33,7 +33,7 @@ input {
       border-radius: 10px;
 
       font-size: 10px;
-      color: #fff;
+      color: var(--color-white);
       text-align: center;
       cursor: pointer;
       .sidebarIcon {
@@ -41,7 +41,7 @@ input {
       }
 
       &:hover {
-        background-color: #272727;
+        background-color: var(--color-dark-gray);
       }
     }
   }
@@ -66,29 +66,29 @@ input {
       padding: 0 12px;
       border-radius: 10px;
 
-      color: #fff;
+      color: var(--color-white);
       font-size: 14px;
       cursor: pointer;
 
       &:hover {
-        background-color: #272727;
+        background-color: var(--color-dark-gray);
       }
     }
 
     .homeBtn {
-      background-color: #272727;
+      background-color: var(--color-dark-gray);
     }
 
     .sidebarUlTitle {
       display: block;
       padding: 6px 12px 8px;
       font-size: 16px;
-      color: #f1f1f1;
+      color: var(--color-white);
     }
   }
 
   ul + ul {
-    border-top: 1px solid #272727;
+    border-top: 1px solid var(--color-dark-gray);
   }
 
   .sidebarViewmore {
@@ -100,13 +100,13 @@ input {
 
   .navAnchor {
     padding: 16px 24px 0;
-    border-top: 1px solid #272727;
+    border-top: 1px solid var(--color-dark-gray);
     div + div {
       padding-top: 12px;
     }
     a {
       margin-right: 8px;
-      color: #aaa;
+      color: var(--color-light-gray);
       font-size: 13px;
       font-weight: 500;
       line-height: 1.2;
