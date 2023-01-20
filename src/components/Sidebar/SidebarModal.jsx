@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import styles from './Sidebar.module.scss';
 import SidebarLarge from './SidebarLarge';
+import HeaderLogo from '../Header/headerLeftLogomenu';
 
 export default function SidebarModal({ setModal }) {
   const modalRef = useRef(null);
@@ -28,7 +29,7 @@ export default function SidebarModal({ setModal }) {
   return (
     <div ref={modalRef}>
       <nav className={styles.modalNav}>
-        <div className={styles.modalLogo}>로고영역</div>
+        <HeaderLogo />
         <SidebarLarge />
       </nav>
     </div>

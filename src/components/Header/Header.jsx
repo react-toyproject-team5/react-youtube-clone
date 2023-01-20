@@ -1,17 +1,15 @@
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import styles from './Header.module.scss';
 
 import { Tooltip } from 'react-tooltip';
 import 'react-tooltip/dist/react-tooltip.css';
-import { useMediaQuery } from 'react-responsive';
 
 // Components
-import SidebarModal from '../Sidebar/SidebarModal';
+import HeaderLogo from './headerLeftLogomenu';
 
 // img and icons
-import logo from './assets/logo.png';
-import { BsList, BsBell } from 'react-icons/bs';
+import { BsBell } from 'react-icons/bs';
 import { RiVideoAddLine, RiMicFill } from 'react-icons/ri';
 import { FaUserAlt } from 'react-icons/fa';
 import { IoSearchOutline } from 'react-icons/io5';
@@ -19,7 +17,6 @@ import { IoSearchOutline } from 'react-icons/io5';
 export default function Header({ menudrop, setMenuDrop }) {
   const navigate = useNavigate();
   const [inputValue, setInputValue] = useState('');
-  const [modal, setModal] = useState(false);
 
   // input 검색어
   const getSearchValue = (e) => {
@@ -28,42 +25,10 @@ export default function Header({ menudrop, setMenuDrop }) {
     navigate(`/results/${inputValue}`);
   };
 
-  // 데스크탑 사이즈, 메뉴 버튼 클릭
-  const menuBtnClick = (e) => {
-    setMenuDrop((e) => !e);
-  };
-
-  // 태블릿과 모바일 사이즈, 메뉴 버튼 클릭
-  const printModal = (e) => {
-    setModal((e) => !e);
-  };
-
-  // 리액트 반응형
-  const Desktop = ({ children }) => {
-    const isDesktop = useMediaQuery({ minWidth: 1300 });
-    return isDesktop ? children : null;
-  };
-  const TabletAndMobile = ({ children }) => {
-    const isTablet = useMediaQuery({ maxWidth: 1299 });
-    return isTablet ? children : null;
-  };
-
   return (
     <>
       <header>
-        <div className={styles.headerLeftLogomenu}>
-          <Desktop>
-            <BsList className={styles.headerIcon} size="24" onClick={menuBtnClick} />
-          </Desktop>
-          <TabletAndMobile>
-            <BsList className={styles.headerIcon} size="24" onClick={printModal} />
-            {modal ? <SidebarModal setModal={setModal} /> : null}
-          </TabletAndMobile>
-          <Link to={'/'} className={styles.logo}>
-            <img src={logo} alt="youtube logo" />
-            <sup>KR</sup>
-          </Link>
-        </div>
+        <HeaderLogo setMenuDrop={setMenuDrop} />
         <div className={styles.headerSearch}>
           <form onSubmit={getSearchValue}>
             <div className={styles.inputWrap}>
