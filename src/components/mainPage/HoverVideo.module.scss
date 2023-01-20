@@ -5,8 +5,7 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  background-color: white;
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  background-color: var(--color-dark-gray);
   border-radius: 10px;
   overflow: hidden;
 }
@@ -16,6 +15,7 @@
 }
 .hoverinfo {
   display: flex;
+  color: var(--color-white);
 }
 .channelimage {
   width: 40px;
@@ -37,21 +37,23 @@
   overflow: hidden;
   white-space: normal;
   line-height: 19px;
-  color: black;
+  color: var(--color-white);
 }
 .chan_view_date {
   font-size: 13px;
-  color: gray;
+  color: var(--color-white);
   margin: 8px 3px;
 }
 .listicon {
   position: relative;
   top: -110px;
   left: 320px;
+  color: var(--color-white);
 }
 .icon {
   width: 30px;
   height: 30px;
+  color: var(--color-white);
 }
 .hoverbuttons {
   display: flex;
@@ -60,14 +62,15 @@
   top: -30px;
 }
 .hoverbutton {
-  background-color: lightgray;
+  background-color: var(--color-semi-dark-gray);
   margin: 5px 5px;
   padding: 10px;
   border-radius: 10px;
   display: flex;
   justify-content: center;
+  color: var(--color-white);
 }
 .hoverbutton:hover {
-  background-color: gray;
-  color: white;
+  background-color: var(--color-semi-light-gray);
+  color: var(--color-white);
 }
