@@ -1,70 +1,171 @@
-# Getting Started with Create React App
+<p align="center"> 
+  <img src="src\components\Sidebar\assets\youtube.png" width="20%" height="20%">
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center"> Front-End : React Youtube Clone </h1>
+<h3 align="center">  <a href="https://www.youtube.com/">🔗 YouTube 페이지</a> </h3>
+<h3 align="center"><a href="# ">🔗 Team5 배포 페이지 </a> </h3>
+<h3 align="center">  <a href="https://www.youtube.com/">🔗 Team5 Git Repository</a> </h3>
+<h3 align="center">  <a href="https://lace-marigold-6ad.notion.site/5-7985818b00654994beae56511e650d7b">🔗 Team5 Notion</a> </h3>
 
-## Available Scripts
+<br/>
 
-In the project directory, you can run:
+## 🦖 팀 소개<br/>
 
-### `npm start`
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+| <img src="https://user-images.githubusercontent.com/90189513/213643505-20b220f0-4b44-4cd7-81de-ad41e62a252b.png" width="100px" height="100px;" alt="김지영"> | <img src="https://user-images.githubusercontent.com/90189513/213642407-b57ea03c-6158-449d-b511-b6deeaa03019.png" width="100px" height="100px;" alt="이은영"> | <img src="https://user-images.githubusercontent.com/90189513/213642351-e0cbb3a1-2072-470e-8278-ea54bca73e1b.png" width="100px" height="100px;" alt="조승후"> | <img src="https://user-images.githubusercontent.com/90189513/213644979-b6364481-4cba-4376-8872-ff943c109946.jpeg"  width="100px" height="100px;" alt="홍혜원"> |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 김지영                                                                                                                                                       | 이은영                                                                                                                                                       | 조승후                                                                                                                                                       | 홍혜원                                                                                                                                                         |
+| 메인페이지                                                                                                                                                   | 헤더 및 사이드바                                                                                                                                             | 영상 상세 페이지                                                                                                                                             | 검색 페이지                                                                                                                                                    |
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br/>
 
-### `npm test`
+## 🦖 프로젝트 기간
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)
 
-### `npm run build`
+2023.01.23(월) ~ 2023.01.20(금)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🦖 기술 스택
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)
 
-### `npm run eject`
+<div>
+  <div>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<!-- HTML5 -->
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img alt="Html" src ="https://img.shields.io/badge/HTML-E34F26.svg?&style=for-the-badge&logo=HTML5&logoColor=white"/> <!-- CSS --> <img alt="CSS3" src ="https://img.shields.io/badge/CSS3-FF9933.svg?&style=for-the-badge&logo=CSS3&logoColor=white"/> <!-- JS --> <img alt="JavaScript" src ="https://img.shields.io/badge/JavaScript-F7DF1E.svg?&style=for-the-badge&logo=JavaScript&logoColor=white"/> <!-- React --> <img alt="React" src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"><br/> <!-- Post CSS --> <img alt="Post CSS" src="https://img.shields.io/badge/Post CSS-DD3A0A?style=for-the-badge&logo=PostCSS&logoColor=white"> <!-- SCSS --> <img alt="SASS" src="https://img.shields.io/badge/SASS-CC6699?style=for-the-badge&logo=SASS&logoColor=white"> <!-- .env --> <img alt=".env" src="https://img.shields.io/badge/.ENV-ECD53F?style=for-the-badge&logo=.ENV&logoColor=white"> <!-- axios --> <img alt="Html" src ="https://img.shields.io/badge/axios-000.svg?&style=for-the-badge&logo=axios&logoColor=white"/> <!-- Netlify --> <img alt="Netlify" src="https://img.shields.io/badge/NETLIFY-00C7B7?style=for-the-badge&logo=NETLIFY&logoColor=white"><br/> <!-- Github --> <img alt="Github" src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=Github&logoColor=white"> <!-- Prettier --> <img alt="Prettier" src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=Prettier&logoColor=black">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<br/>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<br/>
 
-## Learn More
+<br/>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🦖 작업 상세 내용
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)
 
-### Code Splitting
+### 👩‍💻김지영
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<details>
+<summary>[메인페이지]</summary>
 
-### Analyzing the Bundle Size
+- 비디오카드 생성
+  - 비디오카드 호버링 시 3초 후 비디오 재생
+- 무한 스크롤 가능
+  </details>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<details>
+<summary>[페이지명]</summary>
 
-### Making a Progressive Web App
+- 설명1
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+  - 설명2
+  </details>
 
-### Advanced Configuration
+  ### 👩‍💻이은영
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<details>
+<summary>[헤더 및 사이드바]</summary>
 
-### Deployment
+- 검색바 반응형
+- 사이드바 윈도우 창 크기별 반응형
+- 사이드바 태블릿 및 모바일에서는 모달 사이드바
+- 구현 못한 것
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+  - 모바일일 때, 검색 버튼 누르면 확장된 검색바 나오기
+  - 모달창 버튼 닫기 안됨
 
-### `npm run build` fails to minify
+  </details>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  ### 👩‍💻조승후
+
+<details>
+<summary>[영상플레이어]</summary>
+
+- 설명1
+
+  - 설명2
+  </details>
+
+<details>
+<summary>[댓글리스트]</summary>
+
+- 설명1
+
+  - 설명2
+  </details>
+
+<summary>[관련영상리스트]</summary>
+
+- 설명1
+
+  - 설명2
+  </details>
+
+  ### 👩‍💻홍혜원
+
+<details>
+<summary>검색페이지</summary>
+
+- 해당 키워드에 관한 영상 나오기
+  - header 컴포넌트 input에서 value값 받아오기
+  - 채널 이미지 불러오기
+  - 동영상 조회수 불러오기
+  - 레이아웃
+  </details>
+
+<details>
+<summary>상세페이지</summary>
+
+- 댓글창 부분 컴포넌트화
+  </details>
+
+<br/>
+
+## 🦖 피드백 받고 싶은 부분/아쉽거나 어려웠던 부분
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)
+
+<details>
+<summary>👩‍💻김지영</summary>
+
+- 동영상 시간이 무조건 2숫자씩 되게 했습니다. 하지만, 10분 이하인 동영상인 경우, 분이 2글자일 필요가 없는데 더 좋은 방법이 있을지 궁급합니다.
+- 조회수 함수를 더 좋게 만들 방법이 있을 지 궁금합니다.
+- 시간 관계 상 필터와 미니 플레이어를 넣지 못해서 아쉽습니다.
+- 무한 스크롤를 위해 axios를 불러와 데이터를 usestate에 넣었는데, 더 좋은 방법이 있을지 고민이 됩니다.
+
+</details>
+<details>
+<summary>👩‍💻이은영</summary>
+
+- 피드백 받고 싶은 점
+
+  - 페이지 공통 레이아웃
+    - 헤더와 사이드바를 fixed로 설정했고 outlet은 헤더와 사이드바만큼 반응형마다 다르게 margin을 줬습니다. 괜찮은 방법인지 궁금합니다. 혹은 fixed된 공통 컴포넌트와 아웃렛을 margin을 주지 않고도 겹치지 않게 설정할 수 있는 방법이 있는지 궁금합니다.
+  - img src 대신 import로 이미지 불러오기
+    - 이미지를 img src로 불러오는 것이 안돼서 import 하였습니다. 혹시 원인에 대해 아시는 것이 있으면 알려주시면 감사하겠습니다.
+  - 사이드바
+    - 창크기별로 반응형을 만들고, 창크기별로 버튼에 다른 모션을 주는 것이 어려웠습니다. 버튼을 누르면 확장형 사이드바가 없어지거나 모달 사이드바가 뜨는 것에 대해, state를 하나로 하여 작업하다가 두 개로 변경하여 작업했습니다. 이 과정에서 헤더와 사이드바, app.js 전체 레이아웃 등 고려해야할 것이 많아 어려웠습니다. useContext를 사용해야 했는지 궁금합니다.
+
+- 어려웠던 점
+
+  - useRef - useRef 사용하는 것이 어려웠고, 수정하여 없어진 부분이나 자식 컴포넌트로 ref prop을 넘겨주는 것이 불가능 해 fowardRef 를 사용하려 했습니다. 하지만 에러가 났는데 해결하지 못해 사용하지 못했습니다.
+  </details>
+  <details>
+  <summary>👩‍💻조승후</summary>
+
+- 설명1
+- 설명2
+</details>
+<details>
+<summary>👩‍💻홍혜원</summary>
+
+- 설명1
+- 설명2
+</details>

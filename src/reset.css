@@ -3,6 +3,7 @@
    License: none (public domain)
 */
 
+*,
 html,
 body,
 div,
@@ -91,6 +92,7 @@ video {
   font: inherit;
   vertical-align: baseline;
   text-decoration: none;
+  box-sizing: border-box;
 }
 a:hover,
 a:visited,
@@ -120,7 +122,10 @@ body {
   line-height: 1;
 }
 ol,
-ul {
+ul,
+li {
+  padding-left: 0;
+  margin-left: 0;
   list-style: none;
 }
 blockquote,

@@ -1,5 +1,8 @@
 import React from 'react';
+import VideoCards from '../components/mainPage/VideoCards';
 
-export default function Videos() {
-  return <div>Videos</div>;
-}
+const Videos = () => {
+  return <VideoCards />;
+};
+
+export default Videos;
