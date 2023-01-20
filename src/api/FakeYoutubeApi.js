@@ -8,9 +8,16 @@ export async function channels() {
   return axios.get(`/data/channel.json`).then((res) => res.data.items[0].snippet.thumbnails.default.url);
 }
 
+// 조회수,좋아요 정보
 export async function videoInfo() {
   return axios.get(`/data/hyewonTest.json`).then((res) => res.data.items[0].statistics);
 }
+
+// 동영상 재생 정보
+export async function contentDetails() {
+  return axios.get(`/data/hyewonTest.json`).then((res) => res.data.items[0].contentDetails);
+}
+
 export async function VideoComment() {
   return axios.get(`/data/VideoComment.json`).then((res) => res.data);
 }

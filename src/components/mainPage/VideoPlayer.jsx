@@ -2,8 +2,12 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import HoverVideo from './HoverVideo';
 import styles from './VideoPlayer.module.scss';
+import { videoTime } from '../../util/videoTime';
 
 const VideoPlayer = ({ videoCard, profileData }) => {
+  console.log('videoCard:', videoCard);
+  // console.log('profileData:',profileData);
+
   const [videoHover, setVideoHover] = useState(false);
   const [playVideo, setPlayVideo] = useState(false);
 
@@ -11,13 +15,6 @@ const VideoPlayer = ({ videoCard, profileData }) => {
     return `/watch/:${url}`;
   };
 
-  const videoTime = (duration) => {
-    let time = [duration.match(/[0-9]+H/) || '', duration.match(/[0-9]+M/) || '00', duration.match(/[0-9]+S/) || '00'];
-    time = time.map((timeEl) => String(timeEl).replace(/[A-Z]/g, '').padStart(2, '0'));
-    time = time.join(':').replace(/[A-Z]/g, '');
-    time = time.split(':')[0] === '00' ? time.replace('00:', '') : time;
-    return time;
-  };
   let timer;
 
   const mouseOver = async () => {
