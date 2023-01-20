@@ -5,9 +5,6 @@ import styles from './VideoPlayer.module.scss';
 import { videoTime } from '../../util/videoTime';
 
 const VideoPlayer = ({ videoCard, profileData }) => {
-  console.log('videoCard:', videoCard);
-  // console.log('profileData:',profileData);
-
   const [videoHover, setVideoHover] = useState(false);
   const [playVideo, setPlayVideo] = useState(false);
 
