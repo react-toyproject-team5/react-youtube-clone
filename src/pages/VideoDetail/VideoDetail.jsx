@@ -10,9 +10,8 @@ const VideoDetail = () => {
   const {
     state: { video },
   } = useLocation();
-  // console.log(video.id.videoId);
-  const { title, channelTitle, description, publishedAt } = video.snippet;
 
+  const { title, channelTitle, description, publishedAt } = video.snippet;
   return (
     <div className={styles.detailPage}>
       <div className="column1">
