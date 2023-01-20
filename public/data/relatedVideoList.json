@@ -1,10 +1,10 @@
 {
   "kind": "youtube#videoListResponse",
-  "etag": "cy6lvhx_6o4XWnrbr-g0EVP4Mis",
+  "etag": "VXUPcSnS-DmkoPpoxyIJZw9Dy5U",
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "-S6Y4k3fNaWnGudyzAaxflhWd_A",
+      "etag": "KHedm2P0-R17CdL2DNyfO6pC9W0",
       "id": "-EXQtU80q1M",
       "snippet": {
         "publishedAt": "2023-01-18T17:00:00Z",
@@ -67,26 +67,11 @@
           "description": "The 43 Institute was established to honor Ken Block's memory and spirit. For more information, please visit http://43i.org\n\n00:00 An Update\n04:30 A Celebration of Ken’s Life\n10:15 Words to Live By"
         },
         "defaultAudioLanguage": "en-US"
-      },
-      "contentDetails": {
-        "duration": "PT10M46S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "false",
-        "licensedContent": false,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "1260054",
-        "likeCount": "147461",
-        "favoriteCount": "0",
-        "commentCount": "10633"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "vJwZhjuRsjM_ch4rggs_zNWFKGs",
+      "etag": "M2_S8jaMmeXuETO7RJ5DnJFj3rE",
       "id": "-e1_QhJ1EhQ",
       "snippet": {
         "publishedAt": "2023-01-18T15:00:03Z",
@@ -141,26 +126,11 @@
           "title": "Atlas Gets a Grip | Boston Dynamics",
           "description": "It’s time for Atlas to pick up a new set of skills and get hands on. In this video, the humanoid robot manipulates the world around it: Atlas interacts with objects and modifies the course to reach its goal—pushing the limits of locomotion, sensing, and athleticism.\n\nTo learn how we go from idea to execution, go being the scenes with our team: https://youtu.be/XPVC4IyRTG8\n\n#BostonDynamics #Robots #Robotics"
         }
-      },
-      "contentDetails": {
-        "duration": "PT1M21S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "false",
-        "licensedContent": false,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "1387139",
-        "likeCount": "55940",
-        "favoriteCount": "0",
-        "commentCount": "5000"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "Rm_mxUHbw2K4OMWd0X2QMaT7PUU",
+      "etag": "7cVUPQEUjnPFI9xcMM3RtLentBM",
       "id": "oBrkbWSB3Ls",
       "snippet": {
         "publishedAt": "2023-01-18T15:00:01Z",
@@ -225,26 +195,11 @@
           "description": "\"Love From The Other Side\" out now: https://FallOutBoy.lnk.to/lovefromtheotherside\n\nNew album 'So Much (For) Stardust' out March 24th on Fueled By Ramen/DCD2: https://FallOutBoy.lnk.to/somuchforstardust\n\nLimited box sets with new merch, signed CDs and four exclusive vinyl colors are available for pre-order now in our webstore https://FallOutBoy.lnk.to/store\n\n✨ lots more to come soon ✨\n\nFOLLOW FALL OUT BOY\n\nhttps://falloutboy.com/\nhttps://instagram.com/falloutboy \nhttps://www.tiktok.com/@falloutboy\nhttps://twitter.com/falloutboy \nhttps://facebook.com/falloutboy \n\nLYRICS\n\nModel house life meltdown\nStill a modern dream let down\nIt kills me you know I’m dying out here\nWhat would you trade the pain for?\nI’m not sure\n\nWe were a hammer to the Statue of David\nWe were a painting you could never frame and\nYou were the sunshine\nOf my lifetime\nWhat would you trade the pain for?\n\nThis city always hangs a little bit lonely on me\nLoose\nLike a kid playing pretend in his father’s suit\nI’d never go, I just want to be invited \nOh\nGot to give up\nGet the feeling\nGet the feeling\nDon’t fight it\nFight it\n\nSending my love from the other side of the apocalypse \nAnd I just about snapped\nDon’t look back\nEvery lover’s got a little dagger in their hand\nLove from the other side of the apocalypse\nAnd I just about snapped\nDon’t look back\nEvery lover’s got a little dagger in their hand\n\nGeneration sleep I’m falling in and out of love\nI’m getting that tilted feeling out here\nWhat would you trade the pain for?\nI’m not sure\n\nNowhere left for us to go but heaven\nSummer falling through our fingers again and\nYou were the sunshine\nOf my lifetime\nWhat would you trade the pain for?\n\nThey say we gotta get ahead yeah,\nNo matter what it takes\nBut there’s no way off the hamster wheel on this rat race\nI’d never go, I just want to be invited \nOh\nGot to give up\nGet the feeling\nGet the feeling\nDon’t fight it\nFight it\n\nSending my love from the other side of the apocalypse \nAnd I just about snapped\nDon’t look back\nEvery lover’s got a little dagger in their hand\nLove from the other side of the apocalypse\nAnd I just about snapped\nDon’t look back\nEvery lover’s got a little dagger in their hand\n\nI saw you in a bright clear field\nHurricane heat in my head\nThe kind of pain you feel to get good in the end\nGood in the end\nInscribed like stone and faded by the rain:\n“Give up what you love\nGive up what you love before it does you in…”\n\nSending my love from the other side of the apocalypse \nAnd I just about snapped\nDon’t look back\nEvery lover’s got a little dagger in their hand\nLove from the other side of the apocalypse\nAnd I just about snapped\nDon’t look back\nEvery lover’s got a little dagger in their hand\n\n#FallOutBoy #SoMuchForStardust #LoveFromTheOtherSide"
         },
         "defaultAudioLanguage": "en"
-      },
-      "contentDetails": {
-        "duration": "PT5M28S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "false",
-        "licensedContent": true,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "403501",
-        "likeCount": "44250",
-        "favoriteCount": "0",
-        "commentCount": "4038"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "79M44iBUqkm5PMlUb8fFH1DOPEk",
+      "etag": "JZryev20tb1VBCmBeZ3Ew5aZ3RM",
       "id": "NthGfn_ddRQ",
       "snippet": {
         "publishedAt": "2023-01-18T14:00:18Z",
@@ -327,26 +282,11 @@
           "description": "Your letter to Hogwarts has arrived. Live the Unwritten beginning February 10, 2023.\n\nPre-order now.\n\n\nAlways be the first to get #HogwartsLegacy news at \ngo.wbgames.com/HogwartsLegacy \n\nConnect with Hogwarts Legacy online: \nTwitter: https://twitter.com/HogwartsLegacy \nFacebook: https://facebook.com/HogwartsLegacy\nInstagram: https://instagram.com/HogwartsLegacy\nDiscord: Discord.gg/HogwartsLegacy\n\n#4K #WBGames #WizardingWorld"
         },
         "defaultAudioLanguage": "en"
-      },
-      "contentDetails": {
-        "duration": "PT1M20S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "true",
-        "licensedContent": true,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "1537731",
-        "likeCount": "50317",
-        "favoriteCount": "0",
-        "commentCount": "5269"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "qPyRnCWiWKmQIBpDp853cCRz2fw",
+      "etag": "l6TdjZUNCst7JD-NdcnHaZu70gk",
       "id": "SRknVVlwgsE",
       "snippet": {
         "publishedAt": "2023-01-18T17:00:18Z",
@@ -403,26 +343,11 @@
           "title": "GROUNDED GLIZZY MOMENTS",
           "description": "GROUNDED GLIZZY MOMENTS\nLeave a like and Subscribe if you enjoyed! Thanks =)\n\nAll the footage featured in this video was livestreamed on my Twitch channel!\nFollow it to catch the streams live when they happen! - https://www.twitch.tv/smii7y\n\nCheck out my other channels!\nSMii7Y  https://www.youtube.com/c/SMii7Y\nSMii7Y➖  https://www.youtube.com/c/SMii7Yminus\n\nFollow my Stream, Social Medias and check out my Merch!\n📺 Stream - http://www.twitch.tv/smii7y\n🐦 Twitter - https://twitter.com/SMii7Y\n📷 Instagram - https://www.instagram.com/smii7y/\n👕 Merch - https://smii7y.store/\n\nFriends in the video:\nhttps://www.twitch.tv/jericho\nhttps://www.twitch.tv/EliLikesRice\nhttps://www.twitch.tv/fl0m\n\n🎵 Music by:\nhttp://www.epidemicsound.com/\nhttp://www.premiumbeat.com/\nhttp://audiojungle.net/\nincompetech.com \nLicensed under Creative Commons: By Attribution 3.0\nhttps://creativecommons.org/licenses/by/3.0/\nhttps://99sounds.org/\n\nOutro Music Created by:  @MattercellEntertainment"
         }
-      },
-      "contentDetails": {
-        "duration": "PT25M11S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "false",
-        "licensedContent": true,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "530384",
-        "likeCount": "34572",
-        "favoriteCount": "0",
-        "commentCount": "864"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "k_5wz2lsgVdlirj5j_ddnSTEzXE",
+      "etag": "-lh3P1hKZm7DaR0fX4H5HXNgIqk",
       "id": "Z9rsqMFO_W4",
       "snippet": {
         "publishedAt": "2023-01-18T14:45:29Z",
@@ -465,26 +390,11 @@
           "description": "Brian Walshe is charged with allegedly murdering his wife, missing Cohasset woman Ana Walshe."
         },
         "defaultAudioLanguage": "en"
-      },
-      "contentDetails": {
-        "duration": "PT13M5S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "true",
-        "licensedContent": true,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "362702",
-        "likeCount": "3035",
-        "favoriteCount": "0",
-        "commentCount": "2118"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "JttP_w0aIjM6QRnicNa6OwV1NRU",
+      "etag": "4n_KvJgGMsx5_WbMWxuq4SWKNw8",
       "id": "k_zz3239DA0",
       "snippet": {
         "publishedAt": "2023-01-18T15:00:34Z",
@@ -571,26 +481,11 @@
           "description": "The US and China are fighting a war. It's a weird one that's hard to see. \nVisit https://bit.ly/Scaler_JohnnyHarris to take the free live class.\n\nThe US and China are fighting a war. It's a weird one that's hard to see. It's being fought in government offices, in company boardrooms. And it’s being fought over the most important technology in the world: Microchips.\n\nNext week's video (about submarines) is live now on Nebula https://nebula.tv/videos/johnnyharris-our-best-military-weapon-is-invisible\nwhere I publish every video one week early. \n\nCheck out all my sources for this video here: https://docs.google.com/document/d/1rb2t8ndF23uXBuYweXya61JClTU30xJD_HBu9exUTF4/edit?usp=sharing\n\nJoin the Newsroom (over on Patreon) to get access to behind-the-scenes vlogs, extended interviews, & to support the channel. See you there! https://www.patreon.com/johnnyharris\n\n- ways to support - \nMy Patreon: https://www.patreon.com/johnnyharris\nOur custom Presets & LUTs: https://store.dftba.com/products/johnny-iz-luts-and-presets\n\n- where to find me -\nInstagram: https://www.instagram.com/johnny.harris/\nTiktok: https://www.tiktok.com/@johnny.harris\nFacebook: https://www.facebook.com/JohnnyHarrisVox\nIz's (my wife’s) channel: https://www.youtube.com/iz-harris\n\n- how i make my videos -\nTom Fox makes my music, work with him here: https://tfbeats.com/\nI make maps using this AE Plugin: https://aescripts.com/geolayers/?aff=77\nAll the gear I use: https://www.izharris.com/gear-guide\n \n- my courses - \nLearn a language: https://brighttrip.com/course/language/\nVisual storytelling: https://www.brighttrip.com/courses/visual-storytelling\n\n- about -\nJohnny Harris is an Emmy-winning journalist. He currently is based in Washington, DC, reporting on interesting trends and stories domestically and around the globe. Johnny's visual style blends motion graphics with cinematic videography to create content that explains complex issues in relatable ways.\n\n- press - \nNYTimes: https://www.nytimes.com/2021/11/09/opinion/democrats-blue-states-legislation.html\nNYTimes: https://www.nytimes.com/video/opinion/100000007358968/covid-pandemic-us-response.html\nVox Borders: https://www.youtube.com/watch?v=hLrFyjGZ9NU\nFinding Founders: https://findingfounders.co/episodes/johnny-harris-2esj3-c3pet-2pg4c-xbtwa-5gaaa\nNPR Planet Money: https://www.npr.org/transcripts/1072164745"
         },
         "defaultAudioLanguage": "en"
-      },
-      "contentDetails": {
-        "duration": "PT33M38S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "true",
-        "licensedContent": true,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "682674",
-        "likeCount": "37398",
-        "favoriteCount": "0",
-        "commentCount": "2885"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "6t5KMXAy9ZZ_C8Y1yc3xkcDs17Q",
+      "etag": "SSkXtOahV5aVgBGdJQu3jP7Uoq8",
       "id": "Znsa4Deavgg",
       "snippet": {
         "publishedAt": "2023-01-17T02:44:15Z",
@@ -652,26 +547,11 @@
           "description": "Reunited.\n\nThe Mandalorian, Season 3 March 1 on Disney+.\nThe journeys of the Mandalorian through the Star Wars galaxy continue. Once a lone bounty hunter, Din Djarin has reunited with Grogu. Meanwhile, the New Republic struggles to lead the galaxy away from its dark history. The Mandalorian will cross paths with old allies and make new enemies as he and Grogu continue their journey together.\n\nThe series stars Pedro Pascal, Katee Sackhoff, Carl Weathers, Amy Sedaris, Emily Swallow and Giancarlo Esposito."
         },
         "defaultAudioLanguage": "en-US"
-      },
-      "contentDetails": {
-        "duration": "PT1M43S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "true",
-        "licensedContent": true,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "5191048",
-        "likeCount": "119206",
-        "favoriteCount": "0",
-        "commentCount": "5501"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "CWB9qff1Af_XtiK0vhg6YvGaxiQ",
+      "etag": "XhtVLeUuhvfjr2SXXYdO0Q2gsjU",
       "id": "XPVC4IyRTG8",
       "snippet": {
         "publishedAt": "2023-01-18T15:00:18Z",
@@ -726,26 +606,11 @@
           "title": "Inside the Lab: Taking Atlas From Sim to Scaffold",
           "description": "How does Atlas recognize and interact with objects? How do we develop new Atlas behaviors? Why is manipulation important for the future of robotics?\n\nJoin our team in the Atlas lab to discover the answers to these questions and more. Keep reading on our blog: https://www.bostondynamics.com/resources/blog/sick-tricks-and-tricky-grips\n\n00:00: Introduction\n01:57: Perception and Manipulation\n05:11: Electrical Doctors\n06:29: Developing in Simulation\n07:13: \"Sick Trick\"\n08:24: What's Next?\n\n#BostonDynamics #robotics"
         }
-      },
-      "contentDetails": {
-        "duration": "PT9M47S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "false",
-        "licensedContent": false,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "618393",
-        "likeCount": "21748",
-        "favoriteCount": "0",
-        "commentCount": "1729"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "X8Qz41UfwCxAM3efta7ToQ9YhUs",
+      "etag": "iBmiuuwmLc_gsTO7SCw55IqInso",
       "id": "oMf_i1YBuMk",
       "snippet": {
         "publishedAt": "2023-01-18T14:44:48Z",
@@ -798,25 +663,11 @@
           "description": "A powerful, high-excursion woofer and beamforming tweeters create room-filling sound. HomePod senses its surroundings and automatically adapts audio for where it’s placed. Advanced computational audio, powered by Apple silicon, optimizes acoustic performance. Spatial Audio directs music with great precision, surrounding you in sound. It all comes together for the ultimate home audio experience. \n\nHomePod also works seamlessly with all your Apple devices. It comes with Siri built in and works as a smart home hub to connect and control your home, privately and securely. Available in Midnight and White.\n\n“GMT (Jamie xx Remix)” by Oliver Sim and Jamie xx https://apple.co/GMT-Remix\n\nLearn more about HomePod: https://apple.co/3iPMmC7\n\n#Apple #HomePod\n\nSpatial Audio works with compatible content in supported apps.\nMusic streaming services may require a subscription.\nSmart home functionality requires a HomeKit- or Matter-enabled accessory. Smart home accessories sold separately.\n\nWelcome to the official Apple YouTube channel. Here you’ll find news about product launches, tutorials, and other great content. Apple’s more than 160,000 employees are dedicated to making the best products on earth, and to leaving the world better than we found it."
         },
         "defaultAudioLanguage": "en"
-      },
-      "contentDetails": {
-        "duration": "PT2M22S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "true",
-        "licensedContent": true,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "2345826",
-        "likeCount": "38631",
-        "favoriteCount": "0"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "CC17yLCUP26zanjkDXhs4ThzLwQ",
+      "etag": "GHJ6SweV8m9QZPtfKh65oDiJSjY",
       "id": "SJN903kCJrc",
       "snippet": {
         "publishedAt": "2023-01-18T00:52:02Z",
@@ -887,26 +738,11 @@
           "description": "I built a hidden gaming room to hide from my mom!!\nBeem Team Merch! ➔ https://www.beemteam.shop\nSUBSCRIBE for a chance at $1,000! ➔ https://www.youtube.com/c/Mbeem10?sub_confirmation=1\n\nNEW VIDEOS EVERY TUESDAY!\n\n📱 FOLLOW MY SOCIALS 📱\n➽ Instagram - @MatthewBeem\n➽ Twitter - @MatthewBeem\n➽ TikTok - @MatthewBeem\n\nEver since I was a kid I’ve been a gamer, but lately it has been hard to find the time. I also may or may not still live with my mom so I feel guilty gaming while at home. That's why I decided to build a secret gaming room under the stairs in a hidden closet so that I can play all the games I want in peace and quiet. So my mom didn’t find out about this project, I sent her and my sister to Paris for the week. This was tricky, but we figured it all out and it turned out incredible! I love my new gaming room, but it was insane and super intense to make. Luckily we had lots of laughs along the way. I love making these videos and can't wait for you to see what is next. \n\nIf you’re reading this you’re a real one! \nComment “I want a secret gaming room!\" so I can notice you!\n\nNot I Built a SECRET Gaming Bunker In My Room *No One Knew*, But I Built a Secret Room to Hide from my Wife, But i built my DREAM Hidden Gaming Room in my Parents House, But I Built a Secret Room to Hide from My Family, But Secret Hidden Gaming Room Inside a Couch, But I Built An EPIC Hidden Gaming Room In My House *PS5*, But Little Girl Finds A Secret Room In Her House That Leads Into An Even Wilder Surprise, But I Built a Secret Room in Public, But I Turned an Old Dumpster into an Epic Secret Room, But INCREDIBLY INGENIOUS Hidden Rooms and Secret Furniture , But I Built a Secret Room, But I Built An EPIC Hidden Gaming Room In My New House, But Hidden Entrance INSIDE Stairs To DREAM Gaming Room, But I Found The ULTIMATE HIDDEN GAMING ROOM In My New House or any other video like JStu, FrenchieFries, Jake Carlini, Ben Azelart, AllWeDoIsFun, Zealous, Tiana Wilson, Dangie Bros, Drew Dirksen, Carter Sharer, MARKO, Interesting & Creative Designs, Chris & Emily, Unspeakable, MrBeast, Faze Rug, or Airrack would make. This is a video where Matthew Beem (aka MBeem10) builds a secret hidden gaming room inside the stairs to hide from his mom!"
         },
         "defaultAudioLanguage": "en-US"
-      },
-      "contentDetails": {
-        "duration": "PT8M59S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "true",
-        "licensedContent": true,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "737136",
-        "likeCount": "24114",
-        "favoriteCount": "0",
-        "commentCount": "2416"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "4UhXBniV5RZExCwliRXRGLGVMYY",
+      "etag": "AC44d_TlbpUUK_bGGgMOzCNSHgg",
       "id": "TkPCdI2aZhQ",
       "snippet": {
         "publishedAt": "2023-01-17T22:13:41Z",
@@ -959,26 +795,11 @@
           "description": "Deestroying and Travis Hunter tour Colorado’s new football facilities for the first time! Even had special guest appearances by Shedeur Sanders and more! Deion Sanders hopes to get many recruits to commit to colorado and this is how..\n\nGET YOUR ELEVEN GEAR HERE : https://theeleven.store\n\nSUBSCRIBE TO MY 2ND CHANNEL :\nhttps://www.youtube.com/@moredeestroying692\n\nTHE ELEVEN : https://theeleven.store\n\nFOLLOW ME ON\nTwitter : https://www.twitter.com/deestroying\nIG : https://www.instagram.com/deestroying"
         },
         "defaultAudioLanguage": "en"
-      },
-      "contentDetails": {
-        "duration": "PT18M25S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "false",
-        "licensedContent": true,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "830309",
-        "likeCount": "28987",
-        "favoriteCount": "0",
-        "commentCount": "1650"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "YX5VKjkdWQyMXdja7mwdo-ga_GU",
+      "etag": "8U9UjGqKIN4xJ9hoVpuA4Rs806Q",
       "id": "_I9T4hxmZXU",
       "snippet": {
         "publishedAt": "2023-01-18T07:59:02Z",
@@ -1048,26 +869,11 @@
           "description": "Celebrate the Year of the Rabbit with the brand new Lunar Queen skin, the Magic Show statue, as well as the Magic Theatre Scenery and its in-game challenge! Happy Lunar New Year! 🐰✨ \n\n\n\nFollow us on our Socials!\nTwitter ► https://twitter.com/ClashofClans/\nInstagram ► https://www.instagram.com/clashofclans \nFacebook ► https://www.facebook.com/ClashofClans \nTikTok ► https://www.tiktok.com/@clashofclans\n\nAttack. Defend. Strategize. Download for free for mobile devices. http://supr.cl/ThisArmy\n\nFrom rage-\u00adfilled Barbarians with glorious mustaches to pyromaniac wizards, raise your own army and lead your clan to victory! Build your village to fend off raiders, battle against millions of players worldwide, and forge a powerful clan with others to destroy enemy clans.\nPLEASE NOTE! Clash of Clans is free to download and play, however some game items can also be purchased for real money \n\nAlso, under our Terms of Service and Privacy Policy, you must be at least 13 years of age to play or download Clash of Clans.\nA network connection is also required.\n\nFEATURES\n- Build your village into an unbeatable fortress \n- Raise your own army of Barbarians, Archers, Hog Riders, Wizards, Dragons and other mighty fighters\n- Battle with players worldwide and take their Trophies\n- Join together with other players to form the ultimate Clan\n- Fight against rival Clans in epic Clan Wars \n- Build 18 unique units with multiple levels of upgrades\n- Discover your favorite attacking army from countless combinations of troops, spells, Heroes and Clan reinforcements \n- Defend your village with a multitude of Cannons, Towers, Mortars, Bombs, Traps and Walls\n- Fight against the Goblin King in a campaign through the realm\n\nChief, are you having problems? Visit https://help.supercellsupport.com/clash-of-clans/en/\n\nPrivacy Policy:\nhttp://www.supercell.net/privacy-policy/\n\nTerms of Service:\nhttps://supercell.com/en/terms-of-service/\n\nParent’s Guide:\nhttp://www.supercell.net/parents\n\n#clashofclans #lunarnewyear #yearoftherabbit"
         },
         "defaultAudioLanguage": "en"
-      },
-      "contentDetails": {
-        "duration": "PT1M32S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "false",
-        "licensedContent": false,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "1655398",
-        "likeCount": "48987",
-        "favoriteCount": "0",
-        "commentCount": "2820"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "AkgSRnPv9sHHAcK0UvCoc_hYz0c",
+      "etag": "VJ1v59kP-Qgt5k2l965_08k1D-Y",
       "id": "Wj5lcSi5Nrg",
       "snippet": {
         "publishedAt": "2023-01-18T17:36:40Z",
@@ -1141,26 +947,11 @@
           "description": "How do you use a fire extinguisher when it doesn't have a handle? Blow it up?\nGav and Dan film the explosive fire suppression at 150,000fps.\nInstagram - https://www.instagram.com/theslowmoguys\nFilmed at 150,000FPS with the Phantom TMX7510\nTiniest Exploding Fire Extinguisher at 150,000FPS - The Slow Mo Guys"
         },
         "defaultAudioLanguage": "en-GB"
-      },
-      "contentDetails": {
-        "duration": "PT10M20S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "false",
-        "licensedContent": true,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "378652",
-        "likeCount": "24720",
-        "favoriteCount": "0",
-        "commentCount": "849"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "DmZdlq1IBwXkYClPj6R-c1hb_eA",
+      "etag": "UGbHMsJFIgoSJ0oGl1cM1nGeHn8",
       "id": "rcNPgc7hPBI",
       "snippet": {
         "publishedAt": "2023-01-18T05:00:16Z",
@@ -1221,26 +1012,11 @@
           "description": "TWICE Pre-release english track \"MOONLIGHT SUNRISE\" M/V Teaser 2\n\nTWICE Pre-Release English Single \"MOONLIGHT SUNRISE\"\n\nRelease on 2023.01.20 FRI 2PM KST/0AM EST\n\n📌\"MOONLIGHT SUNRISE\" Digital Pre-Save & Pre-Order\nhttps://TWICE.lnk.to/MoonlightSunrise \n\nTWICE Official Shop: https://TWICE.lnk.to/Shop\nTWICE Official YouTube: http://www.youtube.com/c/TWICE\nTWICE Official Facebook: http://www.facebook.com/JYPETWICE\nTWICE Official Twitter: http://www.twitter.com/JYPETWICE\nTWICE Official TikTok https://www.tiktok.com/@twice_tiktok_...\nTWICE Official Instagram: http://www.instagram.com/TWICETAGRAM\nTWICE Official Homepage: http://TWICE.jype.com\nTWICE Official Fan's: http://fans.jype.com/TWICE\n\nⓒ 2023 JYP Entertainment. All Rights Reserved\n\n#TWICE #MOONLIGHTSUNRISE"
         },
         "defaultAudioLanguage": "ko"
-      },
-      "contentDetails": {
-        "duration": "PT10S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "false",
-        "licensedContent": true,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "1804963",
-        "likeCount": "204502",
-        "favoriteCount": "0",
-        "commentCount": "9608"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "Em2pKReLWOTHdrboiuGsopGDxeQ",
+      "etag": "W1UdFr5TFUeJJPT3YD1w4zoQB3c",
       "id": "n5zNdiQEtrQ",
       "snippet": {
         "publishedAt": "2023-01-17T18:47:24Z",
@@ -1275,7 +1051,14 @@
           }
         },
         "channelTitle": "Miniminter",
-        "tags": ["simon", "sidemen", "miniminter", "mm7games", "random", "vlog"],
+        "tags": [
+          "simon",
+          "sidemen",
+          "miniminter",
+          "mm7games",
+          "random",
+          "vlog"
+        ],
         "categoryId": "24",
         "liveBroadcastContent": "none",
         "localized": {
@@ -1283,26 +1066,11 @@
           "description": "What challenge should I do for $10,000 next time?\n\nIf you have an idea you would like to see, let me know here:\r\nhttps://docs.google.com/forms/d/e/1FAIpQLSfrqSDycG6GevuJD7gGvfHsa3O-qdbTTyZjV-Lr3tjoP5hXLQ/viewform?usp=sf_link\r\n\r\nSecond Channel: https://goo.gl/acaMTt\r\nTwitter: https://goo.gl/ugsA1Y\r\nFacebook: https://goo.gl/S7X2XQ\r\n\r\nSidemen Clothing: https://goo.gl/8RLHBR\r\n\r\nSidemen Book: https://goo.gl/wqFrjS\r\n\r\nMy PC: http://bit.ly/miniminter\r\n\r\nCustom Controller: http://bit.ly/SideCCUK\r\n\r\nHOW I RECORD MY GAMEPLAY: http://e.lga.to/mm\r\n\r\nWHERE I GET MY CHAIR:\r\nUK: http://goo.gl/35aEHx\r\nUSA: https://goo.gl/BbkxsF\r\n\r\nMusic from: https://www.youtube.com/user/NoCopyrightSounds\r\n\r\nMusic from MediaMusicNow.co.uk\r\n\r\nVideo uploaded by\r\nSimon/Miniminter/mm7games"
         },
         "defaultAudioLanguage": "en-GB"
-      },
-      "contentDetails": {
-        "duration": "PT31M32S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "false",
-        "licensedContent": true,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "1820270",
-        "likeCount": "102955",
-        "favoriteCount": "0",
-        "commentCount": "2489"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "kmP75as9A3ldfJWM1FDsMvkMNio",
+      "etag": "06l8CkDR8R1sH_oV8RAoquVJTKo",
       "id": "pMK85fUN12I",
       "snippet": {
         "publishedAt": "2023-01-17T19:00:27Z",
@@ -1375,26 +1143,11 @@
           "description": "Shop my charity merch! https://milehighermerch.com/ \nAll profits from this charity merch will be donated to the National Center for Missing and Exploited Children: https://www.missingkids.org/ \n\nThank you to NCMEC for participating in this video! You can donate to our campaign here:  https://give.missingkids.org/campaign/kendall-rae/c438796 \n\nTrue Crime with Kendall Rae podcast\nApple Podcasts: https://apple.co/3rks84o\nSpotify: https://spoti.fi/3jC66pr \n\nCheck out Higher Love Wellness: https://higherlovewellness.com/ \nUse code KENDALLRAE for 10% off your order (excludes bundles)\n\nSource Material: https://pastebin.com/t2t8isVg\n\nCheck out my other podcasts: \nMile Higher (True Crime)\n@milehigherpod\nYouTube: https://bit.ly/2ROzJcw\nTwitter: http://twitter.com/milehigherpod\nInstagram: http://instagram.com/milehigherpod \n\nThe Sesh (Get To Know Me Podcast)\nhttps://bit.ly/3Mtoz4X\n@the_seshpodcast \nIG: https://bit.ly/3a9t6Xr\nTW: https://bit.ly/2XH4C2A\n\n*Follow My Social!* @KendallRaeOnyt\nVlog Channel: https://www.youtube.com/c/Kendaily \nTwitter: http://twitter.com/kendallraeonyt\nInstagram: http://instagram.com/kendallraeonyt\nFacebook: https://bit.ly/3kar4NK \nMy Zoo: http://instagram.com/milehigherzoo\n\nWatch my documentary, Apartment 801: https://bit.ly/2RJ9XXr \n\nREQUESTS: \nGeneral case suggestion form: https://bit.ly/32kwPly \nForm for people directly related/ close to the victim: https://bit.ly/3KqMZLj \nJoin my discord to chat with other viewers about this video, its free! https://discord.com/invite/an4stY9BCN\n\nC O N T A C T: \n✉ For Business Inquiries - kendall@INFAgency.com\n\n✉ Send me mail ✉\nKendall Rae\n8547 E Arapahoe Rd Ste J # 233\nGreenwood Village, CO 80112\n\n#Unsolved #TrueCrime #KendallRae"
         },
         "defaultAudioLanguage": "en"
-      },
-      "contentDetails": {
-        "duration": "PT35M49S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "false",
-        "licensedContent": true,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "456272",
-        "likeCount": "21790",
-        "favoriteCount": "0",
-        "commentCount": "1307"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "yla9NJJX0Y3c8Zt9rV3RW6MySAM",
+      "etag": "yUqUiXtYX24QrwPS3iCzhuT39go",
       "id": "RvLkqQ9TJl4",
       "snippet": {
         "publishedAt": "2023-01-18T11:42:05Z",
@@ -1475,26 +1228,11 @@
           "description": "Today we return to our K-pop series with Thai prince, Bam Bam of GOT7 as we try the DEATH sauce tteokbokki! Thanks to Bam Bam for giving us his time and filming with us! Go visit his new Youtube channel @bamhome \n\nAlso, we’ve been loving Everydaze with BT21 new lychee flavour konjac jelly. Thanks to them for supporting our content. You can order them here: https://www.amazon.com/stores/Everydaze/page/AADACC61-6459-4EC9-BB56-FB3A6CB0F4C4?ref_=ast_bln\nor outside the US: https://www.iherb.com/c/everydaze\n\n--\n\n오늘은 오랜만에 케이팝 시리즈로 돌아왔는데요! 태국 왕자 GOT7의 뱀뱀님과 함께 응급실 떡볶이 사망맛을 먹으며 많은 얘기들을 나눴습니다! 바쁘신 가운데 시간을 내주시고 촬영을 함께해 주신 뱀뱀님에게 감사의 말씀을 전합니다! 뱀뱀님의 새로운 채널 “뱀집” @bamhome  많은 관심 부탁드립니다!\n\n그리고 이번 시리즈 촬영에 저희가 즐겨 먹은 Everydaze Essential C’s Konjac Jelly가 궁금하시다면 여기서 주문하세요! https://www.iherb.com/c/everydaze"
         },
         "defaultAudioLanguage": "en"
-      },
-      "contentDetails": {
-        "duration": "PT13M10S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "false",
-        "licensedContent": true,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "888799",
-        "likeCount": "61541",
-        "favoriteCount": "0",
-        "commentCount": "2381"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "_-V0zQEwTfL0_KUjaMWK-bx61is",
+      "etag": "JdLy7KlNPuLI5pQatk7_6YAAeDM",
       "id": "viP5CvCvoec",
       "snippet": {
         "publishedAt": "2023-01-18T05:01:12Z",
@@ -1551,29 +1289,11 @@
           "title": "Gloss Up - BestFrenn (feat. GloRilla)",
           "description": "#NowPlaying Gloss Up - BestFrenn (feat. Glorilla)\nDirected By: Diesel Filmz\n\nStream & Download \" BestFrenn\" here: \nhttps://presave.umusic.com/gloss-up-glorilla-bestfrenn-pre-sav\n\nConnect With Gloss Up:\nInstagram: https://www.instagram.com/glittergirl...\nTwitter: https://twitter.com/GlitterGirlGlos \nTikTok: https://vm.tiktok.com/ZMJajXSKV/"
         }
-      },
-      "contentDetails": {
-        "duration": "PT2M23S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "false",
-        "licensedContent": false,
-        "regionRestriction": {
-          "blocked": ["BY", "RU"]
-        },
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "205187",
-        "likeCount": "15539",
-        "favoriteCount": "0",
-        "commentCount": "985"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "aMU3qOJM7ikUTUjRJzAXCg3hmPg",
+      "etag": "wSM2WQ0gB2McATr9glQvkriEnyQ",
       "id": "KHpMxHOGelo",
       "snippet": {
         "publishedAt": "2023-01-18T01:00:08Z",
@@ -1641,26 +1361,11 @@
           "description": "Thank you all as always for the wonderful letters & gifts, we hope you enjoyed this series as much as we did! 😄\nGo to https://buyraycon.com/offlinetv for 15% off your order! Brought to you by Raycon.\n\n-------------------------------------------------------------\n\n👕 Merch & Apparel:\n• OfflineTV - https://offlinetv.com\n\n📸 Follow OfflineTV:\n• Twitter - https://www.twitter.com/OfflineTV\n• Instagram - https://www.instagram.com/OfflineTV\n• TikTok - https://www.tiktok.com/@offlinetv\n• Reddit - https://www.reddit.com/r/offlineTV\n• Patreon - https://www.patreon.com/offlinetv\n\n📝 OfflineTV Roster:\n• Scarra - https://twitter.com/scarra\n• Pokimane - https://twitter.com/pokimanelol\n• LilyPichu - https://twitter.com/LilyPichu\n• Disguised Toast - https://twitter.com/DisguisedToast\n• Michael Reeves - https://twitter.com/michaelreeves\n• QuarterJade - https://twitter.com/QuarterJade\n• Masayoshi - https://twitter.com/ItzMasayoshi\n• Sydeon - https://twitter.com/Sydeon\n• Yvonnie - https://twitter.com/yvonnie\n\n🎥 Producer & Director:\n• Brodin - https://twitter.com/brodinplett\n\n🎞️ Editor:\n• Stevo - https://twitter.com/stevotevo\n\n📋 YT Manager: \n• Dunois - https://twitter.com/DunoisKR\n\n\n\n\n\n#OfflineTV #Unboxing #Subscribe"
         },
         "defaultAudioLanguage": "en"
-      },
-      "contentDetails": {
-        "duration": "PT13M28S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "false",
-        "licensedContent": true,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "942973",
-        "likeCount": "66134",
-        "favoriteCount": "0",
-        "commentCount": "2094"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "3Nh77QepLmmJtxpk7z1_Nu0ofBQ",
+      "etag": "JH1TsB9UhW7ZTRiPaxopU9aNFiA",
       "id": "OpUh77FY0t4",
       "snippet": {
         "publishedAt": "2023-01-17T21:45:56Z",
@@ -1695,7 +1400,13 @@
           }
         },
         "channelTitle": "AnthonyPadilla",
-        "tags": ["anthony padilla", "padilla", "anthony", "i spent a day with", "interview"],
+        "tags": [
+          "anthony padilla",
+          "padilla",
+          "anthony",
+          "i spent a day with",
+          "interview"
+        ],
         "categoryId": "27",
         "liveBroadcastContent": "none",
         "defaultLanguage": "en",
@@ -1704,26 +1415,11 @@
           "description": "I spent a day with Dan Howell to learn the truth about coming out and taking a break from YouTube. Sponsors ▸This episode is sponsored by BetterHelp — go to http://betterhelp.com/padilla to get 10% off your first month. ▸ Go to http://rocketmoney.com/padilla to cancel your unnecessary subscriptions now.\n\n🎙THE PODCAST (UNCENSORED)\nSpotify ▸ https://open.spotify.com/show/5aOLuPenneHbhLh05fmkeu  \nApple ▸ https://podcasts.apple.com/us/podcast/i-spent-a-day-with/id1550213250  \n\n💥NEW YOUTOOZ FIGURE: https://youtooz.com/products/anthony-padilla \n\n🧨HUGE thank you to Dan Howell:\nYOUTUBE:https://www.youtube.com/user/danisnotonfire\nTWITTER: https://twitter.com/danielhowell\nINSTAGRAM: https://www.instagram.com/danielhowell/\n \n🗯MORE EPISODES…\n▸ BRANDON ROGERS - https://youtu.be/MofCGZrHxCI\n▸ JACKSEPTICEYE - https://youtu.be/5obktsi8XdI\n▸ LUDWIG - https://youtu.be/tpXLJq3YZyk\n\n🎥Crew\n▸ Creator, Director, Writer, etc. - Anthony Padilla\n▸ Executive Producer - Alessandra Catanese\n▸ Producer, Co-writer & Research - Elise Felber\n▸ Director of Photography/Gaffer - Kathy Sue Holtorf\n▸ Camera Operator - Matthew Faulkner\n▸ Social Media Manager - Mallory Myers\n▸ Editor - Mike Criscimagna AKA Mork Crispy\n▸ Assistant Editor - Patrick Horba\n▸ Assistant Editor - Ash Duckworth\n▸ Assistant Editor - Nikki Blacklock\n▸ Sound Editor - Gareth Hird\n▸ Post PA - Levi Villalpando\n▸ PA - Joshua Dozier\n▸ Thumbnail Artist - Dill Toma\n▸ Captions - Davy Gerichten\n\n🎵Theme Music Composer - Matt Good AKA The King of Emo \n🖼Portrait painted by: Rhianna Robles - https://instagram.com/zerogattsu\n🦥Slade mascot built by: The Pastel Prince - https://youtube.com/channel/UC7wq2U4FF2NyZD1o_P8QP0g \n📺3D animations by: Jacob Dalton - https://twitter.com/jacobdaltonvfx \n\n📢BE ON THE SHOW\n▸ If you are part of an underrepresented subculture or live a lifestyle you feel is not widely understood and would like to be interviewed by me, email inquiry[at]pressalike.com with your subculture in the title of the email.\n\n❗️You dug this deep into the description. You owe it to yourself to subscribe ▶ https://youtube.com/subscription_center?add_user=AnthonyPadilla or get more at http://instagram.com/anthonypadilla & http://twitter.com/anthonypadilla\n\n0:00 INTRODUCTION\n3:21 BULLIED AS A CHILD\n7:50 ON YOUTUBE FOR 13 YEARS\n10:11 “BASICALLY I’M GAY”\n14:44 REFLECTING ON EMOTIONS\n17:20 STRAIGHT FOR 28 YEARS\n19:45 SPONSOR MESSAGE\n21:59 COMPARING NUMBERS TO SELF-WORTH\n23:46 PARASOCIAL RELATIONSHIPS\n24:52 WHAT’S NEXT FOR DAN HOWELL?\n26:59 WE ARE ALL DOOMED\n31:27 BLOOPER"
         },
         "defaultAudioLanguage": "en"
-      },
-      "contentDetails": {
-        "duration": "PT32M11S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "false",
-        "licensedContent": true,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "513597",
-        "likeCount": "45669",
-        "favoriteCount": "0",
-        "commentCount": "1674"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "wcKmK2vOt0IrfzhSaWKhGwuzux8",
+      "etag": "kRXKwKW_BJ3fwuBKWw-mc6MtO8c",
       "id": "NRNfPcgFtVc",
       "snippet": {
         "publishedAt": "2023-01-18T00:00:07Z",
@@ -1764,26 +1460,11 @@
           "title": "Trinidad James Talks Kanye, TIG, Def Jam, Painted Nails, Stage Fight",
           "description": "Nicholaus Joseph Williams, better known by his stage name Trinidad James is a Trinidadian-American rapper. In 2012, he signed a recording contract with Def Jam Recordings. The label dropped him in 2014 when he failed to release an album, although he continues to release music as an independent artist and is signed to Artist Publishing Group for songwriting.  \n\nIn this interview Marco starts off by asking who does Trinidad want to be? The interview starts very awkwardly as Trinidad has a bear mask on. Trinidad challenges Marco and says Marco brought him on the show to exploit him. The tables are turned as Trinidad seems to be trolling Marco and has him on his toes. Marco asks Trinidad to remove his mask and Trinidad asks Marco to tie his tie and in exchange Trinidad takes the tie and puts it on. Trinidad takes off his mask to reveal his face with one eyed made up. Marco gets into the interview asking why Trinidad hasn’t made any new music. Trinidad reveals that he wanted to know what the business of entertainment was about. Trinidad talks about his relationships with record labels. Trinidad goes deeper into relationships. Trinidad then goes into his various products and the meaning behind them. Trinidad asks Marco what he thinks about him. Trinidad and Marco go back and forth about the word ugly. The conversation speeds up and the two go back and forth. Marco’s phone goes off and Marco blames it on Matt the Producer. Matt the Producer enters and Trinidad and Matt get into a discussion that gets a little tense. Trinidad and Marco continue the interview. Marco asks Trinidad about his hair. Matt the Producer tells Trinidad to get out of Marco’s creative space. A lady enters from the backstage and Trinidad yells at the lady and Marco invites her on stage. She awkwardly exits and Marco attempts to end the interview as Marco exits while talking to Matt the Producer and the mics are hot. Trinidad throws his chair and goes under the ladder and Matt the Producer holds exception.\n\nExecutive Producers for Breakbeat: Dave Mays & Brett Jeffries\n                                                                                                                                                                                          \nExecutive Producers: Marco Summers & Harvey Sutton\n \nDirector: Matt Ables  IG @mattablespromotions\n\nFilmed on location at 4U Recording, Atlanta\n \nIG @Breakbeatmedia @FunnyMarco\n\nComment, like and subscribe on the Breakbeat Media YouTube page, subscribe on Apple, Spotify or wherever podcasts are available, and visit us at www.breakbeatmedia.com"
         }
-      },
-      "contentDetails": {
-        "duration": "PT24M15S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "false",
-        "licensedContent": true,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "376439",
-        "likeCount": "7471",
-        "favoriteCount": "0",
-        "commentCount": "1175"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "MxQNGsoqURK80ZwZ3cYRj135TQg",
+      "etag": "FVMH9S6JU6kMslDiK7xGhaGy7v4",
       "id": "ByJafdBwmBI",
       "snippet": {
         "publishedAt": "2023-01-17T02:23:11Z",
@@ -1853,26 +1534,11 @@
           "description": "16-year-old Keren Montero has a voice that will blow you away! Watch as Keren sings \"Rescue\" by Lauren Daigle. \n\n» Get The America's Got Talent App: http://bit.ly/AGTAppDownload\n» Subscribe for More: http://bit.ly/AGTSub\n» Watch on NBC & Peacock: https://pck.tv/3cCQGhH\n\nAMERICA'S GOT TALENT ON SOCIAL\nLike AGT: https://www.facebook.com/agt\nFollow AGT: https://twitter.com/agt\nAGT Instagram: http://instagram.com/agt\n\nFind America's Got Talent trailers, full episode highlights, previews, promos, clips, and digital exclusives here.\n\nNBC ON SOCIAL:\nYouTube: http://www.youtube.com/nbc\nTwitter: http://Twitter.com/NBC\nFacebook: http://Facebook.com/NBC\nInstagram: http://instagram.com/nbc\n\nKeren Montero | Shy Singer SHOCKS The Judges With Her BIG Voice! | AGT: All-Stars 2023\nhttps://youtu.be/ByJafdBwmBI\n\nAmerica's Got Talent\nhttp://www.youtube.com/user/americasgottalent\n#AGT #AmericasGotTalent #AGTAllStars"
         },
         "defaultAudioLanguage": "en-US"
-      },
-      "contentDetails": {
-        "duration": "PT6M9S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "true",
-        "licensedContent": true,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "2879895",
-        "likeCount": "39667",
-        "favoriteCount": "0",
-        "commentCount": "2564"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "fCIGKtyp1jEQjm7DM_vRxiLpmvM",
+      "etag": "HETMFp0kTzmd1ewZDb0OUzMhe94",
       "id": "XftJTSLyMNE",
       "snippet": {
         "publishedAt": "2023-01-17T20:30:03Z",
@@ -1924,26 +1590,11 @@
           "description": "\"Shut up Michael, I'm only working here for the pretzel day\" - Stanley Parable.\n\ndonkey store https://dunkeyscastle.com/\ndonkey publishing company https://twitter.com/BIGMODEgames"
         },
         "defaultAudioLanguage": "en"
-      },
-      "contentDetails": {
-        "duration": "PT8M43S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "false",
-        "licensedContent": true,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "1674367",
-        "likeCount": "104071",
-        "favoriteCount": "0",
-        "commentCount": "2301"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "cUgqEF3RPTLoxKDJH6Q9DS9SoVk",
+      "etag": "CvglwtwTLK0K6eG3Q8fjbFbUqLQ",
       "id": "gCEeCFlV0IA",
       "snippet": {
         "publishedAt": "2023-01-17T15:00:26Z",
@@ -1986,21 +1637,6 @@
           "description": "A neon metropolis.\n \nTravel to a destination unlike any you've explored in Destiny 2. Cross paths with bone-chilling Tormentors and valiant Cloud Striders, join the fight against the Shadow Legion, and prevent devastation in the technologically advanced secret city of Neomuna.\n\nLearn more: http://bung.ie/lightfall\n\nFOLLOW DESTINY:\nFacebook: https://www.facebook.com/DestinyTheGame\nTwitter: https://www.twitter.com/destinythegame\nInstagram: https://www.instagram.com/destinythegame\nDiscord: http://www.discord.gg/destinygame\n\nFOLLOW BUNGIE:\nFacebook: https://www.facebook.com/Bungie/\nTwitter: https://www.twitter.com/bungie\nInstagram: https://www.instagram.com/bungie/\n⠀ ⠀ ⠀ ⠀\nDive into the free-to-play world of Destiny 2 to experience responsive first-person shooter combat, explore the mysteries of our solar system, and unleash elemental abilities against powerful enemies. Create your Guardian and collect unique weapons, armor, and gear to customize your look and playstyle. Experience Destiny 2’s cinematic story alone or with friends, join other Guardians for challenging co-op missions, or compete against them in a variety of PvP modes."
         },
         "defaultAudioLanguage": "en"
-      },
-      "contentDetails": {
-        "duration": "PT1M40S",
-        "dimension": "2d",
-        "definition": "hd",
-        "caption": "true",
-        "licensedContent": false,
-        "contentRating": {},
-        "projection": "rectangular"
-      },
-      "statistics": {
-        "viewCount": "739545",
-        "likeCount": "26434",
-        "favoriteCount": "0",
-        "commentCount": "2503"
       }
     }
   ],

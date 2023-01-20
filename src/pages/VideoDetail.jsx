@@ -3,6 +3,7 @@ import RelatedVideoInVideoDetail from '../components/RelatedVideoInVideoDetail/R
 import Comments from '../components/Comments/Comments';
 import Player from '../components/Player/Player';
 import { useLocation, useParams } from 'react-router-dom';
+import VideoInfo from '../components/VideoInfo/VideoInfo';
 
 const VideoDetail = () => {
   const {
@@ -12,10 +13,12 @@ const VideoDetail = () => {
   const { title, channelId, channelTitle, description } = video.snippet;
 
   const { videoId } = useParams;
+  // const videoInfoData =
   return (
     <div>
       <div className="column1">
         <Player videoId={videoId} />
+        <VideoInfo videoId={videoId} />
       </div>
       <div className="column2">
         <Comments />
