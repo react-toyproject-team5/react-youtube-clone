@@ -38,7 +38,7 @@
 
 <!-- HTML5 -->
 
-<img alt="Html" src ="https://img.shields.io/badge/HTML-E34F26.svg?&style=for-the-badge&logo=HTML5&logoColor=white"/> <!-- CSS --> <img alt="CSS3" src ="https://img.shields.io/badge/CSS3-FF9933.svg?&style=for-the-badge&logo=CSS3&logoColor=white"/> <!-- JS --> <img alt="JavaScript" src ="https://img.shields.io/badge/JavaScript-F7DF1E.svg?&style=for-the-badge&logo=JavaScript&logoColor=white"/> <!-- React --> <img alt="React" src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <!-- Post CSS --> <img alt="Post CSS" src="https://img.shields.io/badge/Post CSS-DD3A0A?style=for-the-badge&logo=PostCSS&logoColor=white"> <!-- SCSS --> <img alt="SASS" src="https://img.shields.io/badge/SASS-CC6699?style=for-the-badge&logo=SASS&logoColor=white"> <!-- .env --> <img alt=".env" src="https://img.shields.io/badge/.ENV-ECD53F?style=for-the-badge&logo=.ENV&logoColor=white"> <!-- axios --> <img alt="Html" src ="https://img.shields.io/badge/axios-000.svg?&style=for-the-badge&logo=axios&logoColor=white"/> <!-- Netlify --> <img alt="Netlify" src="https://img.shields.io/badge/NETLIFY-00C7B7?style=for-the-badge&logo=NETLIFY&logoColor=white"> <!-- Github --> <img alt="Github" src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=Github&logoColor=white"> <!-- Prettier --> <img alt="Prettier" src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=Prettier&logoColor=black">
+<img alt="Html" src ="https://img.shields.io/badge/HTML-E34F26.svg?&style=for-the-badge&logo=HTML5&logoColor=white"/> <!-- CSS --> <img alt="CSS3" src ="https://img.shields.io/badge/CSS3-FF9933.svg?&style=for-the-badge&logo=CSS3&logoColor=white"/> <!-- JS --> <img alt="JavaScript" src ="https://img.shields.io/badge/JavaScript-F7DF1E.svg?&style=for-the-badge&logo=JavaScript&logoColor=white"/> <!-- React --> <img alt="React" src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"><br/> <!-- Post CSS --> <img alt="Post CSS" src="https://img.shields.io/badge/Post CSS-DD3A0A?style=for-the-badge&logo=PostCSS&logoColor=white"> <!-- SCSS --> <img alt="SASS" src="https://img.shields.io/badge/SASS-CC6699?style=for-the-badge&logo=SASS&logoColor=white"> <!-- .env --> <img alt=".env" src="https://img.shields.io/badge/.ENV-ECD53F?style=for-the-badge&logo=.ENV&logoColor=white"> <!-- axios --> <img alt="Html" src ="https://img.shields.io/badge/axios-000.svg?&style=for-the-badge&logo=axios&logoColor=white"/> <!-- Netlify --> <img alt="Netlify" src="https://img.shields.io/badge/NETLIFY-00C7B7?style=for-the-badge&logo=NETLIFY&logoColor=white"><br/> <!-- Github --> <img alt="Github" src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=Github&logoColor=white"> <!-- Prettier --> <img alt="Prettier" src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=Prettier&logoColor=black">
 
 <br/>
 
@@ -71,18 +71,16 @@
   ### 👩‍💻이은영
 
 <details>
-<summary>[헤더]</summary>
+<summary>[헤더 및 사이드바]</summary>
 
-- 설명1
-  - 설명2
-  </details>
+- 검색바 반응형
+- 사이드바 윈도우 창 크기별 반응형
+- 사이드바 태블릿 및 모바일에서는 모달 사이드바
+- 구현 못한 것
 
-<details>
-<summary>[사이드바]</summary>
+  - 모바일일 때, 검색 버튼 누르면 확장된 검색바 나오기
+  - 모달창 버튼 닫기 안됨
 
-- 설명1
-
-  - 설명2
   </details>
 
   ### 👩‍💻조승후
@@ -145,7 +143,19 @@
 <details>
 <summary>👩‍💻이은영</summary>
 
-- 설명1
+- 피드백 받고 싶은 점
+
+  - 페이지 공통 레이아웃
+    - 헤더와 사이드바를 fixed로 설정했고 outlet은 헤더와 사이드바만큼 반응형마다 다르게 margin을 줬습니다. 괜찮은 방법인지 궁금합니다. 혹은 fixed된 공통 컴포넌트와 아웃렛을 margin을 주지 않고도 겹치지 않게 설정할 수 있는 방법이 있는지 궁금합니다.
+  - img src 대신 import로 이미지 불러오기
+    - 이미지를 img src로 불러오는 것이 안돼서 import 하였습니다. 혹시 원인에 대해 아시는 것이 있으면 알려주시면 감사하겠습니다.
+  - 사이드바
+    - 창크기별로 반응형을 만들고, 창크기별로 버튼에 다른 모션을 주는 것이 어려웠습니다. 버튼을 누르면 확장형 사이드바가 없어지거나 모달 사이드바가 뜨는 것에 대해, state를 하나로 하여 작업하다가 두 개로 변경하여 작업했습니다. 이 과정에서 헤더와 사이드바, app.js 전체 레이아웃 등 고려해야할 것이 많아 어려웠습니다. useContext를 사용해야 했는지 궁금합니다.
+
+- 어려웠던 점
+  - useRef
+    - useRef 사용하는 것이 어려웠고, 수정하여 없어진 부분이나 자식 컴포넌트로 ref prop을 넘겨주는 것이 불가능 해 fowardRef 를 사용하려 했습니다. 하지만 에러가 났는데 해결하지 못해 사용하지 못했습니다.
+  -
 - 설명2
 </details>
 <details>

@@ -5,7 +5,7 @@ import { Tooltip } from 'react-tooltip';
 import 'react-tooltip/dist/react-tooltip.css';
 
 // Components
-import HeaderLogo from './headerLeftLogomenu';
+import HeaderLeftLogomenu from './headerLeftLogomenu';
 
 // img and icons
 import { BsBell } from 'react-icons/bs';
@@ -29,7 +29,7 @@ export default function Header({ setMenuDrop }) {
   return (
     <>
       <header>
-        <HeaderLogo setMenuDrop={setMenuDrop} />
+        <HeaderLeftLogomenu setMenuDrop={setMenuDrop} />
         <div className={styles.headerSearch}>
           <form onSubmit={handleSumbit}>
             <div className={styles.inputWrap}>

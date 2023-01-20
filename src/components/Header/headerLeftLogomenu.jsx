@@ -10,7 +10,7 @@ import SidebarModal from '../Sidebar/SidebarModal';
 import logo from './assets/logo.png';
 import { BsList } from 'react-icons/bs';
 
-export default function HeaderLogo({ setMenuDrop }) {
+export default function HeaderLeftLogomenu({ setMenuDrop }) {
   const [modal, setModal] = useState(false);
 
   // 리액트 반응형
