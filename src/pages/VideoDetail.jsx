@@ -2,10 +2,16 @@ import React from 'react';
 import RelatedVideoInVideoDetail from '../components/RelatedVideoInVideoDetail/RelatedVideoInVideoDetail';
 import Comments from '../components/Comments/Comments';
 import Player from '../components/Player/Player';
-import { useParams } from 'react-router-dom';
+import { useLocation, useParams } from 'react-router-dom';
 import VideoInfo from '../components/VideoInfo/VideoInfo';
 
 const VideoDetail = () => {
+  const {
+    state: { video },
+  } = useLocation();
+  console.log('videossss:', video);
+  const { title, channelId, channelTitle, description } = video.snippet;
+
   const { videoId } = useParams;
   // const videoInfoData =
   return (
