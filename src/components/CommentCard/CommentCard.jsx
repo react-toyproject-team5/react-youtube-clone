@@ -3,8 +3,6 @@ import { timeFormat } from '../../util/date';
 import styles from './CommentCard.module.scss';
 
 export default function CommentCard({ comment }) {
-  // console.log('comment:', comment);
-
   const { authorProfileImageUrl, authorDisplayName, updatedAt, textDisplay, likeCount } =
     comment.snippet.topLevelComment.snippet;
 

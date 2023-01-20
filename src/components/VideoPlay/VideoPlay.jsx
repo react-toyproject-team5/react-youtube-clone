@@ -8,7 +8,7 @@ export default function VideoPlay({ id, url, title }) {
   if (isLoading) return;
   const { duration } = contentInfo;
 
-  console.log('contentInfo::::', contentInfo);
+  // console.log('contentInfo::::', contentInfo);
   return (
     <div>
       {/* <img className={styles.video_img} src={thumbnails.medium.url} alt={title} /> */}
