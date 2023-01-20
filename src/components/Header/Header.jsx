@@ -1,14 +1,16 @@
 import React, { useEffect, useState } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
+import { Link, useNavigate, useParams } from 'react-router-dom';
 import styles from './Header.module.scss';
 import { Tooltip } from 'react-tooltip';
 import 'react-tooltip/dist/react-tooltip.css';
+import { useMediaQuery } from 'react-responsive';
 
-// Components
-import HeaderLeftLogomenu from './headerLeftLogomenu';
+//Components
+import SidebarModal from '../Sidebar/SidebarModal';
 
 // img and icons
-import { BsBell } from 'react-icons/bs';
+import logo from './assets/logo.png';
+import { BsList, BsBell } from 'react-icons/bs';
 import { RiVideoAddLine, RiMicFill } from 'react-icons/ri';
 import { FaUserAlt } from 'react-icons/fa';
 import { IoSearchOutline } from 'react-icons/io5';
@@ -17,6 +19,27 @@ export default function Header({ setMenuDrop }) {
   const { keyword } = useParams();
   const [text, setText] = useState('');
   const navigate = useNavigate();
+  const [modal, setModal] = useState(false);
+
+  // 리액트 반응형
+  const Desktop = ({ children }) => {
+    const isDesktop = useMediaQuery({ minWidth: 1300 });
+    return isDesktop ? children : null;
+  };
+  const TabletAndMobile = ({ children }) => {
+    const isTablet = useMediaQuery({ maxWidth: 1299 });
+    return isTablet ? children : null;
+  };
+
+  // 데스크탑 사이즈, 메뉴 버튼 클릭
+  const menuBtnClick = (e) => {
+    setMenuDrop((e) => !e);
+  };
+
+  // 태블릿과 모바일 사이즈, 메뉴 버튼 클릭
+  const printModal = (e) => {
+    setModal((e) => !e);
+  };
 
   // input 검색어
   const handleSumbit = (event) => {
@@ -29,7 +52,19 @@ export default function Header({ setMenuDrop }) {
   return (
     <>
       <header>
-        <HeaderLeftLogomenu setMenuDrop={setMenuDrop} />
+        <div className={styles.headerLeftLogomenu}>
+          <Desktop>
+            <BsList className={styles.headerIcon} size="24" onClick={menuBtnClick} />
+          </Desktop>
+          <TabletAndMobile>
+            <BsList className={styles.headerIcon} size="24" onClick={printModal} />
+            {modal ? <SidebarModal setModal={setModal} /> : null}
+          </TabletAndMobile>
+          <Link to={'/'} className={styles.logo}>
+            <img src={logo} alt="youtube logo" />
+            <sup>KR</sup>
+          </Link>
+        </div>
         <div className={styles.headerSearch}>
           <form onSubmit={handleSumbit}>
             <div className={styles.inputWrap}>
