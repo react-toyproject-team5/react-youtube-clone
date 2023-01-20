@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import ChannelInfo from '../ChannelInfo/ChannelInfo';
+// import VideoPlay from '../VideoPlay/VideoPlay';
 import VideoStatistics from '../VideoStatistics/VideoStatistics';
 import styles from './VideoCard.module.scss';
 
@@ -19,6 +20,7 @@ export default function VideoCard({ video }) {
         navigate(`/watch/${video.id.videoId}`, { state: { video: video } });
       }}
     >
+      {/* <VideoPlay id={videoId} url={thumbnails.medium.url} title={title} /> */}
       <img className={styles.video_img} src={thumbnails.medium.url} alt={title} />
       <div className={styles.video_info}>
         <p className={styles.title}>{title}</p>

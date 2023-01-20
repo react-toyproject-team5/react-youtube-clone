@@ -1,18 +1,20 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import styles from './VideoInfo.module.scss';
 import ChannelInfo from '../ChannelInfo/ChannelInfo';
 import VideoStatistics from '../VideoStatistics/VideoStatistics';
 
 const VideoInfo = ({ videoCard, profileData }) => {
-  let link = (url) => {
-    return `/watch/:${url}`;
-  };
+  const navigate = useNavigate();
 
   const { channelId, publishedAt } = videoCard.snippet;
 
   return (
-    <Link to={link(videoCard.id)}>
+    <div
+      onClick={() => {
+        navigate(`/watch/${videoCard.id}`, { state: { video: videoCard } });
+      }}
+    >
       <div className={styles.videoinfo}>
         <div>
           <ChannelInfo channelId={channelId} />
@@ -25,7 +27,7 @@ const VideoInfo = ({ videoCard, profileData }) => {
           </div>
         </div>
       </div>
-    </Link>
+    </div>
   );
 };
 

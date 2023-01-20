@@ -3,6 +3,7 @@ import styles from './VideoInfo.module.scss';
 import { channelImage } from '../../api/youtube';
 import ChannelInfo from '../ChannelInfo/ChannelInfo';
 import { timeToDay } from '../../util/timeToDay';
+
 const VideoInfo = (props) => {
   const videoData = {
     title: props.title,
