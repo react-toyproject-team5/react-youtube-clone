@@ -8,7 +8,7 @@ import styles from './VideoStatistics.module.scss';
 export default function VideoStatistics({ id, publishedAt }) {
   const { isLoading, data: videos } = useQuery(['videos', id], () => videoInfo(id), { enabled: !!id });
 
-  console.log('videos:', videos);
+  // console.log('videos:', videos);
   // const { viewCount } = videos;
   // console.log('viewCount:', videos.viewCount);
 

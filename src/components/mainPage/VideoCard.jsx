@@ -12,7 +12,9 @@ const VideoCard = ({ videoCard, listOpen, setListOpen }) => {
 
   const getProfile = async (data) => {
     try {
-      let profile = await axios.get(`http://localhost:5000/file?id=${data}`);
+      let profile = await axios.get(
+        `https://www.googleapis.com/youtube/v3/channels/?part=snippet&key=${process.env.REACT_APP_YOUTUBE_API_KEY}&id=${data}`,
+      );
       setProfileData(profile.data.items[0].snippet.thumbnails.default.url);
     } catch (error) {
       console.log(error);
