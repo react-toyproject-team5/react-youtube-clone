@@ -8,7 +8,7 @@ export default function ChannelInfo({ channelId, title }) {
   const { data: channelUrl } = useQuery(['channel', channelId], () => channels(channelId), {
     staleTime: 1000 * 60 * 5,
   });
-  console.log('channelUrl', channelUrl);
+  // console.log('channelUrl', channelUrl);
 
   return (
     <div className={styles.channel}>
