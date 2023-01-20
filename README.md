@@ -104,17 +104,19 @@
   ### 👩‍💻홍혜원
 
 <details>
-<summary>[페이지명]</summary>
+<summary>검색페이지</summary>
 
-- 설명1
-  - 설명2
+- 해당 키워드에 관한 영상 나오기
+  - header 컴포넌트 input에서 value값 받아오기
+  - 채널 이미지 불러오기
+  - 동영상 조회수 불러오기
+  - 레이아웃
   </details>
 
 <details>
-<summary>[페이지명]</summary>
+<summary>상세페이지</summary>
 
-- 설명1
-  - 설명2
+- 댓글창 부분 컴포넌트화
   </details>
 
 <br/>
