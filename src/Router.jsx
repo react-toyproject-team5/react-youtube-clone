@@ -3,7 +3,7 @@ import App from './App';
 import NotFound from './pages/NotFound';
 import Videos from './pages/Videos';
 import VideoDetail from './pages/VideoDetail';
-import VideoSearch from './pages/VideoSearch';
+import VideoSearch from './pages/VideoSearch/VideoSearch';
 
 //라우터 구조
 //<App>
