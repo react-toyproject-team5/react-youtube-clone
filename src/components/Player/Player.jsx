@@ -1,9 +1,10 @@
 import { React } from 'react';
-
+import styles from './Player.module.scss';
 const Player = ({ videoId }) => {
   return (
-    <div>
+    <div className={styles.wrapper}>
       <iframe
+        className={styles.videoFrame}
         title={`http://www.youtube.com/embed/${videoId}?enablejsapi=1&origin=http://example.com`}
         id="player"
         width="100%"

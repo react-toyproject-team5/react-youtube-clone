@@ -53,10 +53,11 @@
 ### 👩‍💻김지영
 
 <details>
-<summary>[페이지명]</summary>
+<summary>[메인페이지]</summary>
 
-- 설명1
-  - 설명2
+- 비디오카드 생성
+  - 비디오카드 호버링 시 3초 후 비디오 재생
+- 무한 스크롤 가능
   </details>
 
 <details>
@@ -85,14 +86,21 @@
   ### 👩‍💻조승후
 
 <details>
-<summary>[페이지명]</summary>
+<summary>[영상플레이어]</summary>
 
 - 설명1
   - 설명2
   </details>
 
 <details>
-<summary>[페이지명]</summary>
+<summary>[댓글리스트]</summary>
+
+- 설명1
+
+  - 설명2
+  </details>
+
+<summary>[관련영상리스트]</summary>
 
 - 설명1
 
@@ -102,17 +110,19 @@
   ### 👩‍💻홍혜원
 
 <details>
-<summary>[페이지명]</summary>
+<summary>검색페이지</summary>
 
-- 설명1
-  - 설명2
+- 해당 키워드에 관한 영상 나오기
+  - header 컴포넌트 input에서 value값 받아오기
+  - 채널 이미지 불러오기
+  - 동영상 조회수 불러오기
+  - 레이아웃
   </details>
 
 <details>
-<summary>[페이지명]</summary>
+<summary>상세페이지</summary>
 
-- 설명1
-  - 설명2
+- 댓글창 부분 컴포넌트화
   </details>
 
 <br/>
@@ -124,8 +134,11 @@
 <details>
 <summary>👩‍💻김지영</summary>
 
-- 설명1
-- 설명2
+- 동영상 시간이 무조건 2숫자씩 되게 했습니다. 하지만, 10분 이하인 동영상인 경우, 분이 2글자일 필요가 없는데 더 좋은 방법이 있을지 궁급합니다.
+- 조회수 함수를 더 좋게 만들 방법이 있을 지 궁금합니다.
+- 시간 관계 상 필터와 미니 플레이어를 넣지 못해서 아쉽습니다.
+- 무한 스크롤를 위해 axios를 불러와 데이터를 usestate에 넣었는데, 더 좋은 방법이 있을지 고민이 됩니다.
+
 </details>
 <details>
 <summary>👩‍💻이은영</summary>
