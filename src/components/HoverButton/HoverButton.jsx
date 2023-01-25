@@ -1,13 +1,17 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import styles from './HoverButton.module.scss';
 import { MdOutlineQueueMusic } from 'react-icons/md';
 import { BiTimeFive, BiListPlus } from 'react-icons/bi';
 import { RiShareForwardLine } from 'react-icons/ri';
 import { MdOutlineFlag } from 'react-icons/md';
+import useOnClickOutside from '../../hooks/useOnClickOutside';
 
-export default function HoverButton() {
+export default function HoverButton({ setListOpen }) {
+  const ref = useRef(null);
+  useOnClickOutside(ref, () => setListOpen(false));
+
   return (
-    <ul className={styles.list}>
+    <ul className={styles.list} ref={ref}>
       <li className={styles.card}>
         <MdOutlineQueueMusic className={styles.icon} />
         <p>현재 재생목록에 추가</p>

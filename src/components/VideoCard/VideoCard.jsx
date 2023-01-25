@@ -12,7 +12,8 @@ export default function VideoCard({ video }) {
   const { title, thumbnails, channelTitle, publishedAt, description, channelId } = video.snippet;
   const [videoHover, setVideoHover] = useState(false);
   const [playVideo, setPlayVideo] = useState(false);
-  const [listOpen, setListOpen] = useState('');
+
+  const [listOpen, setListOpen] = useState(false);
 
   const { videoId } = video.id;
   const navigate = useNavigate();
@@ -36,7 +37,8 @@ export default function VideoCard({ video }) {
     // 클릭 시, 해당 동영상으로 이동 및 video 정보 state로 전달
     // state로 video 정보를 전달할 경우,
     // 클릭했을때만 정보가 전달 되고 수기로 주소를 직접 작성할 땐 데이터가 전달이 되지 않으니 주의할 것!
-    if (event.target.nodeName !== 'svg') navigate(`/watch/${video.id.videoId}`, { state: { video: video } });
+    if (event.target.dataset.name !== 'button' && event.target.dataset.name !== 'icon')
+      navigate(`/watch/${video.id.videoId}`, { state: { video: video } });
   };
 
   return (
@@ -47,11 +49,11 @@ export default function VideoCard({ video }) {
         <div className={styles.video_info_setting}>
           <p className={styles.title}>{title}</p>
           {videoHover && (
-            <button className={styles.hoverBtn} onClick={() => setListOpen(listOpen === videoId ? '' : videoId)}>
-              <RxDotsVertical className={styles.icon} />
+            <button className={styles.hoverBtn} data-name="button" onClick={() => setListOpen((prev) => !prev)}>
+              <RxDotsVertical className={styles.icon} data-name="icon" />
             </button>
           )}
-          {listOpen && <HoverButton />}
+          {listOpen ? <HoverButton setListOpen={setListOpen} /> : null}
         </div>
         <VideoStatistics id={videoId} publishedAt={publishedAt} />
         <ChannelInfo channelId={channelId} title={channelTitle} />
