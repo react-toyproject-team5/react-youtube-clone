@@ -4,6 +4,7 @@ export async function search() {
   return axios.get(`/data/search.json`).then((res) => res.data.items);
 }
 
+// 채널정보
 export async function channels() {
   return axios.get(`/data/channel.json`).then((res) => res.data.items[0].snippet.thumbnails.default.url);
 }

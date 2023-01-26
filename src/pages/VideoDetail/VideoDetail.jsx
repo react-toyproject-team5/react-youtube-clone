@@ -12,7 +12,6 @@ const VideoDetail = () => {
   } = useLocation();
 
   const { title, channelTitle, description, publishedAt } = video.snippet;
-
   return (
     <div className={styles.detailPage}>
       <div className={styles.column1}>
