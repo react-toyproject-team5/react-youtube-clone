@@ -4,6 +4,7 @@
   margin-bottom: 1rem;
   gap: 1.5rem;
   color: var(--color-white);
+  overflow-x: hidden;
 
   .video_img {
     border-radius: 10px;
@@ -39,6 +40,8 @@
       color: var(--color-light-gray);
       font-size: 0.9rem;
       margin-bottom: 1.1rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
   }
 }
