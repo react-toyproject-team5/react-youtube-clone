@@ -8,15 +8,17 @@ import PlayVideo from '../PlayVideo/PlayVideo';
 import HoverButton from '../HoverButton/HoverButton';
 import { RxDotsVertical } from 'react-icons/rx';
 
-export default function VideoCard({ video }) {
+export default function VideoCard({ video, type }) {
   const { title, thumbnails, channelTitle, publishedAt, description, channelId } = video.snippet;
   const [videoHover, setVideoHover] = useState(false);
   const [playVideo, setPlayVideo] = useState(false);
-
   const [listOpen, setListOpen] = useState(false);
 
   const { videoId } = video.id;
+
   const navigate = useNavigate();
+
+  const isList = type === 'list';
 
   let timer;
 
@@ -34,16 +36,13 @@ export default function VideoCard({ video }) {
   };
 
   const goToDetailPage = (event) => {
-    // 클릭 시, 해당 동영상으로 이동 및 video 정보 state로 전달
-    // state로 video 정보를 전달할 경우,
-    // 클릭했을때만 정보가 전달 되고 수기로 주소를 직접 작성할 땐 데이터가 전달이 되지 않으니 주의할 것!
     if (event.target.dataset.name !== 'button' && event.target.dataset.name !== 'icon')
       navigate(`/watch/${video.id.videoId}`, { state: { video: video } });
   };
 
   return (
     <li className={styles.video} onClick={goToDetailPage} onMouseOver={handleMouseHover} onMouseOut={handleMouseOut}>
-      <VideoThumbnail id={videoId} url={thumbnails.medium.url} title={title} videoHover={videoHover} />
+      <VideoThumbnail id={videoId} url={thumbnails.medium.url} title={title} videoHover={videoHover} isList={isList} />
       {videoHover && <PlayVideo id={videoId} videoHover={videoHover} />}
       <div className={styles.video_info}>
         <div className={styles.video_info_setting}>
@@ -57,7 +56,7 @@ export default function VideoCard({ video }) {
         </div>
         <VideoStatistics id={videoId} publishedAt={publishedAt} />
         <ChannelInfo channelId={channelId} title={channelTitle} />
-        <p className={styles.description}>{description}</p>
+        {isList ? null : <p className={styles.description}>{description}</p>}
       </div>
     </li>
   );

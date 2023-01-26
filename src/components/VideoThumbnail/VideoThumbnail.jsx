@@ -9,7 +9,6 @@ export default function VideoThumbnail({ id, url, title }) {
   if (isLoading) return;
   const { duration } = contentInfo;
 
-  // console.log('contentInfo::::', contentInfo);
   return (
     <div className={styles.thumbnail}>
       <img className={styles.img} src={url} alt={title} />
