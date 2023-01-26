@@ -1,5 +1,6 @@
 .video {
   display: flex;
+  position: relative;
   margin-bottom: 1rem;
   gap: 1.5rem;
   color: var(--color-white);
@@ -11,8 +12,26 @@
   .video_info {
     margin-top: 0.4rem;
 
-    .title {
-      margin-bottom: 0.4rem;
+    .video_info_setting {
+      display: flex;
+
+      .title {
+        flex-basis: 90%;
+        margin-bottom: 0.4rem;
+      }
+
+      .hoverBtn {
+        position: absolute;
+        right: -1rem;
+        top: -0.5rem;
+        padding: 0.5rem;
+        border-radius: 50%;
+
+        .icon {
+          font-size: 1.2rem;
+          color: var(--color-white);
+        }
+      }
     }
 
     .time,
