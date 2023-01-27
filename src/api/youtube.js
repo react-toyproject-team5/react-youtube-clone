@@ -1,8 +1,8 @@
-import axios from './axios';
+import { instance } from './axios';
 
 // 검색 api
 export const searchByKeyword = async (keyword) => {
-  const response = await axios.get('/search', {
+  const response = await instance.get('/search', {
     params: {
       part: 'snippet',
       maxResults: 25,
@@ -14,7 +14,7 @@ export const searchByKeyword = async (keyword) => {
 
 /* 관련동영상 */
 export const relatedVideos = async (id) => {
-  const response = await axios.get('/search', {
+  const response = await instance.get('/search', {
     params: {
       part: 'snippet',
       maxResults: 25,
@@ -38,7 +38,7 @@ export const channelImage = async (id) => {
 
 // 조회수 api
 export const getViewCount = async (videoId) => {
-  const response = await axios.get('/videos', {
+  const response = await instance.get('/videos', {
     params: {
       part: 'statistics',
       id: videoId,
