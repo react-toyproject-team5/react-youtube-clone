@@ -1,13 +1,10 @@
 import React from 'react';
 import styles from './RelatedVideoInVideoDetail.module.scss';
-import { format, register } from 'timeago.js';
-import koLocale from 'timeago.js/lib/lang/ko';
 import { useQuery } from '@tanstack/react-query';
 import { relatedVideo } from '../../api/FakeYoutubeApi';
 import VideoCard from '../VideoCard/VideoCard';
 import { relatedVideos } from '../../api/youtube';
 
-register('ko', koLocale);
 const formatDuration = (duration) => {
   let arr = (duration || '').split('');
   let output = '';
