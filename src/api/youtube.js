@@ -12,6 +12,19 @@ export const searchByKeyword = async (keyword) => {
   return response.data.items;
 };
 
+/* 관련동영상 */
+export const relatedVideos = async (id) => {
+  const response = await axios.get('/search', {
+    params: {
+      part: 'snippet',
+      maxResults: 25,
+      type: 'video',
+      relatedToVideoId: id,
+    },
+  });
+  return response.data.items.map((item) => ({ ...item, id: item.id.videoId }));
+};
+
 // 채널정보 api
 export const channelImage = async (id) => {
   const response = await axios.get('/channels', {
@@ -27,9 +40,6 @@ export const channelImage = async (id) => {
 export const getViewCount = async (videoId) => {
   const response = await axios.get('/videos', {
     params: {
-      part: 'snippet',
-      part: 'contentDetails',
-      part: 'player',
       part: 'statistics',
       id: videoId,
     },

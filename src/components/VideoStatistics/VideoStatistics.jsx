@@ -7,9 +7,11 @@ import numberToKorean from '../../util/numberToKorean';
 import styles from './VideoStatistics.module.scss';
 
 export default function VideoStatistics({ id, publishedAt }) {
-  const { isLoading, data: videos } = useQuery(['videos', id], () => videoInfo(id), { enabled: !!id });
+  const { isLoading, data: videos } = useQuery(['statistics', id], () => getViewCount(id), { enabled: !!id });
   if (isLoading) return;
+
   const { viewCount } = videos;
+  console.log('viewCount:', viewCount);
 
   return (
     <div className={styles.statistics}>

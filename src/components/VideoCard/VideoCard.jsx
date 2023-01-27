@@ -7,14 +7,13 @@ import VideoThumbnail from '../VideoThumbnail/VideoThumbnail';
 import PlayVideo from '../PlayVideo/PlayVideo';
 import HoverButton from '../HoverButton/HoverButton';
 import { RxDotsVertical } from 'react-icons/rx';
+import shortCut from '../../util/shortCut';
 
-export default function VideoCard({ video, type }) {
+export default function VideoCard({ video, type, id }) {
   const { title, thumbnails, channelTitle, publishedAt, description, channelId } = video.snippet;
   const [videoHover, setVideoHover] = useState(false);
   const [playVideo, setPlayVideo] = useState(false);
   const [listOpen, setListOpen] = useState(false);
-
-  const { videoId } = video.id;
 
   const navigate = useNavigate();
 
@@ -26,7 +25,7 @@ export default function VideoCard({ video, type }) {
     setVideoHover(true);
     timer = await setTimeout(() => {
       setPlayVideo(true);
-    }, 100);
+    }, 10);
   };
 
   const handleMouseOut = async () => {
@@ -42,8 +41,11 @@ export default function VideoCard({ video, type }) {
 
   return (
     <li className={styles.video} onClick={goToDetailPage} onMouseOver={handleMouseHover} onMouseOut={handleMouseOut}>
-      <VideoThumbnail id={videoId} url={thumbnails.medium.url} title={title} videoHover={videoHover} isList={isList} />
-      {videoHover && <PlayVideo id={videoId} videoHover={videoHover} />}
+      <div className={styles.thumbnail}>
+        <VideoThumbnail id={id} url={thumbnails.medium.url} title={title} videoHover={videoHover} isList={isList} />
+        {videoHover && <PlayVideo id={id} videoHover={videoHover} />}
+      </div>
+
       <div className={styles.video_info}>
         <div className={styles.video_info_setting}>
           <p className={styles.title}>{title}</p>
@@ -54,9 +56,9 @@ export default function VideoCard({ video, type }) {
           )}
           {listOpen ? <HoverButton setListOpen={setListOpen} /> : null}
         </div>
-        <VideoStatistics id={videoId} publishedAt={publishedAt} />
+        <VideoStatistics id={id} publishedAt={publishedAt} />
         <ChannelInfo channelId={channelId} title={channelTitle} />
-        {isList ? null : <p className={styles.description}>{description}</p>}
+        {isList ? null : <p className={styles.description}>{shortCut(description)}</p>}
       </div>
     </li>
   );

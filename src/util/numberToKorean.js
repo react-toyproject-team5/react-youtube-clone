@@ -1,6 +1,6 @@
 export default function numberToKorean(viewCount) {
   const inputNumber = Number(viewCount);
-  const unitWords = ['', '만', '억'];
+  const unitWords = ['천', '만', '억'];
   const splitUnit = 10000;
   const splitCount = unitWords.length;
   const resultArray = [];
