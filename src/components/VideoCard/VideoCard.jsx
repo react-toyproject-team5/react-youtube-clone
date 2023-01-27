@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import ChannelInfo from '../ChannelInfo/ChannelInfo';
 import VideoStatistics from '../VideoStatistics/VideoStatistics';
@@ -12,31 +12,36 @@ import shortCut from '../../util/shortCut';
 export default function VideoCard({ video, type, id }) {
   const { title, thumbnails, channelTitle, publishedAt, description, channelId } = video.snippet;
   const [videoHover, setVideoHover] = useState(false);
-  const [playVideo, setPlayVideo] = useState(false);
+  // const [playVideo, setPlayVideo] = useState(false);
   const [listOpen, setListOpen] = useState(false);
 
   const navigate = useNavigate();
 
   const isList = type === 'list';
 
-  let timer;
+  // let timer;
 
   const handleMouseHover = async () => {
     setVideoHover(true);
-    timer = await setTimeout(() => {
-      setPlayVideo(true);
-    }, 10);
+    // timer = await setTimeout(() => {
+    //   setPlayVideo(true);
+    // }, 10);
   };
 
   const handleMouseOut = async () => {
     setVideoHover(false);
-    clearTimeout(timer);
-    setPlayVideo(false);
+    // clearTimeout(timer);
+    // setPlayVideo(false);
   };
 
   const goToDetailPage = (event) => {
-    if (event.target.dataset.name !== 'button' && event.target.dataset.name !== 'icon')
-      navigate(`/watch/${video.id.videoId}`, { state: { video: video } });
+    // if (event.target.dataset.name !== 'button' && event.target.dataset.name !== 'icon')
+    navigate(`/watch/${video.id.videoId}`, { state: { video: video } });
+  };
+
+  const handleClick = (event) => {
+    event.stopPropagation();
+    setListOpen((prev) => !prev);
   };
 
   return (
@@ -50,7 +55,7 @@ export default function VideoCard({ video, type, id }) {
         <div className={styles.video_info_setting}>
           <p className={styles.title}>{title}</p>
           {videoHover && (
-            <button className={styles.hoverBtn} data-name="button" onClick={() => setListOpen((prev) => !prev)}>
+            <button className={styles.hoverBtn} data-name="button" onClick={handleClick}>
               <RxDotsVertical className={styles.icon} data-name="icon" />
             </button>
           )}

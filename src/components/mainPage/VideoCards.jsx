@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import axios from '../../api/axios';
+import { instance } from '../../api/axios';
 import { useInView } from 'react-intersection-observer';
 import VideoCard from './VideoCard';
 import styles from './VideoCards.module.scss';
@@ -14,7 +14,7 @@ const VideoCards = () => {
 
   const getVideo = useCallback(async () => {
     setLoading(true);
-    await axios
+    await instance
       .get(
         `/videos?part=snippet,contentDetails,statistics&chart=mostPopular&maxResults=25${page}`,
         // `http://localhost:4000/file`,
@@ -22,7 +22,7 @@ const VideoCards = () => {
       .then((response) => {
         setVideoData((prev) => [...prev, ...response.data.items]);
       });
-    const video = await axios.get(
+    const video = await instance.get(
       `/videos?part=snippet,contentDetails,statistics&chart=mostPopular&maxResults=25${page}`,
       //   `http://localhost:4000/file`,
     );

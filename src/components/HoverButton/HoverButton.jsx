@@ -11,7 +11,7 @@ export default function HoverButton({ setListOpen }) {
   useOnClickOutside(ref, () => setListOpen(false));
 
   return (
-    <ul className={styles.list} ref={ref}>
+    <ul className={styles.list} onClick={(e) => e.stopPropagation()} ref={ref}>
       <li className={styles.card}>
         <MdOutlineQueueMusic className={styles.icon} />
         <p>현재 재생목록에 추가</p>
