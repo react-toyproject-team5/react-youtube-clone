@@ -1,7 +1,5 @@
 import React from 'react';
 import { useMediaQuery } from 'react-responsive';
-
-// Components
 import SidebarLarge from './SidebarLarge';
 import SidebarSmall from './SidebarSmall';
 

@@ -1,6 +1,8 @@
 import React, { useEffect, useRef } from 'react';
-import styles from './Sidebar.module.scss';
 import { Link } from 'react-router-dom';
+import styles from './Sidebar.module.scss';
+
+// Components
 import SidebarLarge from './SidebarLarge';
 import logo from '../Header/assets/logo.png';
 import { BsList } from 'react-icons/bs';

@@ -6,8 +6,11 @@ import Sidebar from './Sidebar/Sidebar';
 
 export default function Layout({ children }) {
   const [menuDrop, setMenuDrop] = useState(false);
+
+  //디테일 페이지 구분
   const location = useLocation();
   const findDetailPage = location.pathname.slice(0, 6) === '/watch';
+
   return (
     <>
       <Header setMenuDrop={setMenuDrop} />

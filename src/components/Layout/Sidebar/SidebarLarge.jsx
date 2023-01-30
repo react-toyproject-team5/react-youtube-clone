@@ -21,124 +21,108 @@ import youtube_kids from './assets/youtube_kids.png';
 import youtube_music from './assets/youtube_music.svg';
 import youtube_tv from './assets/youtube_tv.png';
 
+const iconList = {
+  list1: [
+    { icon: <RiHome5Fill />, title: '홈' },
+    { icon: <BsCollectionPlay />, title: '구독' },
+    { icon: <MdOutlineVideoLibrary />, title: '보관함' },
+  ],
+  list2: [
+    { icon: <MdOutlineRestore />, title: '시청기록' },
+    { icon: <AiOutlinePlaySquare />, title: '내 동영상' },
+    { icon: <MdOutlineQueryBuilder />, title: '나중에 볼 동영상' },
+    { icon: <MdKeyboardArrowDown />, title: '더보기' },
+  ],
+  list3: [
+    { icon: <HiOutlineFire />, title: '인기 급상승' },
+    { icon: <IoMusicalNoteOutline />, title: '음악' },
+    { icon: <BiMovie />, title: '영화' },
+    { icon: <MdOutlineRecordVoiceOver />, title: '실시간' },
+    { icon: <IoGameControllerOutline />, title: '게임' },
+    { icon: <CiTrophy />, title: '스포츠' },
+    { icon: <BsLightbulb />, title: '학습' },
+  ],
+  list4: [
+    { icon: <img src={youtube} alt="" />, title: 'YouTube Premium' },
+    { icon: <img src={youtube_music} alt="" />, title: 'YouTube Music' },
+    { icon: <img src={youtube_kids} alt="" />, title: 'YouTube Kids' },
+    { icon: <img src={youtube_tv} alt="" />, title: 'YouTube TV' },
+  ],
+  list5: [
+    { icon: <AiOutlineSetting />, title: '설정' },
+    { icon: <BsFlag />, title: '신고 기록' },
+    { icon: <IoHelpCircleOutline />, title: '고객센터' },
+    { icon: <BsInfoSquare />, title: '의견 보내기' },
+  ],
+};
+
+const linkList = [
+  { title: '정보' },
+  { title: '보도자료' },
+  { title: '저작권' },
+  { title: '문의하기' },
+  { title: '크리에이터' },
+  { title: '광고 개발자' },
+  { title: '약관' },
+  { title: '개인정보처리방침' },
+  { title: '정책 및 안전' },
+  { title: 'YouTube 작동의 원리' },
+  { title: '새로운 기능 테스트하기' },
+];
+
 export default function SidebarLarge() {
   return (
     <nav className={styles.largeNav}>
-      <ul>
-        <button className={styles.homeBtn}>
-          <RiHome5Fill className={styles.sidebarIcon} size="22" />홈
-        </button>
-        <button>
-          <BsCollectionPlay className={styles.sidebarIcon} size="22" />
-          구독
-        </button>
-        <button>
-          <MdOutlineVideoLibrary className={styles.sidebarIcon} size="22" />
-          보관함
-        </button>
+      <ol>
+        {iconList.list1.map((list) => (
+          <button key={list.title} className={list.title === '홈' ? styles.homeIcon : null}>
+            <span className={styles.icon}>{list.icon}</span>
+            {list.title}
+          </button>
+        ))}
+      </ol>
+      <ol>
+        {iconList.list2.map((list) => (
+          <button key={list.title}>
+            <span className={styles.icon}>{list.icon}</span>
+            {list.title}
+          </button>
+        ))}
+      </ol>
+      <ol>
+        <strong className={styles.olTitle}>탐색</strong>
+        {iconList.list3.map((list) => (
+          <button key={list.title}>
+            <span className={styles.icon}>{list.icon}</span>
+            {list.title}
+          </button>
+        ))}
+      </ol>
+      <ol>
+        <strong className={styles.olTitle}>YouTube 더보기</strong>
+        {iconList.list4.map((list) => (
+          <button key={list.title}>
+            <span className={styles.img}>{list.icon}</span>
+            {list.title}
+          </button>
+        ))}
+      </ol>
+      <ol>
+        {iconList.list5.map((list) => (
+          <button key={list.title}>
+            <span className={styles.icon}>{list.icon}</span>
+            {list.title}
+          </button>
+        ))}
+      </ol>
+      <ul className={styles.navLink}>
+        {linkList.map((list) => (
+          <a key={list.title} href="#!">
+            {list.title}
+          </a>
+        ))}
       </ul>
-      <ul>
-        <button>
-          <MdOutlineRestore className={styles.sidebarIcon} size="22" />
-          시청기록
-        </button>
-        <button>
-          <AiOutlinePlaySquare className={styles.sidebarIcon} size="22" />내 동영상
-        </button>
-        <button>
-          <MdOutlineQueryBuilder className={styles.sidebarIcon} size="22" />
-          나중에 볼 동영상
-        </button>
-        <button>
-          <MdKeyboardArrowDown className={styles.sidebarIcon} size="22" />
-          더보기
-        </button>
-      </ul>
-      <ul>
-        <strong className={styles.sidebarUlTitle}>탐색</strong>
-        <button>
-          <HiOutlineFire className={styles.sidebarIcon} size="22" />
-          인기 급상승
-        </button>
-        <button>
-          <IoMusicalNoteOutline className={styles.sidebarIcon} size="22" />
-          음악
-        </button>
-        <button>
-          <BiMovie className={styles.sidebarIcon} size="22" />
-          영화
-        </button>
-        <button>
-          <MdOutlineRecordVoiceOver className={styles.sidebarIcon} size="22" />
-          실시간
-        </button>
-        <button>
-          <IoGameControllerOutline className={styles.sidebarIcon} size="22" />
-          게임
-        </button>
-        <button>
-          <CiTrophy className={styles.sidebarIcon} size="22" />
-          스포츠
-        </button>
-        <button>
-          <BsLightbulb className={styles.sidebarIcon} size="22" />
-          학습
-        </button>
-      </ul>
-      <ul className={styles.sidebarViewmore}>
-        <strong className={styles.sidebarUlTitle}>YouTube 더보기</strong>
-        <button>
-          <img src={youtube} alt="" />
-          YouTube Premium
-        </button>
-        <button>
-          <img src={youtube_music} alt="" />
-          YouTube Music
-        </button>
-        <button>
-          <img src={youtube_kids} alt="" />
-          YouTube Kids
-        </button>
-        <button>
-          <img src={youtube_tv} alt="" />
-          YouTube TV
-        </button>
-      </ul>
-      <ul>
-        <button>
-          <AiOutlineSetting className={styles.sidebarIcon} size="22" />
-          설정
-        </button>
-        <button>
-          <BsFlag className={styles.sidebarIcon} size="22" />
-          신고 기록
-        </button>
-        <button>
-          <IoHelpCircleOutline className={styles.sidebarIcon} size="22" />
-          고객센터
-        </button>
-        <button>
-          <BsInfoSquare className={styles.sidebarIcon} size="22" />
-          의견 보내기
-        </button>
-      </ul>
-      <div className={styles.navAnchor}>
-        <div>
-          <a href="#!">정보</a>
-          <a href="#!">보도자료</a>
-          <a href="#!">저작권</a>
-          <a href="#!">문의하기</a>
-          <a href="#!">크리에이터</a>
-          <a href="#!">광고 개발자</a>
-        </div>
-        <div>
-          <a href="#!">약관</a>
-          <a href="#!">개인정보처리방침</a>
-          <a href="#!">정책 및 안전</a>
-          <a href="#!">YouTube 작동의 원리</a>
-          <a href="#!">새로운 기능 테스트하기</a>
-        </div>
-      </div>
+
       <footer>
         © 2023 Google LLC, Sundar Pichai, 1600 Amphitheatre Parkway, Mountain View CA 94043, USA, 0807-882-594 (무료),
         yt-support-solutions-kr@google.com, 호스팅: Google LLC, <a href="#!">사업자정보</a>,{' '}
