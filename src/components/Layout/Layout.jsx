@@ -10,7 +10,7 @@ export default function Layout({ children }) {
       <Header setMenuDrop={setMenuDrop} />
       <div className={styles.layout}>
         <Sidebar menuDrop={menuDrop} />
-        <main className={menuDrop ? styles.btnTrue : styles.btnFalse}>{children}</main>
+        <main className={`${styles.outlet} ${menuDrop ? styles.btnTrue : styles.btnFalse}`}>{children}</main>
       </div>
     </>
   );
