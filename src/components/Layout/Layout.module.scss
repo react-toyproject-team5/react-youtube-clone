@@ -1,0 +1,26 @@
+.layout {
+  display: flex;
+  padding-top: 56px;
+}
+
+.btnFalse {
+  margin-left: 250px;
+}
+
+.btnTrue {
+  margin-left: 72px;
+}
+
+@media (min-width: 792px) and (max-width: 1300px) {
+  .btnFalse,
+  .btnTrue {
+    margin-left: 72px;
+  }
+}
+
+@media (max-width: 792px) {
+  .btnFalse,
+  .btnTrue {
+    margin-left: 0;
+  }
+}
