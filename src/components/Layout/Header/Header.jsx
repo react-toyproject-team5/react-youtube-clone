@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Link, useNavigate, useParams } from 'react-router-dom';
+import { Link, useNavigate, useParams, useLocation } from 'react-router-dom';
 import styles from './Header.module.scss';
 import { Tooltip } from 'react-tooltip';
 import 'react-tooltip/dist/react-tooltip.css';
@@ -20,6 +20,9 @@ export default function Header({ setMenuDrop }) {
   const [text, setText] = useState('');
   const navigate = useNavigate();
   const [modal, setModal] = useState(false);
+  const location = useLocation();
+  const findDetailPage = location.pathname.slice(0, 6) === '/watch';
+  console.log(modal);
 
   // 리액트 반응형
   const Desktop = ({ children }) => {
@@ -54,7 +57,14 @@ export default function Header({ setMenuDrop }) {
       <header>
         <div className={styles.headerLeftLogomenu}>
           <Desktop>
-            <BsList className={styles.headerIcon} size="24" onClick={menuBtnClick} />
+            {findDetailPage ? (
+              <>
+                <BsList className={styles.headerIcon} size="24" onClick={printModal} />
+                {modal ? <SidebarModal setModal={setModal} /> : null}
+              </>
+            ) : (
+              <BsList className={styles.headerIcon} size="24" onClick={menuBtnClick} />
+            )}
           </Desktop>
           <TabletAndMobile>
             <BsList className={styles.headerIcon} size="24" onClick={printModal} />
