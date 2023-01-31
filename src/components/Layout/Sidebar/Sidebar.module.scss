@@ -122,6 +122,15 @@ input {
       color: #3ea6ff;
     }
   }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: var(--color-black);
+  }
+
+  &:hover::-webkit-scrollbar-thumb {
+    background-color: #717171;
+  }
 }
 
 .modalNav {
