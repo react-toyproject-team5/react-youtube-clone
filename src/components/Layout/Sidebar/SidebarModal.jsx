@@ -7,7 +7,7 @@ import SidebarLarge from './SidebarLarge';
 import logo from '../Header/assets/logo.png';
 import { BsList } from 'react-icons/bs';
 
-export default function SidebarModal({ setModal }) {
+export default function SidebarModal({ modal, setModal }) {
   const modalRef = useRef(null);
 
   useEffect(() => {
@@ -30,22 +30,20 @@ export default function SidebarModal({ setModal }) {
     };
   });
 
-  const clickMenuBtn = () => {
+  const openModal = () => {
     setModal(false);
   };
 
   return (
-    <div ref={modalRef}>
-      <nav className={styles.modalNav}>
-        <div className={styles.modalLogo}>
-          <BsList className={styles.modalMenuBtn} size="24" onClick={clickMenuBtn} />
-          <Link to={'/'} className={styles.logo}>
-            <img src={logo} alt="youtube logo" />
-            <sup>KR</sup>
-          </Link>
-        </div>
-        <SidebarLarge />
-      </nav>
-    </div>
+    <nav className={modal ? `${styles.modalNav} ${styles.open}` : styles.modalNav} ref={modalRef}>
+      <div className={styles.modalLogo}>
+        <BsList className={styles.modalMenuBtn} size="24" onClick={openModal} />
+        <Link to={'/'} className={styles.logo}>
+          <img src={logo} alt="youtube logo" />
+          <sup>KR</sup>
+        </Link>
+      </div>
+      <SidebarLarge />
+    </nav>
   );
 }

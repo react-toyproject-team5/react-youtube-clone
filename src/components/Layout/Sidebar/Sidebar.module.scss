@@ -7,7 +7,6 @@ input {
 .smallNav,
 .largeNav {
   position: fixed;
-  z-index: 1010;
   top: 56px;
 
   padding: 0 4px;
@@ -137,10 +136,15 @@ input {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1020;
-  box-shadow: rgba(0, 0, 0, 0.5) 0 0 0 9999px;
+  z-index: 1010;
   color: var(--color-white);
   cursor: pointer;
+  transform: translateX(-100%);
+  transition: all 0.3s ease-in-out;
+
+  &.open {
+    transform: translateX(0);
+  }
 
   .modalLogo {
     display: flex;
@@ -176,3 +180,30 @@ input {
     }
   }
 }
+
+// animation: showOut 0.2s;
+// @keyframes showOut {
+//   0% {
+//     transform: translate(0, 0);
+//   }
+//   100% {
+//     transform: translate(-100%, 0);
+//     display: none;
+//   }
+// }
+
+// .modalNav.showup {
+//   box-shadow: rgba(0, 0, 0, 0.5) 0 0 0 9999px;
+//   transform: translateX(0);
+//   animation: showUp 0.2s;
+
+//   @keyframes showUp {
+//     0% {
+//       transform: translate(-100%, 0);
+//     }
+
+//     100% {
+//       transform: translate(0, 0);
+//     }
+//   }
+// }
