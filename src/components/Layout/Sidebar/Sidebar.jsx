@@ -1,30 +1,18 @@
-import React from 'react';
-import { useMediaQuery } from 'react-responsive';
+import React, { useEffect, useState } from 'react';
 import SidebarLarge from './SidebarLarge';
 import SidebarSmall from './SidebarSmall';
 
-export default function Sidebar({ menuDrop }) {
-  // 리액트 반응형
-  const Desktop = ({ children }) => {
-    const isDesktop = useMediaQuery({ minWidth: 1300 });
-    return isDesktop ? children : null;
-  };
-  const Tablet = ({ children }) => {
-    const isTablet = useMediaQuery({ minWidth: 792, maxWidth: 1299 });
-    return isTablet ? children : null;
-  };
-  const Mobile = ({ children }) => {
-    const isMobile = useMediaQuery({ maxWidth: 791 });
-    return isMobile ? children : null;
-  };
+export default function Sidebar({ sidebar }) {
+  const [resize, setResize] = useState(window.innerWidth);
+  useEffect(() => {
+    const listener = () => {
+      setResize(window.innerWidth);
+    };
 
+    window.addEventListener('resize', listener);
+    return () => window.removeEventListener('resize', listener);
+  }, []);
   return (
-    <>
-      <Desktop>{menuDrop ? <SidebarSmall /> : <SidebarLarge />}</Desktop>
-      <Tablet>
-        <SidebarSmall />
-      </Tablet>
-      <Mobile></Mobile>
-    </>
+    <>{resize >= 1300 ? sidebar ? <SidebarSmall /> : <SidebarLarge /> : resize >= 792 ? <SidebarSmall /> : null}</>
   );
 }
