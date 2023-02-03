@@ -3,6 +3,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import styles from './Header.module.scss';
 import { Tooltip } from 'react-tooltip';
 import 'react-tooltip/dist/react-tooltip.css';
+import useWindow from '../../../hooks/useWindow';
 
 //Components
 import HeaderMenu from './HeaderMenu';
@@ -27,16 +28,8 @@ export default function Header({ setSidebar, findDetailPage }) {
   useEffect(() => setText(keyword || ''), [keyword]);
 
   // 사이드바
+  const resize = useWindow();
   const [modal, setModal] = useState(false);
-  const [resize, setResize] = useState(window.innerWidth);
-  useEffect(() => {
-    const updateWindowsize = () => {
-      setResize(window.innerWidth);
-    };
-
-    window.addEventListener('resize', updateWindowsize);
-    return () => window.removeEventListener('resize', updateWindowsize);
-  }, []);
 
   return (
     <>
