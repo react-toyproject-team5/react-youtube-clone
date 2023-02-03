@@ -5,20 +5,20 @@ import Header from './Header/Header';
 import Sidebar from './Sidebar/Sidebar';
 
 export default function Layout({ children }) {
-  const [menuDrop, setMenuDrop] = useState(false);
+  const [sidebar, setSidebar] = useState(false);
 
-  //디테일 페이지 구분
+  // 현재 영상 디테일 페이지인지?
   const location = useLocation();
   const findDetailPage = location.pathname.slice(0, 6) === '/watch';
 
   return (
     <>
-      <Header setMenuDrop={setMenuDrop} />
+      <Header setSidebar={setSidebar} findDetailPage={findDetailPage} />
       <div className={`${styles.layout} ${findDetailPage ? styles.detailPage : null}`}>
         <div className={findDetailPage ? styles.sidebarNone : null}>
-          <Sidebar menuDrop={menuDrop} />
+          <Sidebar sidebar={sidebar} setSidebar={setSidebar} />
         </div>
-        <main className={`${styles.outlet} ${menuDrop ? styles.btnTrue : styles.btnFalse}`}>{children}</main>
+        <main className={`${styles.outlet} ${sidebar ? styles.btnTrue : styles.btnFalse}`}>{children}</main>
       </div>
     </>
   );
