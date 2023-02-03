@@ -144,6 +144,7 @@ input {
 
   &.open {
     transform: translateX(0);
+    box-shadow: rgba(0, 0, 0, 0.5) 0 0 0 9999px;
   }
 
   .modalLogo {
@@ -180,30 +181,3 @@ input {
     }
   }
 }
-
-// animation: showOut 0.2s;
-// @keyframes showOut {
-//   0% {
-//     transform: translate(0, 0);
-//   }
-//   100% {
-//     transform: translate(-100%, 0);
-//     display: none;
-//   }
-// }
-
-// .modalNav.showup {
-//   box-shadow: rgba(0, 0, 0, 0.5) 0 0 0 9999px;
-//   transform: translateX(0);
-//   animation: showUp 0.2s;
-
-//   @keyframes showUp {
-//     0% {
-//       transform: translate(-100%, 0);
-//     }
-
-//     100% {
-//       transform: translate(0, 0);
-//     }
-//   }
-// }
