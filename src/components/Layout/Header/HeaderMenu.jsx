@@ -27,12 +27,12 @@ export default function HeaderMenu({ setModal, setSidebar, menuBtn }) {
   };
 
   return (
-    <>
+    <div className={styles.headerMenu}>
       <BsList className={styles.headerIcon} size="24" onClick={btnClick} />
       <Link to={'/'} className={styles.logo}>
         <img src={logo} alt="youtube logo" />
         <sup>KR</sup>
       </Link>
-    </>
+    </div>
   );
 }

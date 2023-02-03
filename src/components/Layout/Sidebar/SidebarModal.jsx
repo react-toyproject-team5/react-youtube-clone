@@ -1,11 +1,9 @@
 import React, { useEffect, useRef } from 'react';
-import { Link } from 'react-router-dom';
 import styles from './Sidebar.module.scss';
 
 // Components
 import SidebarLarge from './SidebarLarge';
-import logo from '../Header/assets/logo.png';
-import { BsList } from 'react-icons/bs';
+import HeaderMenu from '../Header/HeaderMenu';
 
 export default function SidebarModal({ modal, setModal }) {
   const modalRef = useRef(null);
@@ -30,19 +28,9 @@ export default function SidebarModal({ modal, setModal }) {
     };
   });
 
-  const openModal = () => {
-    setModal(false);
-  };
-
   return (
     <nav className={modal ? `${styles.modalNav} ${styles.open}` : styles.modalNav} ref={modalRef}>
-      <div className={styles.modalLogo}>
-        <BsList className={styles.modalMenuBtn} size="24" onClick={openModal} />
-        <Link to={'/'} className={styles.logo}>
-          <img src={logo} alt="youtube logo" />
-          <sup>KR</sup>
-        </Link>
-      </div>
+      <HeaderMenu setModal={setModal} menuBtn={'openModal'} />
       <SidebarLarge />
     </nav>
   );

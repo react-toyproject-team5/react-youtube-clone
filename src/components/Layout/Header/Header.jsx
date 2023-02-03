@@ -34,13 +34,11 @@ export default function Header({ setSidebar, findDetailPage }) {
   return (
     <>
       <header>
-        <div className={styles.headerLeftLogomenu}>
-          <HeaderMenu
-            setModal={setModal}
-            setSidebar={setSidebar}
-            menuBtn={findDetailPage ? 'openModal' : resize <= 1300 ? 'openModal' : 'openSidebar'}
-          />
-        </div>
+        <HeaderMenu
+          setModal={setModal}
+          setSidebar={setSidebar}
+          menuBtn={findDetailPage ? 'openModal' : resize <= 1300 ? 'openModal' : 'openSidebar'}
+        />
         <SidebarModal modal={modal} setModal={setModal} />
         <div className={styles.headerSearch}>
           <form onSubmit={handleSumbit}>
