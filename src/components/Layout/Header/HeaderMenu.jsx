@@ -6,7 +6,6 @@ import logo from './assets/logo.png';
 import { BsList } from 'react-icons/bs';
 
 export default function HeaderMenu({ setModal, setSidebar, menuBtn }) {
-  console.log(menuBtn);
   const btnClick = () => {
     switch (menuBtn) {
       case 'openModal':
