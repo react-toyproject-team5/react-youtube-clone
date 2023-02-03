@@ -1,50 +1,24 @@
 import React, { useEffect, useState } from 'react';
-import { Link, useNavigate, useParams, useLocation } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import styles from './Header.module.scss';
 import { Tooltip } from 'react-tooltip';
 import 'react-tooltip/dist/react-tooltip.css';
-import { useMediaQuery } from 'react-responsive';
 
 //Components
+import HeaderMenu from './HeaderMenu';
 import SidebarModal from '../Sidebar/SidebarModal';
 
 // img and icons
-import logo from './assets/logo.png';
-import { BsList, BsBell } from 'react-icons/bs';
+import { BsBell } from 'react-icons/bs';
 import { RiVideoAddLine, RiMicFill } from 'react-icons/ri';
 import { FaUserAlt } from 'react-icons/fa';
 import { IoSearchOutline } from 'react-icons/io5';
 
-export default function Header({ setMenuDrop }) {
+export default function Header({ setSidebar, findDetailPage }) {
+  // input 검색어
   const { keyword } = useParams();
   const [text, setText] = useState('');
   const navigate = useNavigate();
-  const [modal, setModal] = useState(false);
-  const location = useLocation();
-  const findDetailPage = location.pathname.slice(0, 6) === '/watch';
-  console.log(modal);
-
-  // 리액트 반응형
-  const Desktop = ({ children }) => {
-    const isDesktop = useMediaQuery({ minWidth: 1300 });
-    return isDesktop ? children : null;
-  };
-  const TabletAndMobile = ({ children }) => {
-    const isTablet = useMediaQuery({ maxWidth: 1299 });
-    return isTablet ? children : null;
-  };
-
-  // 데스크탑 사이즈, 메뉴 버튼 클릭
-  const menuBtnClick = (e) => {
-    setMenuDrop((e) => !e);
-  };
-
-  // 태블릿과 모바일 사이즈, 메뉴 버튼 클릭
-  const printModal = (e) => {
-    setModal((e) => !e);
-  };
-
-  // input 검색어
   const handleSumbit = (event) => {
     event.preventDefault();
     navigate(`results/${text}`);
@@ -52,29 +26,29 @@ export default function Header({ setMenuDrop }) {
 
   useEffect(() => setText(keyword || ''), [keyword]);
 
+  // 사이드바
+  const [modal, setModal] = useState(false);
+  const [resize, setResize] = useState(window.innerWidth);
+  useEffect(() => {
+    const updateWindowsize = () => {
+      setResize(window.innerWidth);
+    };
+
+    window.addEventListener('resize', updateWindowsize);
+    return () => window.removeEventListener('resize', updateWindowsize);
+  }, []);
+
   return (
     <>
       <header>
         <div className={styles.headerLeftLogomenu}>
-          <Desktop>
-            {findDetailPage ? (
-              <>
-                <BsList className={styles.headerIcon} size="24" onClick={printModal} />
-                {modal ? <SidebarModal setModal={setModal} /> : null}
-              </>
-            ) : (
-              <BsList className={styles.headerIcon} size="24" onClick={menuBtnClick} />
-            )}
-          </Desktop>
-          <TabletAndMobile>
-            <BsList className={styles.headerIcon} size="24" onClick={printModal} />
-            {modal ? <SidebarModal setModal={setModal} /> : null}
-          </TabletAndMobile>
-          <Link to={'/'} className={styles.logo}>
-            <img src={logo} alt="youtube logo" />
-            <sup>KR</sup>
-          </Link>
+          <HeaderMenu
+            setModal={setModal}
+            setSidebar={setSidebar}
+            menuBtn={findDetailPage ? 'openModal' : resize <= 1300 ? 'openModal' : 'openSidebar'}
+          />
         </div>
+        <SidebarModal modal={modal} setModal={setModal} />
         <div className={styles.headerSearch}>
           <form onSubmit={handleSumbit}>
             <div className={styles.inputWrap}>
