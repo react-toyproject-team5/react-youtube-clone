@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import ChannelInfo from '../ChannelInfo/ChannelInfo';
 import VideoStatistics from '../VideoStatistics/VideoStatistics';
@@ -8,54 +8,61 @@ import PlayVideo from '../PlayVideo/PlayVideo';
 import HoverButton from '../HoverButton/HoverButton';
 import { RxDotsVertical } from 'react-icons/rx';
 
-export default function VideoCard({ video, type }) {
+export default function VideoCard({ video, type, id }) {
   const { title, thumbnails, channelTitle, publishedAt, description, channelId } = video.snippet;
   const [videoHover, setVideoHover] = useState(false);
-  const [playVideo, setPlayVideo] = useState(false);
-  const [listOpen, setListOpen] = useState(false);
-
-  const { videoId } = video.id;
+  // const [playVideo, setPlayVideo] = useState(false);
+  const [listId, setListId] = useState('');
 
   const navigate = useNavigate();
 
   const isList = type === 'list';
 
-  let timer;
+  // let timer;
 
   const handleMouseHover = async () => {
     setVideoHover(true);
-    timer = await setTimeout(() => {
-      setPlayVideo(true);
-    }, 100);
+    // timer = await setTimeout(() => {
+    //   setPlayVideo(true);
+    // }, 10);
   };
 
   const handleMouseOut = async () => {
     setVideoHover(false);
-    clearTimeout(timer);
-    setPlayVideo(false);
+    // clearTimeout(timer);
+    // setPlayVideo(false);
   };
 
   const goToDetailPage = (event) => {
-    if (event.target.dataset.name !== 'button' && event.target.dataset.name !== 'icon')
-      navigate(`/watch/${video.id.videoId}`, { state: { video: video } });
+    // if (event.target.dataset.name !== 'button' && event.target.dataset.name !== 'icon')
+    navigate(`/watch/${video.id.videoId}`, { state: { video: video } });
   };
+
+  const handleClick = (event) => {
+    event.stopPropagation();
+    setListId(id === listId ? '' : id);
+  };
+
+  console.log('listId:',listId);
 
   return (
     <li className={styles.video} onClick={goToDetailPage} onMouseOver={handleMouseHover} onMouseOut={handleMouseOut}>
-      <VideoThumbnail id={videoId} url={thumbnails.medium.url} title={title} videoHover={videoHover} isList={isList} />
-      {videoHover && <PlayVideo id={videoId} videoHover={videoHover} />}
+      <div className={isList ? styles.small_thumbnail : styles.thumbnail}>
+        <VideoThumbnail id={id} url={thumbnails.medium.url} title={title} videoHover={videoHover} isList={isList} />
+        {videoHover && <PlayVideo id={id} videoHover={videoHover} isList={isList} />}
+      </div>
       <div className={styles.video_info}>
         <div className={styles.video_info_setting}>
           <p className={styles.title}>{title}</p>
           {videoHover && (
-            <button className={styles.hoverBtn} data-name="button" onClick={() => setListOpen((prev) => !prev)}>
-              <RxDotsVertical className={styles.icon} data-name="icon" />
+            <button className={styles.hoverBtn} data-name="button" data-id={id} onClick={handleClick}>
+              <RxDotsVertical className={styles.icon} data-name="icon" data-id={id} />
             </button>
           )}
-          {listOpen ? <HoverButton setListOpen={setListOpen} /> : null}
+          {listId ? <HoverButton setListId={setListId} listId={listId} /> : null}
         </div>
-        <VideoStatistics id={videoId} publishedAt={publishedAt} />
-        <ChannelInfo channelId={channelId} title={channelTitle} />
+        <VideoStatistics id={id} publishedAt={publishedAt} isList={isList} />
+        <ChannelInfo channelId={channelId} title={channelTitle} isList={isList} />
         {isList ? null : <p className={styles.description}>{description}</p>}
       </div>
     </li>

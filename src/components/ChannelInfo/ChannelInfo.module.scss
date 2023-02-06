@@ -8,10 +8,17 @@
   .img {
     width: 1.5rem;
     height: 1.5rem;
+    margin-right: 0.5rem;
     border-radius: 50%;
   }
   .title {
     font-size: 0.9rem;
-    margin-left: 0.5rem;
   }
+}
+
+.small_channel {
+  display: flex;
+  align-items: center;
+  color: var(--color-light-gray);
+  font-size: .8rem;
 }

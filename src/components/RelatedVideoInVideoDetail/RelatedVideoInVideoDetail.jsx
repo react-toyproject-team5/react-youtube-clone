@@ -1,14 +1,10 @@
 import React from 'react';
-import RelatedVideo from './relatedVideo.json';
-import VideoInfo from './videoInfo.json';
 import styles from './RelatedVideoInVideoDetail.module.scss';
-import { format, register } from 'timeago.js';
-import koLocale from 'timeago.js/lib/lang/ko';
 import { useQuery } from '@tanstack/react-query';
 import { relatedVideo } from '../../api/FakeYoutubeApi';
 import VideoCard from '../VideoCard/VideoCard';
+import { relatedVideos } from '../../api/youtube';
 
-register('ko', koLocale);
 const formatDuration = (duration) => {
   let arr = (duration || '').split('');
   let output = '';
@@ -23,7 +19,9 @@ const formatDuration = (duration) => {
 };
 
 const RelatedVideoInVideoDetail = ({ id }) => {
-  const { isLoading, data: videos } = useQuery(['related', id], () => relatedVideo(id), { staleTime: 1000 * 60 * 5 });
+  const { isLoading, data: videos } = useQuery(['related', id], () => relatedVideo(id), {
+    staleTime: 1000 * 60 * 5,
+  });
 
   if (isLoading) return;
 

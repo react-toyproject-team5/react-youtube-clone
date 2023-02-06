@@ -5,7 +5,7 @@ import { useParams } from 'react-router-dom';
 import { search } from '../../api/FakeYoutubeApi';
 import NoResultImage from '../../assets/images/no-result.png';
 import styles from './VideoSearch.module.scss';
-// import { searchByKeyword } from '../../api/youtube';
+import { searchByKeyword } from '../../api/youtube';
 
 export default function VideoSearch() {
   const { keyword } = useParams();
@@ -29,7 +29,7 @@ export default function VideoSearch() {
       {videos && (
         <ul className={styles.videos}>
           {videos.map((video) => (
-            <VideoCard key={video.id.videoId} video={video} />
+            <VideoCard key={video.id.videoId} video={video} id={video.id.videoId} />
           ))}
         </ul>
       )}

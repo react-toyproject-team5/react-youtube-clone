@@ -1,8 +1,8 @@
-import axios from './axios';
+import { instance } from './axios';
 
-// 검색 api
+/** 검색 api */
 export const searchByKeyword = async (keyword) => {
-  const response = await axios.get('/search', {
+  const response = await instance.get('/search', {
     params: {
       part: 'snippet',
       maxResults: 25,
@@ -12,9 +12,22 @@ export const searchByKeyword = async (keyword) => {
   return response.data.items;
 };
 
-// 채널정보 api
+/** 관련동영상 */
+export const relatedVideos = async (id) => {
+  const response = await instance.get('/search', {
+    params: {
+      part: 'snippet',
+      maxResults: 25,
+      type: 'video',
+      relatedToVideoId: id,
+    },
+  });
+  return response.data.items.map((item) => ({ ...item, id: item.id.videoId }));
+};
+
+/** 채널정보 api */
 export const channelImage = async (id) => {
-  const response = await axios.get('/channels', {
+  const response = await instance.get('/channels', {
     params: {
       part: 'snippet',
       id,
@@ -23,13 +36,10 @@ export const channelImage = async (id) => {
   return response.data.items[0].snippet.thumbnails.default.url;
 };
 
-// 조회수 api
+/** 조회수 api */
 export const getViewCount = async (videoId) => {
-  const response = await axios.get('/videos', {
+  const response = await instance.get('/videos', {
     params: {
-      part: 'snippet',
-      part: 'contentDetails',
-      part: 'player',
       part: 'statistics',
       id: videoId,
     },
