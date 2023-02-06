@@ -10,3 +10,16 @@
     font-size: 0.9rem;
   }
 }
+
+.small_statistics{
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.3rem;
+
+  .viewCount,
+  .time {
+    color: var(--color-light-gray);
+    font-size: 0.8rem;
+  }
+}

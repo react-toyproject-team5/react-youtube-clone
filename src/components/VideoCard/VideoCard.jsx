@@ -46,11 +46,10 @@ export default function VideoCard({ video, type, id }) {
 
   return (
     <li className={styles.video} onClick={goToDetailPage} onMouseOver={handleMouseHover} onMouseOut={handleMouseOut}>
-      <div className={styles.thumbnail}>
+      <div className={isList ? styles.small_thumbnail : styles.thumbnail}>
         <VideoThumbnail id={id} url={thumbnails.medium.url} title={title} videoHover={videoHover} isList={isList} />
-        {videoHover && <PlayVideo id={id} videoHover={videoHover} />}
+        {videoHover && <PlayVideo id={id} videoHover={videoHover} isList={isList} />}
       </div>
-
       <div className={styles.video_info}>
         <div className={styles.video_info_setting}>
           <p className={styles.title}>{title}</p>
@@ -61,9 +60,9 @@ export default function VideoCard({ video, type, id }) {
           )}
           {listOpen ? <HoverButton setListOpen={setListOpen} /> : null}
         </div>
-        <VideoStatistics id={id} publishedAt={publishedAt} />
-        <ChannelInfo channelId={channelId} title={channelTitle} />
-        {isList ? null : <p className={styles.description}>{shortCut(description)}</p>}
+        <VideoStatistics id={id} publishedAt={publishedAt} isList={isList} />
+        <ChannelInfo channelId={channelId} title={channelTitle} isList={isList} />
+        {isList ? null : <p className={styles.description}>{description}</p>}
       </div>
     </li>
   );

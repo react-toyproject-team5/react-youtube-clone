@@ -2,10 +2,14 @@
   display: flex;
   position: relative;
   margin-bottom: 1rem;
-  gap: 1.5rem;
   color: var(--color-white);
 
   .thumbnail {
+    margin-right: 1.5rem;
+  }
+
+  .small_thumbnail {
+    margin-right: 0.8rem;
   }
 
   .video_info {
@@ -17,6 +21,10 @@
       .title {
         flex-basis: 90%;
         margin-bottom: 0.4rem;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
       }
 
       .hoverBtn {
@@ -38,6 +46,10 @@
       color: var(--color-light-gray);
       font-size: 0.9rem;
       margin-bottom: 1.1rem;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 1;
     }
   }
 }
