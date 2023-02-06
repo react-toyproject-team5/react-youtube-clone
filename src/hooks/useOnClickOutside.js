@@ -5,18 +5,18 @@ export default function useOnClickOutside(ref, handler) {
     const listener = (event) => {
       if (
         ref.current.contains(event.target) ||
-        event.target.dataset.name === 'icon' ||
-        event.target.dataset.name === 'button'
-      )
+        ref.current.dataset.id === event.target.dataset.id
+      ) {
+        console.log('ref.current.dataset.id',ref.current.dataset.id);
+        console.log('event.target.dataset.id',event.target.dataset.id);
         return;
+      }
 
       handler(event);
     };
-    // document.addEventListener('mousedown', listener);
     document.addEventListener('click', listener, true);
 
     return () => {
-      // document.removeEventListener('mousedown', listener);
       document.removeEventListener('click', listener, true);
     };
   }, [ref, handler]);

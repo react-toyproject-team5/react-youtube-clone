@@ -6,12 +6,12 @@ import { RiShareForwardLine } from 'react-icons/ri';
 import { MdOutlineFlag } from 'react-icons/md';
 import useOnClickOutside from '../../hooks/useOnClickOutside';
 
-export default function HoverButton({ setListOpen }) {
+export default function HoverButton({ setListId, listId }) {
   const ref = useRef(null);
-  useOnClickOutside(ref, () => setListOpen(false));
+  useOnClickOutside(ref, () => setListId(''));
 
   return (
-    <ul className={styles.list} onClick={(e) => e.stopPropagation()} ref={ref}>
+    <ul className={styles.list} onClick={(e) => e.stopPropagation()} data-id={listId} ref={ref}>
       <li className={styles.card}>
         <MdOutlineQueueMusic className={styles.icon} />
         <p>현재 재생목록에 추가</p>

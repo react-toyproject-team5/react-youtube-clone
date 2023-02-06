@@ -7,13 +7,12 @@ import VideoThumbnail from '../VideoThumbnail/VideoThumbnail';
 import PlayVideo from '../PlayVideo/PlayVideo';
 import HoverButton from '../HoverButton/HoverButton';
 import { RxDotsVertical } from 'react-icons/rx';
-import shortCut from '../../util/shortCut';
 
 export default function VideoCard({ video, type, id }) {
   const { title, thumbnails, channelTitle, publishedAt, description, channelId } = video.snippet;
   const [videoHover, setVideoHover] = useState(false);
   // const [playVideo, setPlayVideo] = useState(false);
-  const [listOpen, setListOpen] = useState(false);
+  const [listId, setListId] = useState('');
 
   const navigate = useNavigate();
 
@@ -41,8 +40,10 @@ export default function VideoCard({ video, type, id }) {
 
   const handleClick = (event) => {
     event.stopPropagation();
-    setListOpen((prev) => !prev);
+    setListId(id === listId ? '' : id);
   };
+
+  console.log('listId:',listId);
 
   return (
     <li className={styles.video} onClick={goToDetailPage} onMouseOver={handleMouseHover} onMouseOut={handleMouseOut}>
@@ -54,11 +55,11 @@ export default function VideoCard({ video, type, id }) {
         <div className={styles.video_info_setting}>
           <p className={styles.title}>{title}</p>
           {videoHover && (
-            <button className={styles.hoverBtn} data-name="button" onClick={handleClick}>
-              <RxDotsVertical className={styles.icon} data-name="icon" />
+            <button className={styles.hoverBtn} data-name="button" data-id={id} onClick={handleClick}>
+              <RxDotsVertical className={styles.icon} data-name="icon" data-id={id} />
             </button>
           )}
-          {listOpen ? <HoverButton setListOpen={setListOpen} /> : null}
+          {listId ? <HoverButton setListId={setListId} listId={listId} /> : null}
         </div>
         <VideoStatistics id={id} publishedAt={publishedAt} isList={isList} />
         <ChannelInfo channelId={channelId} title={channelTitle} isList={isList} />
