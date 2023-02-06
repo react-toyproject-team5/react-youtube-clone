@@ -19,7 +19,7 @@ const formatDuration = (duration) => {
 };
 
 const RelatedVideoInVideoDetail = ({ id }) => {
-  const { isLoading, data: videos } = useQuery(['related', id], () => relatedVideo(id), {
+  const { isLoading, data: videos } = useQuery(['related', id], () => relatedVideos(id), {
     staleTime: 1000 * 60 * 5,
   });
 

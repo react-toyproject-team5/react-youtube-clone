@@ -6,7 +6,7 @@ import { timeFormat } from '../../util/date';
 import numberToKorean from '../../util/numberToKorean';
 import styles from './VideoStatistics.module.scss';
 
-export default function VideoStatistics({ id, publishedAt,isList }) {
+export default function VideoStatistics({ id, publishedAt, isList }) {
   const { isLoading, data: videos } = useQuery(['statistics', id], () => videoInfo(id), {
     staleTime: 1000 * 60 * 5,
   });

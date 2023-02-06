@@ -11,7 +11,7 @@ export default function VideoSearch() {
   const { keyword } = useParams();
   const { data: videos } = useQuery(
     ['videos', keyword],
-    () => search(keyword),
+    () => searchByKeyword(keyword),
     { enabled: !!keyword }, // keyword가 존재할 경우 이 쿼리가 실행
   );
 
