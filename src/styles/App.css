@@ -1,6 +1,10 @@
 @import url('./reset.css');
 @import url('./global.css');
 
+body {
+  background-color: var(--color-black);
+}
+
 /* Scroll */
 
 ::-webkit-scrollbar {
