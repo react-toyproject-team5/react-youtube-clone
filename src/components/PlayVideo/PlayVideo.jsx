@@ -2,7 +2,6 @@ import React from 'react';
 import styles from './PlayVideo.module.scss';
 
 export default function PlayVideo({ id, videoHover, isList }) {
-
   return (
     <div className={styles.playVideo}>
       <iframe

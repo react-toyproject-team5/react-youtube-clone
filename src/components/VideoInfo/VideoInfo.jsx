@@ -1,17 +1,9 @@
 import React from 'react';
 import styles from './VideoInfo.module.scss';
-import { channelImage } from '../../api/youtube';
 import ChannelInfo from '../ChannelInfo/ChannelInfo';
-import { timeToDay } from '../../util/timeToDay';
+import VideoStatistics from '../VideoStatistics/VideoStatistics';
 
-const VideoInfo = (props) => {
-  const videoData = {
-    title: props.title,
-    channelTitle: props.channelTitle,
-    description: props.description,
-    publishedAt: props.publishedAt,
-  };
-
+const VideoInfo = ({ title, channelTitle, description, publishedAt, videoId }) => {
   return (
     <div className={styles.videoDataContainer}>
       <div className={styles.videoPlayerInfo}>
@@ -21,12 +13,8 @@ const VideoInfo = (props) => {
             <p className={styles.tag}>#예시</p>
             <p className={styles.tag}>#예시</p>
           </div>
-          <h1 className={styles.VideoTitle}>{videoData.title}</h1>
-          <div className={styles.videoStats}>
-            <span>조회수 398만 회</span>
-            <span className="dot_separator"> • </span>
-            <span>{timeToDay(videoData.publishedAt)}</span>
-          </div>
+          <h1 className={styles.VideoTitle}>{title}</h1>
+          <VideoStatistics id={videoId} publishedAt={publishedAt} />
         </div>
         <div className={styles.main_header_buttons}>
           <div className={styles.likes_container}>
@@ -112,10 +100,10 @@ const VideoInfo = (props) => {
       </div>
       <div>
         <div className={styles.channelData}>
-          <ChannelInfo title={videoData.channelTitle} />
+          <ChannelInfo title={channelTitle} />
           <div className={styles.subscribeBtn}>SUBSCRIBED</div>
         </div>
-        <div className={styles.videoDescription}>{videoData.description}</div>
+        <div className={styles.videoDescription}>{description}</div>
       </div>
     </div>
   );

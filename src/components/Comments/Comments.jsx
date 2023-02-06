@@ -8,7 +8,6 @@ import CommentCard from '../CommentCard/CommentCard';
 
 register('ko', koLocale);
 const Comments = ({ videoId: id }) => {
-  // console.log('id', id);
   const { isLoading, data: comments } = useQuery(['comments', id], () => VideoComment(id));
 
   if (isLoading) return;

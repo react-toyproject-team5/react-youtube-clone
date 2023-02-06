@@ -3,12 +3,7 @@ import { useEffect } from 'react';
 export default function useOnClickOutside(ref, handler) {
   useEffect(() => {
     const listener = (event) => {
-      if (
-        ref.current.contains(event.target) ||
-        ref.current.dataset.id === event.target.dataset.id
-      ) {
-        console.log('ref.current.dataset.id',ref.current.dataset.id);
-        console.log('event.target.dataset.id',event.target.dataset.id);
+      if (ref.current.contains(event.target) || ref.current.dataset.id === event.target.dataset.id) {
         return;
       }
 

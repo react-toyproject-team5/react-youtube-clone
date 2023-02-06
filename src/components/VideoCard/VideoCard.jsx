@@ -34,7 +34,6 @@ export default function VideoCard({ video, type, id }) {
   };
 
   const goToDetailPage = (event) => {
-    // if (event.target.dataset.name !== 'button' && event.target.dataset.name !== 'icon')
     navigate(`/watch/${video.id.videoId}`, { state: { video: video } });
   };
 
@@ -43,10 +42,14 @@ export default function VideoCard({ video, type, id }) {
     setListId(id === listId ? '' : id);
   };
 
-  console.log('listId:',listId);
-
   return (
-    <li className={styles.video} onClick={goToDetailPage} onMouseOver={handleMouseHover} onMouseOut={handleMouseOut}>
+    <li
+      key={id}
+      className={styles.video}
+      onClick={goToDetailPage}
+      onMouseOver={handleMouseHover}
+      onMouseOut={handleMouseOut}
+    >
       <div className={isList ? styles.small_thumbnail : styles.thumbnail}>
         <VideoThumbnail id={id} url={thumbnails.medium.url} title={title} videoHover={videoHover} isList={isList} />
         {videoHover && <PlayVideo id={id} videoHover={videoHover} isList={isList} />}
