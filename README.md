@@ -77,7 +77,7 @@
 <summary>[헤더]</summary>
   
 - 검색바 반응형
-- 
+
 </details>
 
 <details>
